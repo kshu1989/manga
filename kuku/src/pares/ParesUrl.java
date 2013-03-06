@@ -1,69 +1,66 @@
 package pares;
 
+import java.util.regex.Pattern;
 import java.io.IOException;
 import java.util.Vector;
-
-import javax.lang.model.util.Elements;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import model.Episode;
-import config.ConfigContext;
 
 public class ParesUrl {
 
-	public Vector<Episode> paresEpisode(String url) {
+	public Vector<Episode> paresEpisodes(String url) throws IOException {
 		Document doc;
-		try {
-			doc = Jsoup.connect(url).timeout(10000).get();
-			parseCharset(doc);
-			return parseEpisodeUrls(doc);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		doc = Jsoup.connect(url).timeout(10000).get();
+		Episode.CHARSET = parseCharset(doc);
+		Vector<Episode> episodes = parseEpisodeUrls(doc);
 		doc = null;
-		return null;
+
+		return episodes;
 	}
 
 	private Vector<Episode> parseEpisodeUrls(Document doc) {
 		Vector<Episode> Episodes = new Vector<Episode>();
-		Elements l = doc.select("dl[id]");
+		Elements elements = (Elements) doc.select("a[href]");
 
-		for (Element link : l) {
-			for (Node ur1l : link.childNodes()) {
+		Pattern p = Pattern.compile("海贼王[_,\\[]");
+
+		for (Element element : elements) {
+			if (p.matcher(element.text()).find()) {
+
 				Episode episode = new Episode();
-				for (Node u : ur1l.childNodes()) {
-					if (u.hasAttr("href")) {
-						episode.addUrl(u.absUrl("href"));
-						if (((Element) u).html().contains(
-								ConfigContext.mangaName)) {
-							episode.setName(((Element) u).html());
-						}
-					}
-				}
-				if (episode.getName() != null)
-					Episodes.add(episode);
+				episode.setName(element.text());
+				episode.addUrl(element.absUrl("href"));
+				System.out.println(element.text());
+				Episodes.add(episode);
 			}
 		}
 		return Episodes;
 	}
 
-	private void parseCharset(Document doc) {
-
-		Elements metas = doc.select("meta[content]");
-
+	/**
+	 * <meta http-equiv="Content-Type" content="text/html; charset=gbk">
+	 * 
+	 * @param doc
+	 */
+	private String parseCharset(Document doc) {
+		Elements metas = (Elements) doc.select("meta[content]");
 		for (Element meta : metas) {
 			String str = meta.attributes().get("content");
 			int start = str.lastIndexOf("charset=");
 			if (start > -1) {
-				ConfigContext.charset = str.substring(start
-						+ "charset=".length());
+				return str.substring(start + "charset=".length());
 			}
 		}
+		return Episode.CHARSET;
 	}
 
 	public static void main(String[] args) throws IOException {
-		String url = "http://comic.kukudm.com/comiclist/6/";
-		Vector v = new ParesUrl().paresEpisode(url);
-		v.add(null);
-		System.out.println(ConfigContext.charset);
+		String url = "http://comic.kukudm.com/comiclist/4/";
+		Vector v = new ParesUrl().paresEpisodes(url);
+		System.out.println("ConfigContext.charset");
 	}
 }

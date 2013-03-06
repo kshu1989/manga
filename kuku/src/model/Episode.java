@@ -11,9 +11,15 @@ import java.util.Map;
  */
 public class Episode {
 
+	public static String CHARSET = "GBK";
+	
 	private String name;
+	private String firUrl;
+	private Map<String, Picture> content;
+	
 	private List<String> urls;
 	private Map urlsForPics;
+	
 
 	public Episode() {
 		urls = new ArrayList<String>();
