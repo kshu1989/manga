@@ -1,15 +1,12 @@
 package test;
 
-import org.lobobrowser.html.*;
-import org.lobobrowser.html.test.*;
-import org.lobobrowser.html.parser.*;
-import org.lobobrowser.html.domimpl.*;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.net.URL;
 
-import org.w3c.dom.*;
-import org.w3c.dom.html2.*;
-
-import java.net.*;
-import java.io.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.html.HTMLCollection;
 
 public class ParseImagesTest {
 	private static final String TEST_URI = "http://comic.kukudm.com/comiclist/4/1426/1.htm";

@@ -1,10 +1,7 @@
 package main;
 
-import java.util.Map;
-
-import pares.ParesPic;
-
 import model.Episode;
+import pares.ParesPic;
 import download.WritePic;
 
 public class Worker implements Runnable {

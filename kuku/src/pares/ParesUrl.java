@@ -2,12 +2,10 @@ package pares;
 
 import java.io.IOException;
 import java.util.Vector;
+
+import javax.lang.model.util.Elements;
+
 import model.Episode;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.nodes.Node;
-import org.jsoup.select.Elements;
 import config.ConfigContext;
 
 public class ParesUrl {

@@ -2,15 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/log4j/commons-codec-1.6.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/log4j/commons-collections-3.2.1.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/log4j/commons-configuration-1.7.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/log4j/commons-jexl-2.1.1.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/log4j/commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/log4j/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/lobo/cobra-no-commons.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/jsoup-1.7.1.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/cobra-0.98.4/lib/cobra.jar"/>
-	<classpathentry kind="lib" path="G:/myfiles/workspaces/kuku/jars/cobra-0.98.4/lib/js.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kshu.ADOBENET/workspace/manga/kuku/jars/cobra-0.98.4/lib/cobra.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kshu.ADOBENET/workspace/manga/kuku/jars/cobra-0.98.4/lib/js.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

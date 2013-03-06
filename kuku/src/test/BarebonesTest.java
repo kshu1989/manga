@@ -1,23 +1,19 @@
 package test;
 
+import java.awt.EventQueue;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
 import java.net.URLConnection;
-import java.awt.*;
-import java.util.logging.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-import javax.swing.*;
+import javax.swing.JFrame;
 
 import org.w3c.dom.Document;
-import org.w3c.dom.html2.HTMLElement;
-
+import org.w3c.dom.html.HTMLElement;
 import org.xml.sax.InputSource;
-import org.lobobrowser.html.*;
-import org.lobobrowser.html.gui.*;
-import org.lobobrowser.html.parser.*;
-import org.lobobrowser.html.test.*;
 
 public class BarebonesTest {
 	public static void main(String[] args) throws Exception {

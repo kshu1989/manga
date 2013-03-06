@@ -10,9 +10,11 @@ import java.net.URLConnection;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import javax.lang.model.util.Elements;
+
 import model.Episode;
-import org.jsoup.Jsoup;
-import org.jsoup.select.Elements;
+
 import org.lobobrowser.html.UserAgentContext;
 import org.lobobrowser.html.parser.DocumentBuilderImpl;
 import org.lobobrowser.html.parser.InputSourceImpl;
