@@ -1,25 +1,32 @@
 package pares;
 
-import java.util.regex.Pattern;
 import java.io.IOException;
 import java.util.Vector;
+import java.util.regex.Pattern;
+
+import model.Episode;
+import model.Session;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import model.Episode;
-
 public class ParesUrl {
 
-	public Vector<Episode> paresEpisodes(String url) throws IOException {
-		Document doc;
-		doc = Jsoup.connect(url).timeout(10000).get();
-		Episode.CHARSET = parseCharset(doc);
-		Vector<Episode> episodes = parseEpisodeUrls(doc);
-		doc = null;
-
-		return episodes;
+	public boolean paresMangaPage(Session session) {
+		Document doc = null;
+		try {
+			doc = Jsoup.connect(session.getMangaUrl()).timeout(10000).get();
+			Episode.CHARSET = parseCharset(doc);
+			Vector<Episode> episodes = parseEpisodeUrls(doc);
+			session.setEpisodes(episodes);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+		return true;
 	}
 
 	private Vector<Episode> parseEpisodeUrls(Document doc) {
@@ -31,7 +38,7 @@ public class ParesUrl {
 				Episode episode = new Episode();
 				episode.setName(element.text());
 				episode.setFirPageUrl(element.absUrl("href"));
-//				System.out.println(element.text());
+				// System.out.println(element.text());
 				Episodes.add(episode);
 			}
 		}
@@ -57,7 +64,7 @@ public class ParesUrl {
 
 	public static void main(String[] args) throws IOException {
 		String url = "http://comic.kukudm.com/comiclist/4/";
-		Vector v = new ParesUrl().paresEpisodes(url);
+//		Vector v = new ParesUrl().paresEpisodes(url);
 		System.out.println("ConfigContext.charset");
 	}
 }

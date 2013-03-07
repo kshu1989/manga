@@ -65,8 +65,9 @@ public class ParesPic {
 		return "";
 	}
 	
-	private boolean parseEveryEpisode(String pageUrl, Episode episode, int level) {
+	private boolean parseEveryEpisode(Episode episode, int level) {
 		String nextUrl = null;
+		String pageUrl = episode.getFirPageUrl();
 		try {
 			URL urlObj = new URL(pageUrl);
 			URLConnection connection = urlObj.openConnection();

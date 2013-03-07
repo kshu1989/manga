@@ -14,9 +14,13 @@ public class Episode {
 
 	public static String CHARSET = "GBK";
 
+	private int index;
 	private String name;
-	private String firPageUrl;
-	private Vector content;
+	private String pageUrl;
+	
+	private Picture picture;
+	private Episode nextEpisode;
+	
 	
 	public Episode(){
 		content = new Vector();
