@@ -2,6 +2,40 @@ package model;
 
 public class Picture {
 
-	private String url;
+	private String pictureUrl;
+	private String pageUrl;
 	private int index;
+
+	public Picture() {
+	}
+
+	public Picture(String pic, String page, int index) {
+		this.pageUrl = page;
+		this.pictureUrl = pic;
+		this.index = index;
+	}
+
+	public int getIndex() {
+		return index;
+	}
+
+	public void setIndex(int index) {
+		this.index = index;
+	}
+
+	public String getPictureUrl() {
+		return pictureUrl;
+	}
+
+	public void setPictureUrl(String pictureUrl) {
+		this.pictureUrl = pictureUrl;
+	}
+
+	public String getPageUrl() {
+		return pageUrl;
+	}
+
+	public void setPageUrl(String pageUrl) {
+		this.pageUrl = pageUrl;
+	}
 }

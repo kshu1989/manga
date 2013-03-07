@@ -25,16 +25,13 @@ public class ParesUrl {
 	private Vector<Episode> parseEpisodeUrls(Document doc) {
 		Vector<Episode> Episodes = new Vector<Episode>();
 		Elements elements = (Elements) doc.select("a[href]");
-
 		Pattern p = Pattern.compile("海贼王[_,\\[]");
-
 		for (Element element : elements) {
 			if (p.matcher(element.text()).find()) {
-
 				Episode episode = new Episode();
 				episode.setName(element.text());
-				episode.addUrl(element.absUrl("href"));
-				System.out.println(element.text());
+				episode.setFirPageUrl(element.absUrl("href"));
+//				System.out.println(element.text());
 				Episodes.add(episode);
 			}
 		}

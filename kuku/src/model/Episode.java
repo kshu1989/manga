@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 
 /**
  * @author kshu
@@ -12,42 +13,13 @@ import java.util.Map;
 public class Episode {
 
 	public static String CHARSET = "GBK";
-	
+
 	private String name;
-	private String firUrl;
-	private Map<String, Picture> content;
+	private String firPageUrl;
+	private Vector content;
 	
-	private List<String> urls;
-	private Map urlsForPics;
-	
-
-	public Episode() {
-		urls = new ArrayList<String>();
-		urlsForPics = new HashMap<String, String>();
-	}
-
-	public List<String> getUrls() {
-		return urls;
-	}
-
-	public Map getUrlsForPics() {
-		return urlsForPics;
-	}
-
-	public void setUrlsForPics(Map urlsForPics) {
-		this.urlsForPics = urlsForPics;
-	}
-
-	public void setUrls(List<String> urls) {
-		this.urls = urls;
-	}
-
-	public void addUrl(String url) {
-		this.urls.add(url);
-	}
-
-	public void addUrlForPics(String url, int n) {
-		this.urlsForPics.put(url, n);
+	public Episode(){
+		content = new Vector();
 	}
 
 	public String getName() {
@@ -56,5 +28,21 @@ public class Episode {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getFirPageUrl() {
+		return firPageUrl;
+	}
+
+	public void setFirPageUrl(String firPageUrl) {
+		this.firPageUrl = firPageUrl;
+	}
+
+	public Vector getContent() {
+		return content;
+	}
+
+	public void setContent(Vector content) {
+		this.content = content;
 	}
 }

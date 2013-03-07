@@ -11,6 +11,13 @@ import java.util.logging.Logger;
 
 import javax.swing.JFrame;
 
+import org.lobobrowser.html.HtmlRendererContext;
+import org.lobobrowser.html.UserAgentContext;
+import org.lobobrowser.html.gui.HtmlPanel;
+import org.lobobrowser.html.parser.DocumentBuilderImpl;
+import org.lobobrowser.html.parser.InputSourceImpl;
+import org.lobobrowser.html.test.SimpleHtmlRendererContext;
+import org.lobobrowser.html.test.SimpleUserAgentContext;
 import org.w3c.dom.Document;
 import org.w3c.dom.html.HTMLElement;
 import org.xml.sax.InputSource;
@@ -35,8 +42,8 @@ public class BarebonesTest {
 		// so the renderer can resolve page component URLs.
 		InputSource is = new InputSourceImpl(reader, uri);
 		HtmlPanel htmlPanel = new HtmlPanel();
-		UserAgentContext ucontext = new LocalUserAgentContext();
-		HtmlRendererContext rendererContext = new LocalHtmlRendererContext(
+		UserAgentContext ucontext = (UserAgentContext) new LocalUserAgentContext();
+		HtmlRendererContext rendererContext = (HtmlRendererContext) new LocalHtmlRendererContext(
 				htmlPanel, ucontext);
 
 		// Set a preferred width for the HtmlPanel,
@@ -116,7 +123,7 @@ public class BarebonesTest {
 		}
 
 		public void linkClicked(HTMLElement linkNode, URL url, String target) {
-			super.linkClicked(linkNode, url, target);
+			super.linkClicked((org.w3c.dom.html2.HTMLElement) linkNode, url, target);
 			// This may be removed:
 			System.out.println("## Link clicked: " + linkNode);
 		}
