@@ -1,6 +1,13 @@
 package main;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Level;
@@ -13,30 +20,30 @@ import config.ConfigContext;
 public class DownLoader {
 
 	public static void main(String[] args) {
-		Logger.getLogger("").setLevel(Level.OFF);
-		
-		new ConfigContext("死神");
-		ExecutorService executor = Executors.newFixedThreadPool(ConfigContext.NTHREDS);
-		List<Episode> episodes = new ParesUrl().paresEpisode(ConfigContext.mangaUrl);
 
-		System.out.println(episodes.size());
-		for (int i = episodes.size() - 1; i >= 214; i--) {
-			Runnable worker = new Worker(episodes.get(i));
-			executor.execute(worker);
+		String mangaName = null;
+		String mangaUrl = null;
+		String charset = null;
+		String saveDestination = null;
+
+		Logger.getLogger("").setLevel(Level.OFF);
+
+		try {
+			BufferedReader is = new BufferedReader(new InputStreamReader(
+					new FileInputStream("./src/config.properties"), "utf8"));
+			Properties prop = new Properties();
+			prop.load(is);
+			mangaName = prop.getProperty("mangaName");
+			mangaUrl = prop.getProperty("mangaUrl");
+			charset = prop.getProperty("charset");
+			saveDestination = prop.getProperty("saveDestination");
+			is.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		// This will make the executor accept no new threads
-		// and finish all existing threads in the queue
-		executor.shutdown();
-		// Wait until all threads are finish
-		// while (!executor.isTerminated()) {
-		// System.out.println("Finished all threads");
-		// }
 	}
 }
-
-/*
- * for (int i = episodes.size() - 2; i > 0; i--) { ParesPicUrl p = new
- * ParesPicUrl(episodes.get(i).getUrl(), mangaName); Map<String, Integer>
- * picUrls = p.getPicsUrls(); if (picUrls != null) { WritePic wp = new
- * WritePic(picUrls, p.getMangaName(), path); wp.run(); } }
- */

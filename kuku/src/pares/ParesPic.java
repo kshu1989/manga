@@ -5,25 +5,29 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ConnectException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.regex.Pattern;
-
-import org.lobobrowser.html.parser.*;
-import org.lobobrowser.html.test.*;
-import org.lobobrowser.html.*;
-import org.w3c.dom.*;
-import org.xml.sax.SAXException;
 
 import model.Episode;
 import model.Picture;
-import config.ConfigContext;
+import model.Session;
+
+import org.lobobrowser.html.UserAgentContext;
+import org.lobobrowser.html.parser.DocumentBuilderImpl;
+import org.lobobrowser.html.parser.InputSourceImpl;
+import org.lobobrowser.html.test.SimpleUserAgentContext;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import test.TestLog4j;
 
 public class ParesPic {
+	
+	static Logger log = Logger.getLogger(ParesPic.class.getName());
 
 	public static void main(String[] args) throws IOException {
 
@@ -44,32 +48,21 @@ public class ParesPic {
 		baos.flush();
 		InputStream read = new ByteArrayInputStream(baos.toByteArray());
 		read.mark(0);
-
-		// System.out.println(new ParesPic().parseImage(read, url));
-		System.out.println(new ParesPic().parseNextUrl(read, url));
+		
+		Picture p = new Picture();
+		p.setPageUrl("http://www.socomic.com/comiclist/4/29067/1.htm");
+		
+		new ParesPic().parseOneEpisode(p, 1);
 
 		System.out.println("over!");
 		System.exit(0);
 	}
 
-	public String parseOnlyImage(String url) {
+	public boolean parseOneEpisode(Picture pic, int level) {
+		Picture nextPic = null;
 		try {
-			URL urlObj = new URL(url);
-			URLConnection connection = urlObj.openConnection();
-			InputStream in = connection.getInputStream();
 
-			return this.parseImage(in, url);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return "";
-	}
-	
-	private boolean parseEveryEpisode(Episode episode, int level) {
-		String nextUrl = null;
-		String pageUrl = episode.getFirPageUrl();
-		try {
-			URL urlObj = new URL(pageUrl);
+			URL urlObj = new URL(pic.getPageUrl());
 			URLConnection connection = urlObj.openConnection();
 			InputStream in = connection.getInputStream();
 			ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -81,24 +74,30 @@ public class ParesPic {
 			baos.flush();
 			InputStream read = new ByteArrayInputStream(baos.toByteArray());
 			read.mark(0);
-			String picUrl = parsePageImage(read, pageUrl);
+			String picUrl = parsePageImage(read, pic.getPageUrl());
 			read.reset();
-			nextUrl = parseNextPageUrl(read, pageUrl);
-			if (pageUrl == null) {
+			String nextUrl = parseNextPageUrl(read, pic.getPageUrl());
+
+			if (nextUrl == null) {
 				return false;
 			}
-			if (pageUrl.equals("exit")) {
+			if (nextUrl.equals("exit")) {
 				return true;
 			}
-			Picture pic = new Picture(picUrl, pageUrl, level);
-			episode.getContent().add(pic);
-			System.out.println(pageUrl + " ---> " + picUrl);
+
+			pic.setIndex(level);
+			pic.setPictureUrl(picUrl);
+
+			nextPic = new Picture();
+			nextPic.setPageUrl(nextUrl);
+
+			pic.setNextPic(nextPic);
 		} catch (ConnectException e) {
 
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return parseEveryEpisode(nextUrl, episode, ++ level);
+		return parseOneEpisode(nextPic, ++level);
 	}
 
 	private String parsePageImage(InputStream is, String url) {
@@ -106,7 +105,7 @@ public class ParesPic {
 			UserAgentContext context = new SimpleUserAgentContext();
 			DocumentBuilderImpl dbi = new DocumentBuilderImpl(context);
 			Document document = dbi.parse(new InputSourceImpl(is, url,
-					Episode.CHARSET));
+					Session.CHAR_SET));
 
 			Element ex = document.getDocumentElement();
 			NodeList nl = ex.getElementsByTagName("img");
@@ -127,7 +126,6 @@ public class ParesPic {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (SAXException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "";
@@ -136,7 +134,7 @@ public class ParesPic {
 	public String parseNextPageUrl(InputStream is, String url)
 			throws IOException {
 		org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(is,
-				Episode.CHARSET, url);
+				Session.CHAR_SET, url);
 		org.jsoup.select.Elements elements = doc.select("a[href]");
 
 		for (org.jsoup.nodes.Element element : elements) {

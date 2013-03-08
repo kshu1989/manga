@@ -1,29 +1,27 @@
 package model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
-
 /**
  * @author kshu
  * 
  */
 public class Episode {
 
-	public static String CHARSET = "GBK";
-
-	private int index;
 	private String name;
-	private String pageUrl;
-	
 	private Picture picture;
-	private Episode nextEpisode;
-	
-	
-	public Episode(){
-		content = new Vector();
+	private boolean isDownload;
+
+	public Episode() {
+		this.isDownload = false;
+	}
+
+	public boolean isDownload() {
+		return isDownload;
+	}
+
+	public void setDownload(boolean isDownload) {
+		synchronized (this) {
+			this.isDownload = isDownload;
+		}
 	}
 
 	public String getName() {
@@ -34,19 +32,11 @@ public class Episode {
 		this.name = name;
 	}
 
-	public String getFirPageUrl() {
-		return firPageUrl;
+	public Picture getPicture() {
+		return picture;
 	}
 
-	public void setFirPageUrl(String firPageUrl) {
-		this.firPageUrl = firPageUrl;
-	}
-
-	public Vector getContent() {
-		return content;
-	}
-
-	public void setContent(Vector content) {
-		this.content = content;
+	public void setPicture(Picture picture) {
+		this.picture = picture;
 	}
 }

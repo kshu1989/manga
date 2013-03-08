@@ -5,6 +5,7 @@ import java.util.Vector;
 import java.util.regex.Pattern;
 
 import model.Episode;
+import model.Picture;
 import model.Session;
 
 import org.jsoup.Jsoup;
@@ -18,27 +19,29 @@ public class ParesUrl {
 		Document doc = null;
 		try {
 			doc = Jsoup.connect(session.getMangaUrl()).timeout(10000).get();
-			Episode.CHARSET = parseCharset(doc);
-			Vector<Episode> episodes = parseEpisodeUrls(doc);
-			session.setEpisodes(episodes);
+			Session.CHAR_SET = parseCharset(doc);
+			session.setEpisodes(parseEpisodeUrls(doc));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return false;
 		}
 		return true;
 	}
 
-	private Vector<Episode> parseEpisodeUrls(Document doc) {
-		Vector<Episode> Episodes = new Vector<Episode>();
-		Elements elements = (Elements) doc.select("a[href]");
+	private Vector parseEpisodeUrls(Document doc) {
+		Vector Episodes = new Vector();
+		Elements elements = doc.select("a[href]");
 		Pattern p = Pattern.compile("海贼王[_,\\[]");
 		for (Element element : elements) {
 			if (p.matcher(element.text()).find()) {
 				Episode episode = new Episode();
+
+				Picture picture = new Picture();
+				picture.setIndex(1);
+				picture.setPageUrl(element.absUrl("href"));
+
 				episode.setName(element.text());
-				episode.setFirPageUrl(element.absUrl("href"));
-				// System.out.println(element.text());
+				episode.setPicture(picture);
 				Episodes.add(episode);
 			}
 		}
@@ -59,12 +62,16 @@ public class ParesUrl {
 				return str.substring(start + "charset=".length());
 			}
 		}
-		return Episode.CHARSET;
+		return Session.CHAR_SET;
 	}
 
 	public static void main(String[] args) throws IOException {
 		String url = "http://comic.kukudm.com/comiclist/4/";
-//		Vector v = new ParesUrl().paresEpisodes(url);
+		Session s = new Session();
+		s.setMangaUrl(url);
+
+		new ParesUrl().paresMangaPage(s);
+		System.out.println(s.getEpisodes());
 		System.out.println("ConfigContext.charset");
 	}
 }

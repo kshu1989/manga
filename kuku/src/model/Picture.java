@@ -5,6 +5,7 @@ public class Picture {
 	private String pictureUrl;
 	private String pageUrl;
 	private int index;
+	private Picture nextPic;
 
 	public Picture() {
 	}
@@ -37,5 +38,13 @@ public class Picture {
 
 	public void setPageUrl(String pageUrl) {
 		this.pageUrl = pageUrl;
+	}
+
+	public Picture getNextPic() {
+		return nextPic;
+	}
+
+	public void setNextPic(Picture nextPic) {
+		this.nextPic = nextPic;
 	}
 }
