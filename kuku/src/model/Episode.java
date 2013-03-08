@@ -14,8 +14,16 @@ public class Episode {
 		this.isDownload = false;
 	}
 
-	public boolean isDownload() {
-		return isDownload;
+	public boolean getIsDownLoad() {
+		return this.isDownload;
+	}
+
+	public boolean isDownloadAndSetTrue() {
+		synchronized (this) {
+			boolean tem = isDownload;
+			isDownload = true;
+			return tem;
+		}
 	}
 
 	public void setDownload(boolean isDownload) {
