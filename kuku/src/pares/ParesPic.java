@@ -26,7 +26,7 @@ import org.xml.sax.SAXException;
 import test.TestLog4j;
 
 public class ParesPic {
-	
+
 	static Logger log = Logger.getLogger(ParesPic.class.getName());
 
 	public static void main(String[] args) throws IOException {
@@ -48,11 +48,16 @@ public class ParesPic {
 		baos.flush();
 		InputStream read = new ByteArrayInputStream(baos.toByteArray());
 		read.mark(0);
-		
+
 		Picture p = new Picture();
 		p.setPageUrl("http://www.socomic.com/comiclist/4/29067/1.htm");
-		
+
 		new ParesPic().parseOneEpisode(p, 1);
+
+		while (p != null) {
+			System.out.println(p.getPageUrl() + "----->" + p.getPictureUrl());
+			p = p.getNextPic();
+		}
 
 		System.out.println("over!");
 		System.exit(0);
@@ -81,16 +86,13 @@ public class ParesPic {
 			if (nextUrl == null) {
 				return false;
 			}
+			pic.setIndex(level);
+			pic.setPictureUrl(picUrl);
+			nextPic = new Picture();
+			nextPic.setPageUrl(nextUrl);
 			if (nextUrl.equals("exit")) {
 				return true;
 			}
-
-			pic.setIndex(level);
-			pic.setPictureUrl(picUrl);
-
-			nextPic = new Picture();
-			nextPic.setPageUrl(nextUrl);
-
 			pic.setNextPic(nextPic);
 		} catch (ConnectException e) {
 

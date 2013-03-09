@@ -31,7 +31,7 @@ public class ParesUrl {
 	private Vector parseEpisodeUrls(Document doc) {
 		Vector Episodes = new Vector();
 		Elements elements = doc.select("a[href]");
-		Pattern p = Pattern.compile("æµ·è´¼çŽ‹[_,\\[]");
+		Pattern p = Pattern.compile("º£ÔôÍõ_,\\[]");
 		for (Element element : elements) {
 			if (p.matcher(element.text()).find()) {
 				Episode episode = new Episode();

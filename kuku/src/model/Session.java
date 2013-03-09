@@ -5,11 +5,19 @@ import java.util.Vector;
 public class Session {
 
 	public static String CHAR_SET;
-
 	private String mangaName;
 	private String mangaUrl;
 	private Vector Episodes;
 	private boolean done;
+	private String saveDirectoryPath;
+
+	public String getSaveDirectoryPath() {
+		return saveDirectoryPath;
+	}
+
+	public void setSaveDirectoryPath(String saveDirectoryPath) {
+		this.saveDirectoryPath = saveDirectoryPath;
+	}
 
 	public Session() {
 		Episodes = new Vector();

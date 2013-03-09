@@ -1,12 +1,11 @@
 package test;
 
+
 import java.lang.management.ThreadInfo;
 import java.util.Vector;
 
 import model.Episode;
 import model.Session;
-import pares.ParesPic;
-import download.WritePic;
 
 public class ParseWorker implements Runnable {
 

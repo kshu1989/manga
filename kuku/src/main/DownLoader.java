@@ -37,6 +37,8 @@ public class DownLoader {
 			mangaUrl = prop.getProperty("mangaUrl");
 			charset = prop.getProperty("charset");
 			saveDestination = prop.getProperty("saveDestination");
+			System.out.println(mangaName);
+			
 			is.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
