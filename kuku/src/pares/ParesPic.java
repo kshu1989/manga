@@ -26,9 +26,9 @@ import org.xml.sax.SAXException;
 import test.TestLog4j;
 
 public class ParesPic {
-	
-	static Logger log = Logger.getLogger(ParesPic.class.getName());
 
+	static Logger log = Logger.getLogger(ParesPic.class.getName());
+	
 	public static void main(String[] args) throws IOException {
 
 		Logger.getLogger("").setLevel(Level.OFF);
@@ -61,7 +61,7 @@ public class ParesPic {
 	public boolean parseOneEpisode(Picture pic, int level) {
 		Picture nextPic = null;
 		try {
-
+			log.info("-----------------------------------------------");
 			URL urlObj = new URL(pic.getPageUrl());
 			URLConnection connection = urlObj.openConnection();
 			InputStream in = connection.getInputStream();
@@ -73,11 +73,13 @@ public class ParesPic {
 			}
 			baos.flush();
 			InputStream read = new ByteArrayInputStream(baos.toByteArray());
+			log.info("Parse: " + pic.getPageUrl());
 			read.mark(0);
 			String picUrl = parsePageImage(read, pic.getPageUrl());
+			log.info("Picture: " + picUrl);
 			read.reset();
 			String nextUrl = parseNextPageUrl(read, pic.getPageUrl());
-
+			log.info("NextPage: " + nextUrl);
 			if (nextUrl == null) {
 				return false;
 			}
@@ -131,7 +133,7 @@ public class ParesPic {
 		return "";
 	}
 
-	public String parseNextPageUrl(InputStream is, String url)
+	private String parseNextPageUrl(InputStream is, String url)
 			throws IOException {
 		org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(is,
 				Session.CHAR_SET, url);
