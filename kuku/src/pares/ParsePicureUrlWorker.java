@@ -6,7 +6,7 @@ import java.util.Vector;
 import model.Episode;
 import model.Session;
 
-public class ParsePicureUrlWorker implements Runnable {
+public class ParsePicureUrlWorker extends Thread {
 
 	public static void main(String[] args) {
 		Vector s = new Vector();
@@ -15,7 +15,7 @@ public class ParsePicureUrlWorker implements Runnable {
 			e.setName("" + i);
 			s.add(e);
 		}
-		
+
 		Session se = new Session();
 		se.setEpisodes(s);
 
@@ -40,26 +40,38 @@ public class ParsePicureUrlWorker implements Runnable {
 	}
 
 	public void run() {
-		boolean flag = true;
-		while (flag) {
+		int num[] = new int[session.getEpisodes().size()] ;     
+		for (int i = 0; i < num.length; i++)
+			num[i] = 0;
+		int max = 0;
+		while (true) {
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
 				if (!episode.isParseAndSetTrue()) {
 					boolean re = new ParesPic().parseOneEpisode(
 							episode.getPicture(), 1);
 					if (!re) {
+						/*
+						 * this thread is not work, should exit fast and let
+						 * other thread wait on this lock to run
+						 */
 						episode.setDownload(false);
 					}
 				}
 			}
-			int doneNum = 0;
-			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
-				doneNum += episode.getIsParse() ? 1 : 0;
-				if (doneNum == session.getEpisodes().size()) {
-					flag = false;
-				} else {
-					flag = true;
+			for (int i = 0; i < session.getEpisodes().size(); i++) {
+				Episode episode = (Episode) session.getEpisodes().get(i);
+				if (episode.getIsParse()) {
+					num[i]++;
 				}
 			}
+
+			for (int i = 0; i < session.getEpisodes().size(); i++) {
+				if (num[i] > max) {
+					max = num[i];
+				}
+			}
+			if (max > 5)
+				break;
 		}
 	}
 }

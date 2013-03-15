@@ -2,6 +2,8 @@ package pares;
 
 import java.io.IOException;
 import java.util.Vector;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 import model.Episode;
@@ -14,13 +16,15 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class ParesUrl {
+	static Logger log = Logger.getLogger(ParesPic.class.getName());
 
 	public boolean paresMangaPage(Session session) {
+
 		Document doc = null;
 		try {
 			doc = Jsoup.connect(session.getMangaUrl()).timeout(10000).get();
 			Session.CHAR_SET = parseCharset(doc);
-			session.setEpisodes(parseEpisodeUrls(doc));
+			session.setEpisodes(parseEpisodeUrls(session, doc));
 		} catch (IOException e) {
 			e.printStackTrace();
 			return false;
@@ -28,10 +32,10 @@ public class ParesUrl {
 		return true;
 	}
 
-	private Vector parseEpisodeUrls(Document doc) {
+	private Vector parseEpisodeUrls(Session session, Document doc) {
 		Vector Episodes = new Vector();
 		Elements elements = doc.select("a[href]");
-		Pattern p = Pattern.compile("∫£‘ÙÕı_,\\[]");
+		Pattern p = Pattern.compile(session.getRegex());
 		for (Element element : elements) {
 			if (p.matcher(element.text()).find()) {
 				Episode episode = new Episode();
@@ -39,10 +43,11 @@ public class ParesUrl {
 				Picture picture = new Picture();
 				picture.setIndex(1);
 				picture.setPageUrl(element.absUrl("href"));
-
 				episode.setName(element.text());
 				episode.setPicture(picture);
 				Episodes.add(episode);
+				log.info("First page of every episode: " + episode.getName()
+						+ " : " + picture.getPageUrl());
 			}
 		}
 		return Episodes;

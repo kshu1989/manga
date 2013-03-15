@@ -2,7 +2,7 @@ package pares;
 
 import model.Session;
 
-public class ParsePageUrlWorker {
+public class ParsePageUrlWorker extends Thread{
 
 	private Session session;
 
@@ -10,8 +10,8 @@ public class ParsePageUrlWorker {
 		this.session = session;
 	}
 
-	public boolean run() {
+	public void run() {
 		ParesUrl parser = new ParesUrl();
-		return parser.paresMangaPage(this.session);
+		parser.paresMangaPage(this.session);
 	}
 }

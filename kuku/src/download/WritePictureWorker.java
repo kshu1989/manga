@@ -2,12 +2,10 @@ package download;
 
 import java.io.File;
 import java.util.Vector;
-
-import pares.ParesPic;
 import model.Episode;
 import model.Session;
 
-public class WritePictureWorker implements Runnable {
+public class WritePictureWorker extends Thread {
 
 	private Session session;
 

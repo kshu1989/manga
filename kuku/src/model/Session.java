@@ -5,6 +5,7 @@ import java.util.Vector;
 public class Session {
 
 	public static String CHAR_SET;
+	private String regex;
 	private String mangaName;
 	private String mangaUrl;
 	private Vector Episodes;
@@ -53,5 +54,13 @@ public class Session {
 
 	public void setEpisodes(Vector episodes) {
 		Episodes = episodes;
+	}
+
+	public String getRegex() {
+		return regex;
+	}
+
+	public void setRegex(String regex) {
+		this.regex = regex;
 	}
 }
