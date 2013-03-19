@@ -10,10 +10,30 @@ public class Episode {
 	private Picture picture;
 	private boolean isDownload;
 	private boolean isParse;
+	private boolean downloaded;
 
 	public Episode() {
 		this.isDownload = false;
 		this.isParse = false;
+		this.downloaded = false;
+	}
+
+	public boolean isDownloaded() {
+		return downloaded;
+	}
+
+	public void setDownloaded(boolean downloaded) {
+		synchronized (this) {
+			this.downloaded = downloaded;
+		}
+	}
+
+	public boolean isDownloadedAndSetTrue() {
+		synchronized (this) {
+			boolean tem = downloaded;
+			downloaded = true;
+			return tem;
+		}
 	}
 
 	public boolean getIsDownLoad() {

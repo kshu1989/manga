@@ -5,24 +5,29 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.SQLException;
 import java.util.Properties;
 import java.util.Vector;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import model.Episode;
+import model.Picture;
 import model.Session;
-import pares.ParsePageUrlWorker;
-import test.TestLog4j;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+import pares.ParesUrl;
+import pares.ParsePicureUrlWorker;
+import download.WritePictureWorker;
 
 public class DownLoader {
 
 	static Logger log = Logger.getLogger(DownLoader.class.getName());
-	
+
 	public static void main(String[] args) {
+
+		PropertyConfigurator.configure("./src/log4j.properties");
 
 		String mangaName = null;
 		String mangaUrl = null;
@@ -30,8 +35,9 @@ public class DownLoader {
 		String saveDestination = null;
 		String regex = null;
 
-		Logger.getLogger("").setLevel(Level.OFF);
-		log.info("Hello this is an info masdfessage");
+		// Logger.getLogger("").setLevel(Level.SEVERE);
+
+		// log.warning("Hello this is an info masdfessage");
 		try {
 			BufferedReader is = new BufferedReader(new InputStreamReader(
 					new FileInputStream("./src/config.properties"), "utf8"));
@@ -44,13 +50,11 @@ public class DownLoader {
 
 			is.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		Session session = new Session();
 		session.setDone(false);
 		session.setMangaName(mangaName);
@@ -58,25 +62,52 @@ public class DownLoader {
 		session.setSaveDirectoryPath(saveDestination);
 		session.setRegex(mangaName + "[\\[_]");
 
-		ExecutorService executor = Executors.newFixedThreadPool(10);
-		ParsePageUrlWorker worker = new ParsePageUrlWorker(session);
-		executor.execute(worker);
-		
-		for (int i = 0; i < 10; i++) {
-			
+		if (!new ParesUrl().paresMangaPage(session)) {
+			System.out.println("parse error");
+			return;
 		}
-
-		executor.shutdown();
-		// Wait until all threads are finish
-		while (!executor.isTerminated()) {
-
-		}
-		System.out.println("Finished all threads");
 
 		for (Episode e : (Vector<Episode>) session.getEpisodes()) {
 			System.out.println(e.getPicture().getPageUrl());
 		}
 
-		
+		for (int i = 0; i < 4; i++) {
+			Episode ep = (Episode) session.getEpisodes().get(i);
+			Vector<Episode> v = new Vector<Episode>();
+			v.add(ep);
+			int j = 0;
+			Picture pi = ep.getPicture();
+			while (pi != null) {
+				pi = pi.getNextPic();
+				if (j++ > 4)
+					break;
+			}
+		}
+
+		for (Episode e : (Vector<Episode>) session.getEpisodes()) {
+			System.out.println(e.getPicture().getPageUrl());
+			Picture pi = e.getPicture();
+			while (pi != null) {
+				System.out.println(pi.getPageUrl() + "--->"
+						+ pi.getPictureUrl());
+				pi = pi.getNextPic();
+			}
+		}
+
+		ExecutorService executor = Executors.newFixedThreadPool(4);
+		for (int i = 0; i < 2; i++) {
+			WritePictureWorker wpworker = new WritePictureWorker(session);
+			executor.execute(wpworker);
+		}
+
+		for (int i = 0; i < 2; i++) {
+			ParsePicureUrlWorker ppuworker = new ParsePicureUrlWorker(session);
+			executor.execute(ppuworker);
+		}
+		executor.shutdown();
+		// Wait until all threads are finish
+		while (!executor.isTerminated()) {
+		}
+		System.out.println("Finished all threads");
 	}
 }

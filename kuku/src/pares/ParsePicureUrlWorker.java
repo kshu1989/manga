@@ -40,7 +40,7 @@ public class ParsePicureUrlWorker extends Thread {
 	}
 
 	public void run() {
-		int num[] = new int[session.getEpisodes().size()] ;     
+		int num[] = new int[session.getEpisodes().size()];
 		for (int i = 0; i < num.length; i++)
 			num[i] = 0;
 		int max = 0;
@@ -49,12 +49,15 @@ public class ParsePicureUrlWorker extends Thread {
 				if (!episode.isParseAndSetTrue()) {
 					boolean re = new ParesPic().parseOneEpisode(
 							episode.getPicture(), 1);
-					if (!re) {
+					if (re) {
+						episode.setDownload(true);
+						session.semp.release();
+					} else {
 						/*
 						 * this thread is not work, should exit fast and let
 						 * other thread wait on this lock to run
 						 */
-						episode.setDownload(false);
+						episode.setParse(false);
 					}
 				}
 			}
@@ -70,8 +73,10 @@ public class ParsePicureUrlWorker extends Thread {
 					max = num[i];
 				}
 			}
-			if (max > 5)
+			if (max > 5) {
 				break;
+			}
 		}
+
 	}
 }

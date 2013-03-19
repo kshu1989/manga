@@ -2,7 +2,7 @@ package pares;
 
 import model.Session;
 
-public class ParsePageUrlWorker extends Thread{
+public class ParsePageUrlWorker{
 
 	private Session session;
 

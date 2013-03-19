@@ -1,6 +1,7 @@
 package model;
 
 import java.util.Vector;
+import java.util.concurrent.Semaphore;
 
 public class Session {
 
@@ -11,6 +12,7 @@ public class Session {
 	private Vector Episodes;
 	private boolean done;
 	private String saveDirectoryPath;
+	final public Semaphore semp = new Semaphore(0);  
 
 	public String getSaveDirectoryPath() {
 		return saveDirectoryPath;
