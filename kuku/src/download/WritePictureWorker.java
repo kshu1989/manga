@@ -23,14 +23,16 @@ public class WritePictureWorker extends Thread {
 				e.printStackTrace();
 			}
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
-				if (episode.getIsDownLoad() && !episode.isDownloadedAndSetTrue()) {
+				if (episode.isParsed() && !episode.isDownlandAndSetTrue()) {
 					String dir = session.getSaveDirectoryPath()
 							+ File.pathSeparator + episode.getName()
 							+ File.pathSeparator;
 					WritePicture wp = new WritePicture(dir);
 					boolean re = wp.wirtePicture(episode.getPicture());
-					if(!re){
+					if (re) {
 						episode.setDownloaded(re);
+					} else {
+						episode.setDownloading(re);
 						session.semp.release();
 					}
 				}

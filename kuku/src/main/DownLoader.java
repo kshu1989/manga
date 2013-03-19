@@ -9,13 +9,12 @@ import java.util.Properties;
 import java.util.Vector;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import model.Episode;
 import model.Picture;
 import model.Session;
-
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 import pares.ParesUrl;
 import pares.ParsePicureUrlWorker;
@@ -23,11 +22,7 @@ import download.WritePictureWorker;
 
 public class DownLoader {
 
-	static Logger log = Logger.getLogger(DownLoader.class.getName());
-
 	public static void main(String[] args) {
-
-		PropertyConfigurator.configure("./src/log4j.properties");
 
 		String mangaName = null;
 		String mangaUrl = null;
@@ -35,8 +30,8 @@ public class DownLoader {
 		String saveDestination = null;
 		String regex = null;
 
-		// Logger.getLogger("").setLevel(Level.SEVERE);
-
+		Logger.getLogger("org.lobobrowser").setLevel(Level.OFF);
+		Logger.getLogger("").setLevel(Level.OFF);
 		// log.warning("Hello this is an info masdfessage");
 		try {
 			BufferedReader is = new BufferedReader(new InputStreamReader(
@@ -67,13 +62,14 @@ public class DownLoader {
 			return;
 		}
 
-		for (Episode e : (Vector<Episode>) session.getEpisodes()) {
-			System.out.println(e.getPicture().getPageUrl());
-		}
+		// for (Episode e : (Vector<Episode>) session.getEpisodes()) {
+		// System.out.println(e.getPicture().getPageUrl());
+		// }
 
-		for (int i = 0; i < 4; i++) {
+		Vector<Episode> v = new Vector<Episode>();
+		for (int i = session.getEpisodes().size() - 1; i > session
+				.getEpisodes().size() - 3; i--) {
 			Episode ep = (Episode) session.getEpisodes().get(i);
-			Vector<Episode> v = new Vector<Episode>();
 			v.add(ep);
 			int j = 0;
 			Picture pi = ep.getPicture();
@@ -83,22 +79,21 @@ public class DownLoader {
 					break;
 			}
 		}
+		session.setEpisodes(v);
 
 		for (Episode e : (Vector<Episode>) session.getEpisodes()) {
-			System.out.println(e.getPicture().getPageUrl());
 			Picture pi = e.getPicture();
 			while (pi != null) {
-				System.out.println(pi.getPageUrl() + "--->"
-						+ pi.getPictureUrl());
+				System.out.println(e.getName() + "--->" + pi.getPageUrl());
 				pi = pi.getNextPic();
 			}
 		}
 
 		ExecutorService executor = Executors.newFixedThreadPool(4);
-		for (int i = 0; i < 2; i++) {
-			WritePictureWorker wpworker = new WritePictureWorker(session);
-			executor.execute(wpworker);
-		}
+//		for (int i = 0; i < 2; i++) {
+//			WritePictureWorker wpworker = new WritePictureWorker(session);
+//			executor.execute(wpworker);
+//		}
 
 		for (int i = 0; i < 2; i++) {
 			ParsePicureUrlWorker ppuworker = new ParsePicureUrlWorker(session);
@@ -108,6 +103,28 @@ public class DownLoader {
 		// Wait until all threads are finish
 		while (!executor.isTerminated()) {
 		}
+
+		for (Episode ep : (Vector<Episode>) session.getEpisodes()) {
+
+			Picture pi = ep.getPicture();
+			while (pi != null) {
+				System.out.println(ep.getName() + ":" + pi.getPageUrl() + "-->"
+						+ pi.getPictureUrl());
+				pi = pi.getNextPic();
+			}
+		}
+
+		// for (int i = 0; i < 4; i++) {
+		// Episode ep = (Episode) session.getEpisodes().get(i);
+		// v.add(ep);
+		// int j = 0;
+		// Picture pi = ep.getPicture();
+		// while (pi != null) {
+		// pi = pi.getNextPic();
+		// if (j++ > 4)
+		// break;
+		// }
+		// }
 		System.out.println("Finished all threads");
 	}
 }

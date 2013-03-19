@@ -1,215 +1,1248 @@
-INFO  2013-03-19 15:24:29,208 [main] - 海贼王_OnePiece_Vol_1 : http://mh.socomic.com/comiclist/4/1417/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_2 : http://mh.socomic.com/comiclist/4/1418/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_3 : http://mh.socomic.com/comiclist/4/1419/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_4 : http://mh.socomic.com/comiclist/4/1420/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_5 : http://mh.socomic.com/comiclist/4/1421/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_6 : http://mh.socomic.com/comiclist/4/1422/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_7 : http://mh.socomic.com/comiclist/4/1423/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_8 : http://mh.socomic.com/comiclist/4/1424/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_9 : http://mh.socomic.com/comiclist/4/1425/1.htm
-INFO  2013-03-19 15:24:29,209 [main] - 海贼王_OnePiece_Vol_10 : http://mh.socomic.com/comiclist/4/1426/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_11 : http://mh.socomic.com/comiclist/4/1427/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_12 : http://mh.socomic.com/comiclist/4/1428/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_13 : http://mh.socomic.com/comiclist/4/1429/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_14 : http://mh.socomic.com/comiclist/4/1430/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_15 : http://mh.socomic.com/comiclist/4/1431/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_16 : http://mh.socomic.com/comiclist/4/1432/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_17 : http://mh.socomic.com/comiclist/4/1433/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_18 : http://mh.socomic.com/comiclist/4/1434/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_19 : http://mh.socomic.com/comiclist/4/1435/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_20 : http://mh.socomic.com/comiclist/4/1436/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_21 : http://mh.socomic.com/comiclist/4/1437/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_22 : http://mh.socomic.com/comiclist/4/1438/1.htm
-INFO  2013-03-19 15:24:29,210 [main] - 海贼王_OnePiece_Vol_23 : http://mh.socomic.com/comiclist/4/1439/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_24 : http://mh.socomic.com/comiclist/4/1440/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_25 : http://mh.socomic.com/comiclist/4/1441/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_26 : http://mh.socomic.com/comiclist/4/1442/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_27 : http://mh.socomic.com/comiclist/4/1443/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_28 : http://mh.socomic.com/comiclist/4/1444/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_29 : http://mh.socomic.com/comiclist/4/1445/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_30 : http://mh.socomic.com/comiclist/4/1446/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_31 : http://mh.socomic.com/comiclist/4/1447/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_32 : http://mh.socomic.com/comiclist/4/1448/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_33 : http://mh.socomic.com/comiclist/4/1540/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_34 : http://mh.socomic.com/comiclist/4/1541/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_35 : http://mh.socomic.com/comiclist/4/1542/1.htm
-INFO  2013-03-19 15:24:29,211 [main] - 海贼王_OnePiece_Vol_36 : http://mh.socomic.com/comiclist/4/1543/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_37 : http://mh.socomic.com/comiclist/4/1548/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_38 : http://mh.socomic.com/comiclist/4/1558/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_39 : http://mh.socomic.com/comiclist/4/1559/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_40 : http://mh.socomic.com/comiclist/4/1561/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_41 : http://mh.socomic.com/comiclist/4/1567/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_42 : http://mh.socomic.com/comiclist/4/1568/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_43 : http://mh.socomic.com/comiclist/4/1570/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_44 : http://mh.socomic.com/comiclist/4/1584/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_45 : http://mh.socomic.com/comiclist/4/4323/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_46 : http://mh.socomic.com/comiclist/4/4361/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_47 : http://mh.socomic.com/comiclist/4/4419/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_48 : http://mh.socomic.com/comiclist/4/4455/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_49 : http://mh.socomic.com/comiclist/4/4509/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_50 : http://mh.socomic.com/comiclist/4/4554/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_51 : http://mh.socomic.com/comiclist/4/4747/1.htm
-INFO  2013-03-19 15:24:29,212 [main] - 海贼王_OnePiece_Vol_52 : http://mh.socomic.com/comiclist/4/4767/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王_OnePiece_Vol_53 : http://mh.socomic.com/comiclist/4/4947/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王_OnePiece_Vol_54 : http://mh.socomic.com/comiclist/4/4991/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王_OnePiece_Vol_55 : http://mh.socomic.com/comiclist/4/11781/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[542]另一个终会被传诵的事件 : http://mh.socomic.com/comiclist/4/13159/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[543]草帽与黑胡子 : http://mh.socomic.com/comiclist/4/13281/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[544]地狱之门亦敞开 : http://mh.socomic.com/comiclist/4/13339/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[545]阳光普照的自由世界 : http://mh.socomic.com/comiclist/4/13436/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[546]鱼人海贼团船长甚平 : http://mh.socomic.com/comiclist/4/13483/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[547]冲出监狱岛 : http://mh.socomic.com/comiclist/4/13570/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[548]谢谢你 : http://mh.socomic.com/comiclist/4/13647/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[549]出击之舰+小剧场 : http://mh.socomic.com/comiclist/4/13702/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[550]海军本部 : http://mh.socomic.com/comiclist/4/13807/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[551]四皇白胡子 : http://mh.socomic.com/comiclist/4/13868/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[552]艾斯与白胡子 : http://mh.socomic.com/comiclist/4/13918/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[553]顶尖对决 : http://mh.socomic.com/comiclist/4/14062/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[554]大将赤犬 : http://mh.socomic.com/comiclist/4/14193/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[555]奥兹和斗笠 : http://mh.socomic.com/comiclist/4/14256/1.htm
-INFO  2013-03-19 15:24:29,213 [main] - 海贼王[556]正义必胜 : http://mh.socomic.com/comiclist/4/14313/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[557]路飞与白胡子 : http://mh.socomic.com/comiclist/4/14438/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[558]弟弟 : http://mh.socomic.com/comiclist/4/14518/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[559]天命 : http://mh.socomic.com/comiclist/4/14628/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[560]推进城的囚犯们 : http://mh.socomic.com/comiclist/4/14710/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[561]路飞VS米霍克 : http://mh.socomic.com/comiclist/4/14969/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[562]海贼大涡蜘蛛史库亚多 : http://mh.socomic.com/comiclist/4/15140/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[563]一颗心一个人 : http://mh.socomic.com/comiclist/4/15213/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[564]动摇世界的男人 : http://mh.socomic.com/comiclist/4/15333/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[565]奥兹之道 : http://mh.socomic.com/comiclist/4/15401/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[566]猛攻 : http://mh.socomic.com/comiclist/4/15459/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[567]海军本部欧力斯广场 : http://mh.socomic.com/comiclist/4/15521/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[568]任意妄為 : http://mh.socomic.com/comiclist/4/15583/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[569]怪物 : http://mh.socomic.com/comiclist/4/15652/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[570]命系悬桥 : http://mh.socomic.com/comiclist/4/15958/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[571]处刑台 : http://mh.socomic.com/comiclist/4/16023/1.htm
-INFO  2013-03-19 15:24:29,214 [main] - 海贼王[572]这一刻他们将改变时代 : http://mh.socomic.com/comiclist/4/16099/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[573]将此时代称作“白胡子” : http://mh.socomic.com/comiclist/4/16151/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[574]波特卡斯.D.艾斯之死 : http://mh.socomic.com/comiclist/4/16205/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[575]无言的愤怒 : http://mh.socomic.com/comiclist/4/16265/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[576]大海贼爱德华.纽盖特 : http://mh.socomic.com/comiclist/4/16373/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[577]接踵而来的大事件 : http://mh.socomic.com/comiclist/4/16417/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[578]托付于新时代之物 : http://mh.socomic.com/comiclist/4/16470/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[579]充满勇气的数秒 : http://mh.socomic.com/comiclist/4/16585/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[580]终战 : http://mh.socomic.com/comiclist/4/16631/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[581]悄然而至的未来 : http://mh.socomic.com/comiclist/4/16743/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[582]路飞与艾斯 : http://mh.socomic.com/comiclist/4/16792/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[583]不确定之物的终点站 : http://mh.socomic.com/comiclist/4/16894/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[584]泊而谢米事件 : http://mh.socomic.com/comiclist/4/16959/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[585]结义杯 : http://mh.socomic.com/comiclist/4/17036/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[586]恶臭弥漫的城市 : http://mh.socomic.com/comiclist/4/17099/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[587]我，不会逃 : http://mh.socomic.com/comiclist/4/17153/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[588]萨波之海 : http://mh.socomic.com/comiclist/4/17213/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[589]风云之志 : http://mh.socomic.com/comiclist/4/17455/1.htm
-INFO  2013-03-19 15:24:29,215 [main] - 海贼王[590]弟弟啊 : http://mh.socomic.com/comiclist/4/17542/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[591]这样好吗 : http://mh.socomic.com/comiclist/4/17659/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[592]声援 : http://mh.socomic.com/comiclist/4/17719/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[593]NEWS : http://mh.socomic.com/comiclist/4/17778/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[594]MESSAGE : http://mh.socomic.com/comiclist/4/17876/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[595]宣誓 : http://mh.socomic.com/comiclist/4/17947/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[596]SPECTRUM : http://mh.socomic.com/comiclist/4/18053/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[597]3D2Y : http://mh.socomic.com/comiclist/4/18107/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[598]2年后 : http://mh.socomic.com/comiclist/4/18475/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[599]九人的海贼 : http://mh.socomic.com/comiclist/4/18538/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[600]再启航之岛 : http://mh.socomic.com/comiclist/4/18637/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[601]前往新世界冒险的黎明 : http://mh.socomic.com/comiclist/4/18698/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[602]全速下潜 : http://mh.socomic.com/comiclist/4/18768/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[603]铭记于心 : http://mh.socomic.com/comiclist/4/18839/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[604]目标 深海 : http://mh.socomic.com/comiclist/4/18936/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[605]海怪和海贼 : http://mh.socomic.com/comiclist/4/19080/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[606]深海的冒险 : http://mh.socomic.com/comiclist/4/19208/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[607]海底1万米 : http://mh.socomic.com/comiclist/4/19313/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[608]海底乐园 : http://mh.socomic.com/comiclist/4/19381/1.htm
-INFO  2013-03-19 15:24:29,216 [main] - 海贼王[609]鱼人岛的冒险 : http://mh.socomic.com/comiclist/4/19469/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[610]占卜师Madam·夏莉 : http://mh.socomic.com/comiclist/4/19633/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[611]霍迪·琼斯 : http://mh.socomic.com/comiclist/4/19699/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[612]被所救之鲨引领 : http://mh.socomic.com/comiclist/4/19802/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[613]硬壳塔的人鱼公主 : http://mh.socomic.com/comiclist/4/19875/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[614]泼出去的水是收不回来的 : http://mh.socomic.com/comiclist/4/19951/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[615]靶靶的诅咒 : http://mh.socomic.com/comiclist/4/20031/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[616]绝不抛弃倔强心 : http://mh.socomic.com/comiclist/4/20090/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[617]珊瑚丘的大事件 : http://mh.socomic.com/comiclist/4/20270/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[618]求婚 : http://mh.socomic.com/comiclist/4/20441/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[619]在海之森 : http://mh.socomic.com/comiclist/4/20656/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[620]憧憬的游乐园 : http://mh.socomic.com/comiclist/4/20759/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[621]乙姬与泰格 : http://mh.socomic.com/comiclist/4/20844/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[622]太阳海贼团 : http://mh.socomic.com/comiclist/4/20941/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[623]海贼费谢·泰格 : http://mh.socomic.com/comiclist/4/21164/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[624]乙姬王妃 : http://mh.socomic.com/comiclist/4/21377/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[625]无法继承的意志 : http://mh.socomic.com/comiclist/4/21459/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[626]尼普顿3兄弟 : http://mh.socomic.com/comiclist/4/21605/1.htm
-INFO  2013-03-19 15:24:29,217 [main] - 海贼王[627]不胜感激 : http://mh.socomic.com/comiclist/4/21731/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[628]大清洗 : http://mh.socomic.com/comiclist/4/21915/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[629]挡住去路的原七武海 : http://mh.socomic.com/comiclist/4/22000/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[630]开始暴走 : http://mh.socomic.com/comiclist/4/22092/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[631]琼克鲁德广场 : http://mh.socomic.com/comiclist/4/22202/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[632]早已知道 : http://mh.socomic.com/comiclist/4/22288/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[633]是敌是友 : http://mh.socomic.com/comiclist/4/22478/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[634]十万 VS 10 : http://mh.socomic.com/comiclist/4/22580/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[635]悍破云霄 : http://mh.socomic.com/comiclist/4/22802/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[636]来自未来国的将军 : http://mh.socomic.com/comiclist/4/22891/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[637]古之方舟 : http://mh.socomic.com/comiclist/4/22974/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[638]快逃星星 : http://mh.socomic.com/comiclist/4/23036/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[639]守护一切 : http://mh.socomic.com/comiclist/4/23150/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[640]鱼人岛正上方 : http://mh.socomic.com/comiclist/4/23290/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[641]你怎么了 : http://mh.socomic.com/comiclist/4/23490/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[642]颜面无存 : http://mh.socomic.com/comiclist/4/23567/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[643]虚 : http://mh.socomic.com/comiclist/4/23702/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[644]归零 : http://mh.socomic.com/comiclist/4/23800/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[645]死也是种复仇 : http://mh.socomic.com/comiclist/4/23885/1.htm
-INFO  2013-03-19 15:24:29,218 [main] - 海贼王[646]蛙 : http://mh.socomic.com/comiclist/4/24073/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[647]诺亚快停 : http://mh.socomic.com/comiclist/4/24158/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[648]通往太阳之路 : http://mh.socomic.com/comiclist/4/24286/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[649]鲷与比目鱼的曼舞 : http://mh.socomic.com/comiclist/4/24392/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[650]应当知晓的两个变化 : http://mh.socomic.com/comiclist/4/24500/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[651]来自新世界的问候 : http://mh.socomic.com/comiclist/4/24723/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[652]前途多舛的預感 : http://mh.socomic.com/comiclist/4/24980/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[653]英雄的帽子 : http://mh.socomic.com/comiclist/4/25086/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[654]鲸群流 : http://mh.socomic.com/comiclist/4/25184/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[655]龐克哈薩德 爆裂危机 : http://mh.socomic.com/comiclist/4/25275/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[656]燃烧岛大冒险 : http://mh.socomic.com/comiclist/4/25381/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[657]首级 : http://mh.socomic.com/comiclist/4/25508/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[658]甜饼屋 : http://mh.socomic.com/comiclist/4/25688/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[659]身躯的遭遇 : http://mh.socomic.com/comiclist/4/25797/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[660]王下七武海 特拉法尔加.罗 : http://mh.socomic.com/comiclist/4/25942/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[661]强盗出没之湖 : http://mh.socomic.com/comiclist/4/26044/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[662]罗VS斯摩格中将 : http://mh.socomic.com/comiclist/4/26160/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[663]CC : http://mh.socomic.com/comiclist/4/26411/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[664]M·凯撒·库朗 : http://mh.socomic.com/comiclist/4/26534/1.htm
-INFO  2013-03-19 15:24:29,219 [main] - 海贼王[665]CANDY : http://mh.socomic.com/comiclist/4/26708/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[666]雪人 COOL BROTHERS : http://mh.socomic.com/comiclist/4/26887/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[667]COOL FIGHT : http://mh.socomic.com/comiclist/4/27001/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[668]海贼同盟 : http://mh.socomic.com/comiclist/4/27115/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[669]作战开始 : http://mh.socomic.com/comiclist/4/27238/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[670]暴风雪,时有Slime雨 : http://mh.socomic.com/comiclist/4/27357/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[671]瓦斯瓦斯果实 : http://mh.socomic.com/comiclist/4/27524/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[672]鄙人 名唤锦卫门 : http://mh.socomic.com/comiclist/4/27809/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[673]维而戈与小丑 : http://mh.socomic.com/comiclist/4/27939/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[674]旁观者们 : http://mh.socomic.com/comiclist/4/28052/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[675]其名也称作“死亡国度” : http://mh.socomic.com/comiclist/4/28323/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[676]杀戮武器完成 : http://mh.socomic.com/comiclist/4/28435/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[677]COUNTER HAZARD : http://mh.socomic.com/comiclist/4/28650/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[678]研究所內A栋大厅 : http://mh.socomic.com/comiclist/4/28776/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[679]G-5真汉子 : http://mh.socomic.com/comiclist/4/28923/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[680]海军G-5基地长 : http://mh.socomic.com/comiclist/4/29067/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[681]路飞VS.M : http://mh.socomic.com/comiclist/4/29187/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[682]黑幕 : http://mh.socomic.com/comiclist/4/29286/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[683]冰一般的女人 : http://mh.socomic.com/comiclist/4/29488/1.htm
-INFO  2013-03-19 15:24:29,220 [main] - 海贼王[684]快住手吧贝加班克 : http://mh.socomic.com/comiclist/4/29640/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[685]桃之助便是在下的大名 : http://mh.socomic.com/comiclist/4/29786/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[686]甜饼屋的雪女 : http://mh.socomic.com/comiclist/4/29926/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[687]猛兽 : http://mh.socomic.com/comiclist/4/30050/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[688]莫查 : http://mh.socomic.com/comiclist/4/30226/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[689]仿佛不存在的岛 : http://mh.socomic.com/comiclist/4/30514/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[690]SAD : http://mh.socomic.com/comiclist/4/30619/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[691]死亡国度的王 : http://mh.socomic.com/comiclist/4/30728/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[692]德蕾丝罗萨来的刺客 : http://mh.socomic.com/comiclist/4/30852/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[693]全给我去死 : http://mh.socomic.com/comiclist/4/30961/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[694]最危险的男人 : http://mh.socomic.com/comiclist/4/31126/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[695]交给我吧 : http://mh.socomic.com/comiclist/4/31458/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[696]利害一致 : http://mh.socomic.com/comiclist/4/31583/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[697]交易 : http://mh.socomic.com/comiclist/4/31730/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[698]多佛朗明哥出现 : http://mh.socomic.com/comiclist/4/31827/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[699]晨刊 : http://mh.socomic.com/comiclist/4/32069/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[700]诡计 : http://mh.socomic.com/comiclist/4/32160/1.htm
-INFO  2013-03-19 15:24:29,221 [main] - 海贼王[701]爱与激情与玩具之国的冒险 : http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:27:37,965 [main] - 海贼王_OnePiece_Vol_1 : http://mh.socomic.com/comiclist/4/1417/1.htm
+INFO  2013-03-20 00:27:38,001 [main] - 海贼王_OnePiece_Vol_2 : http://mh.socomic.com/comiclist/4/1418/1.htm
+INFO  2013-03-20 00:27:38,002 [main] - 海贼王_OnePiece_Vol_3 : http://mh.socomic.com/comiclist/4/1419/1.htm
+INFO  2013-03-20 00:27:38,002 [main] - 海贼王_OnePiece_Vol_4 : http://mh.socomic.com/comiclist/4/1420/1.htm
+INFO  2013-03-20 00:27:38,002 [main] - 海贼王_OnePiece_Vol_5 : http://mh.socomic.com/comiclist/4/1421/1.htm
+INFO  2013-03-20 00:27:38,002 [main] - 海贼王_OnePiece_Vol_6 : http://mh.socomic.com/comiclist/4/1422/1.htm
+INFO  2013-03-20 00:27:38,002 [main] - 海贼王_OnePiece_Vol_7 : http://mh.socomic.com/comiclist/4/1423/1.htm
+INFO  2013-03-20 00:27:38,002 [main] - 海贼王_OnePiece_Vol_8 : http://mh.socomic.com/comiclist/4/1424/1.htm
+INFO  2013-03-20 00:27:38,003 [main] - 海贼王_OnePiece_Vol_9 : http://mh.socomic.com/comiclist/4/1425/1.htm
+INFO  2013-03-20 00:27:38,003 [main] - 海贼王_OnePiece_Vol_10 : http://mh.socomic.com/comiclist/4/1426/1.htm
+INFO  2013-03-20 00:27:38,003 [main] - 海贼王_OnePiece_Vol_11 : http://mh.socomic.com/comiclist/4/1427/1.htm
+INFO  2013-03-20 00:27:38,003 [main] - 海贼王_OnePiece_Vol_12 : http://mh.socomic.com/comiclist/4/1428/1.htm
+INFO  2013-03-20 00:27:38,003 [main] - 海贼王_OnePiece_Vol_13 : http://mh.socomic.com/comiclist/4/1429/1.htm
+INFO  2013-03-20 00:27:38,003 [main] - 海贼王_OnePiece_Vol_14 : http://mh.socomic.com/comiclist/4/1430/1.htm
+INFO  2013-03-20 00:27:38,003 [main] - 海贼王_OnePiece_Vol_15 : http://mh.socomic.com/comiclist/4/1431/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_16 : http://mh.socomic.com/comiclist/4/1432/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_17 : http://mh.socomic.com/comiclist/4/1433/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_18 : http://mh.socomic.com/comiclist/4/1434/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_19 : http://mh.socomic.com/comiclist/4/1435/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_20 : http://mh.socomic.com/comiclist/4/1436/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_21 : http://mh.socomic.com/comiclist/4/1437/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_22 : http://mh.socomic.com/comiclist/4/1438/1.htm
+INFO  2013-03-20 00:27:38,004 [main] - 海贼王_OnePiece_Vol_23 : http://mh.socomic.com/comiclist/4/1439/1.htm
+INFO  2013-03-20 00:27:38,005 [main] - 海贼王_OnePiece_Vol_24 : http://mh.socomic.com/comiclist/4/1440/1.htm
+INFO  2013-03-20 00:27:38,005 [main] - 海贼王_OnePiece_Vol_25 : http://mh.socomic.com/comiclist/4/1441/1.htm
+INFO  2013-03-20 00:27:38,005 [main] - 海贼王_OnePiece_Vol_26 : http://mh.socomic.com/comiclist/4/1442/1.htm
+INFO  2013-03-20 00:27:38,005 [main] - 海贼王_OnePiece_Vol_27 : http://mh.socomic.com/comiclist/4/1443/1.htm
+INFO  2013-03-20 00:27:38,005 [main] - 海贼王_OnePiece_Vol_28 : http://mh.socomic.com/comiclist/4/1444/1.htm
+INFO  2013-03-20 00:27:38,005 [main] - 海贼王_OnePiece_Vol_29 : http://mh.socomic.com/comiclist/4/1445/1.htm
+INFO  2013-03-20 00:27:38,005 [main] - 海贼王_OnePiece_Vol_30 : http://mh.socomic.com/comiclist/4/1446/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_31 : http://mh.socomic.com/comiclist/4/1447/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_32 : http://mh.socomic.com/comiclist/4/1448/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_33 : http://mh.socomic.com/comiclist/4/1540/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_34 : http://mh.socomic.com/comiclist/4/1541/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_35 : http://mh.socomic.com/comiclist/4/1542/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_36 : http://mh.socomic.com/comiclist/4/1543/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_37 : http://mh.socomic.com/comiclist/4/1548/1.htm
+INFO  2013-03-20 00:27:38,006 [main] - 海贼王_OnePiece_Vol_38 : http://mh.socomic.com/comiclist/4/1558/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_39 : http://mh.socomic.com/comiclist/4/1559/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_40 : http://mh.socomic.com/comiclist/4/1561/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_41 : http://mh.socomic.com/comiclist/4/1567/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_42 : http://mh.socomic.com/comiclist/4/1568/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_43 : http://mh.socomic.com/comiclist/4/1570/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_44 : http://mh.socomic.com/comiclist/4/1584/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_45 : http://mh.socomic.com/comiclist/4/4323/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_46 : http://mh.socomic.com/comiclist/4/4361/1.htm
+INFO  2013-03-20 00:27:38,007 [main] - 海贼王_OnePiece_Vol_47 : http://mh.socomic.com/comiclist/4/4419/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_48 : http://mh.socomic.com/comiclist/4/4455/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_49 : http://mh.socomic.com/comiclist/4/4509/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_50 : http://mh.socomic.com/comiclist/4/4554/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_51 : http://mh.socomic.com/comiclist/4/4747/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_52 : http://mh.socomic.com/comiclist/4/4767/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_53 : http://mh.socomic.com/comiclist/4/4947/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_54 : http://mh.socomic.com/comiclist/4/4991/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王_OnePiece_Vol_55 : http://mh.socomic.com/comiclist/4/11781/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王[542]另一个终会被传诵的事件 : http://mh.socomic.com/comiclist/4/13159/1.htm
+INFO  2013-03-20 00:27:38,008 [main] - 海贼王[543]草帽与黑胡子 : http://mh.socomic.com/comiclist/4/13281/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[544]地狱之门亦敞开 : http://mh.socomic.com/comiclist/4/13339/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[545]阳光普照的自由世界 : http://mh.socomic.com/comiclist/4/13436/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[546]鱼人海贼团船长甚平 : http://mh.socomic.com/comiclist/4/13483/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[547]冲出监狱岛 : http://mh.socomic.com/comiclist/4/13570/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[548]谢谢你 : http://mh.socomic.com/comiclist/4/13647/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[549]出击之舰+小剧场 : http://mh.socomic.com/comiclist/4/13702/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[550]海军本部 : http://mh.socomic.com/comiclist/4/13807/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[551]四皇白胡子 : http://mh.socomic.com/comiclist/4/13868/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[552]艾斯与白胡子 : http://mh.socomic.com/comiclist/4/13918/1.htm
+INFO  2013-03-20 00:27:38,009 [main] - 海贼王[553]顶尖对决 : http://mh.socomic.com/comiclist/4/14062/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[554]大将赤犬 : http://mh.socomic.com/comiclist/4/14193/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[555]奥兹和斗笠 : http://mh.socomic.com/comiclist/4/14256/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[556]正义必胜 : http://mh.socomic.com/comiclist/4/14313/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[557]路飞与白胡子 : http://mh.socomic.com/comiclist/4/14438/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[558]弟弟 : http://mh.socomic.com/comiclist/4/14518/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[559]天命 : http://mh.socomic.com/comiclist/4/14628/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[560]推进城的囚犯们 : http://mh.socomic.com/comiclist/4/14710/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[561]路飞VS米霍克 : http://mh.socomic.com/comiclist/4/14969/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[562]海贼大涡蜘蛛史库亚多 : http://mh.socomic.com/comiclist/4/15140/1.htm
+INFO  2013-03-20 00:27:38,010 [main] - 海贼王[563]一颗心一个人 : http://mh.socomic.com/comiclist/4/15213/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[564]动摇世界的男人 : http://mh.socomic.com/comiclist/4/15333/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[565]奥兹之道 : http://mh.socomic.com/comiclist/4/15401/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[566]猛攻 : http://mh.socomic.com/comiclist/4/15459/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[567]海军本部欧力斯广场 : http://mh.socomic.com/comiclist/4/15521/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[568]任意妄為 : http://mh.socomic.com/comiclist/4/15583/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[569]怪物 : http://mh.socomic.com/comiclist/4/15652/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[570]命系悬桥 : http://mh.socomic.com/comiclist/4/15958/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[571]处刑台 : http://mh.socomic.com/comiclist/4/16023/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[572]这一刻他们将改变时代 : http://mh.socomic.com/comiclist/4/16099/1.htm
+INFO  2013-03-20 00:27:38,011 [main] - 海贼王[573]将此时代称作“白胡子” : http://mh.socomic.com/comiclist/4/16151/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[574]波特卡斯.D.艾斯之死 : http://mh.socomic.com/comiclist/4/16205/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[575]无言的愤怒 : http://mh.socomic.com/comiclist/4/16265/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[576]大海贼爱德华.纽盖特 : http://mh.socomic.com/comiclist/4/16373/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[577]接踵而来的大事件 : http://mh.socomic.com/comiclist/4/16417/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[578]托付于新时代之物 : http://mh.socomic.com/comiclist/4/16470/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[579]充满勇气的数秒 : http://mh.socomic.com/comiclist/4/16585/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[580]终战 : http://mh.socomic.com/comiclist/4/16631/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[581]悄然而至的未来 : http://mh.socomic.com/comiclist/4/16743/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[582]路飞与艾斯 : http://mh.socomic.com/comiclist/4/16792/1.htm
+INFO  2013-03-20 00:27:38,012 [main] - 海贼王[583]不确定之物的终点站 : http://mh.socomic.com/comiclist/4/16894/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[584]泊而谢米事件 : http://mh.socomic.com/comiclist/4/16959/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[585]结义杯 : http://mh.socomic.com/comiclist/4/17036/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[586]恶臭弥漫的城市 : http://mh.socomic.com/comiclist/4/17099/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[587]我，不会逃 : http://mh.socomic.com/comiclist/4/17153/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[588]萨波之海 : http://mh.socomic.com/comiclist/4/17213/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[589]风云之志 : http://mh.socomic.com/comiclist/4/17455/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[590]弟弟啊 : http://mh.socomic.com/comiclist/4/17542/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[591]这样好吗 : http://mh.socomic.com/comiclist/4/17659/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[592]声援 : http://mh.socomic.com/comiclist/4/17719/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[593]NEWS : http://mh.socomic.com/comiclist/4/17778/1.htm
+INFO  2013-03-20 00:27:38,013 [main] - 海贼王[594]MESSAGE : http://mh.socomic.com/comiclist/4/17876/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[595]宣誓 : http://mh.socomic.com/comiclist/4/17947/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[596]SPECTRUM : http://mh.socomic.com/comiclist/4/18053/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[597]3D2Y : http://mh.socomic.com/comiclist/4/18107/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[598]2年后 : http://mh.socomic.com/comiclist/4/18475/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[599]九人的海贼 : http://mh.socomic.com/comiclist/4/18538/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[600]再启航之岛 : http://mh.socomic.com/comiclist/4/18637/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[601]前往新世界冒险的黎明 : http://mh.socomic.com/comiclist/4/18698/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[602]全速下潜 : http://mh.socomic.com/comiclist/4/18768/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[603]铭记于心 : http://mh.socomic.com/comiclist/4/18839/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[604]目标 深海 : http://mh.socomic.com/comiclist/4/18936/1.htm
+INFO  2013-03-20 00:27:38,014 [main] - 海贼王[605]海怪和海贼 : http://mh.socomic.com/comiclist/4/19080/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[606]深海的冒险 : http://mh.socomic.com/comiclist/4/19208/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[607]海底1万米 : http://mh.socomic.com/comiclist/4/19313/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[608]海底乐园 : http://mh.socomic.com/comiclist/4/19381/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[609]鱼人岛的冒险 : http://mh.socomic.com/comiclist/4/19469/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[610]占卜师Madam·夏莉 : http://mh.socomic.com/comiclist/4/19633/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[611]霍迪·琼斯 : http://mh.socomic.com/comiclist/4/19699/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[612]被所救之鲨引领 : http://mh.socomic.com/comiclist/4/19802/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[613]硬壳塔的人鱼公主 : http://mh.socomic.com/comiclist/4/19875/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[614]泼出去的水是收不回来的 : http://mh.socomic.com/comiclist/4/19951/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[615]靶靶的诅咒 : http://mh.socomic.com/comiclist/4/20031/1.htm
+INFO  2013-03-20 00:27:38,015 [main] - 海贼王[616]绝不抛弃倔强心 : http://mh.socomic.com/comiclist/4/20090/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[617]珊瑚丘的大事件 : http://mh.socomic.com/comiclist/4/20270/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[618]求婚 : http://mh.socomic.com/comiclist/4/20441/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[619]在海之森 : http://mh.socomic.com/comiclist/4/20656/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[620]憧憬的游乐园 : http://mh.socomic.com/comiclist/4/20759/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[621]乙姬与泰格 : http://mh.socomic.com/comiclist/4/20844/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[622]太阳海贼团 : http://mh.socomic.com/comiclist/4/20941/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[623]海贼费谢·泰格 : http://mh.socomic.com/comiclist/4/21164/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[624]乙姬王妃 : http://mh.socomic.com/comiclist/4/21377/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[625]无法继承的意志 : http://mh.socomic.com/comiclist/4/21459/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[626]尼普顿3兄弟 : http://mh.socomic.com/comiclist/4/21605/1.htm
+INFO  2013-03-20 00:27:38,016 [main] - 海贼王[627]不胜感激 : http://mh.socomic.com/comiclist/4/21731/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[628]大清洗 : http://mh.socomic.com/comiclist/4/21915/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[629]挡住去路的原七武海 : http://mh.socomic.com/comiclist/4/22000/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[630]开始暴走 : http://mh.socomic.com/comiclist/4/22092/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[631]琼克鲁德广场 : http://mh.socomic.com/comiclist/4/22202/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[632]早已知道 : http://mh.socomic.com/comiclist/4/22288/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[633]是敌是友 : http://mh.socomic.com/comiclist/4/22478/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[634]十万 VS 10 : http://mh.socomic.com/comiclist/4/22580/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[635]悍破云霄 : http://mh.socomic.com/comiclist/4/22802/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[636]来自未来国的将军 : http://mh.socomic.com/comiclist/4/22891/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[637]古之方舟 : http://mh.socomic.com/comiclist/4/22974/1.htm
+INFO  2013-03-20 00:27:38,017 [main] - 海贼王[638]快逃星星 : http://mh.socomic.com/comiclist/4/23036/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[639]守护一切 : http://mh.socomic.com/comiclist/4/23150/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[640]鱼人岛正上方 : http://mh.socomic.com/comiclist/4/23290/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[641]你怎么了 : http://mh.socomic.com/comiclist/4/23490/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[642]颜面无存 : http://mh.socomic.com/comiclist/4/23567/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[643]虚 : http://mh.socomic.com/comiclist/4/23702/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[644]归零 : http://mh.socomic.com/comiclist/4/23800/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[645]死也是种复仇 : http://mh.socomic.com/comiclist/4/23885/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[646]蛙 : http://mh.socomic.com/comiclist/4/24073/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[647]诺亚快停 : http://mh.socomic.com/comiclist/4/24158/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[648]通往太阳之路 : http://mh.socomic.com/comiclist/4/24286/1.htm
+INFO  2013-03-20 00:27:38,018 [main] - 海贼王[649]鲷与比目鱼的曼舞 : http://mh.socomic.com/comiclist/4/24392/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[650]应当知晓的两个变化 : http://mh.socomic.com/comiclist/4/24500/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[651]来自新世界的问候 : http://mh.socomic.com/comiclist/4/24723/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[652]前途多舛的預感 : http://mh.socomic.com/comiclist/4/24980/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[653]英雄的帽子 : http://mh.socomic.com/comiclist/4/25086/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[654]鲸群流 : http://mh.socomic.com/comiclist/4/25184/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[655]龐克哈薩德 爆裂危机 : http://mh.socomic.com/comiclist/4/25275/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[656]燃烧岛大冒险 : http://mh.socomic.com/comiclist/4/25381/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[657]首级 : http://mh.socomic.com/comiclist/4/25508/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[658]甜饼屋 : http://mh.socomic.com/comiclist/4/25688/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[659]身躯的遭遇 : http://mh.socomic.com/comiclist/4/25797/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[660]王下七武海 特拉法尔加.罗 : http://mh.socomic.com/comiclist/4/25942/1.htm
+INFO  2013-03-20 00:27:38,019 [main] - 海贼王[661]强盗出没之湖 : http://mh.socomic.com/comiclist/4/26044/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[662]罗VS斯摩格中将 : http://mh.socomic.com/comiclist/4/26160/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[663]CC : http://mh.socomic.com/comiclist/4/26411/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[664]M·凯撒·库朗 : http://mh.socomic.com/comiclist/4/26534/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[665]CANDY : http://mh.socomic.com/comiclist/4/26708/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[666]雪人 COOL BROTHERS : http://mh.socomic.com/comiclist/4/26887/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[667]COOL FIGHT : http://mh.socomic.com/comiclist/4/27001/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[668]海贼同盟 : http://mh.socomic.com/comiclist/4/27115/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[669]作战开始 : http://mh.socomic.com/comiclist/4/27238/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[670]暴风雪,时有Slime雨 : http://mh.socomic.com/comiclist/4/27357/1.htm
+INFO  2013-03-20 00:27:38,020 [main] - 海贼王[671]瓦斯瓦斯果实 : http://mh.socomic.com/comiclist/4/27524/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[672]鄙人 名唤锦卫门 : http://mh.socomic.com/comiclist/4/27809/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[673]维而戈与小丑 : http://mh.socomic.com/comiclist/4/27939/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[674]旁观者们 : http://mh.socomic.com/comiclist/4/28052/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[675]其名也称作“死亡国度” : http://mh.socomic.com/comiclist/4/28323/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[676]杀戮武器完成 : http://mh.socomic.com/comiclist/4/28435/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[677]COUNTER HAZARD : http://mh.socomic.com/comiclist/4/28650/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[678]研究所內A栋大厅 : http://mh.socomic.com/comiclist/4/28776/1.htm
+INFO  2013-03-20 00:27:38,021 [main] - 海贼王[679]G-5真汉子 : http://mh.socomic.com/comiclist/4/28923/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[680]海军G-5基地长 : http://mh.socomic.com/comiclist/4/29067/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[681]路飞VS.M : http://mh.socomic.com/comiclist/4/29187/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[682]黑幕 : http://mh.socomic.com/comiclist/4/29286/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[683]冰一般的女人 : http://mh.socomic.com/comiclist/4/29488/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[684]快住手吧贝加班克 : http://mh.socomic.com/comiclist/4/29640/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[685]桃之助便是在下的大名 : http://mh.socomic.com/comiclist/4/29786/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[686]甜饼屋的雪女 : http://mh.socomic.com/comiclist/4/29926/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[687]猛兽 : http://mh.socomic.com/comiclist/4/30050/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[688]莫查 : http://mh.socomic.com/comiclist/4/30226/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[689]仿佛不存在的岛 : http://mh.socomic.com/comiclist/4/30514/1.htm
+INFO  2013-03-20 00:27:38,022 [main] - 海贼王[690]SAD : http://mh.socomic.com/comiclist/4/30619/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[691]死亡国度的王 : http://mh.socomic.com/comiclist/4/30728/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[692]德蕾丝罗萨来的刺客 : http://mh.socomic.com/comiclist/4/30852/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[693]全给我去死 : http://mh.socomic.com/comiclist/4/30961/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[694]最危险的男人 : http://mh.socomic.com/comiclist/4/31126/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[695]交给我吧 : http://mh.socomic.com/comiclist/4/31458/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[696]利害一致 : http://mh.socomic.com/comiclist/4/31583/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[697]交易 : http://mh.socomic.com/comiclist/4/31730/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[698]多佛朗明哥出现 : http://mh.socomic.com/comiclist/4/31827/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[699]晨刊 : http://mh.socomic.com/comiclist/4/32069/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[700]诡计 : http://mh.socomic.com/comiclist/4/32160/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[701]爱与激情与玩具之国的冒险 : http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:27:38,023 [main] - 海贼王[702]克里达竞技场 : http://mh.socomic.com/comiclist/4/32506/1.htm
+INFO  2013-03-20 00:27:38,035 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:38,036 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:38,218 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/1.htm
+INFO  2013-03-20 00:27:38,251 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:27:40,282 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00103F.jpg
+INFO  2013-03-20 00:27:40,284 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/2.htm
+INFO  2013-03-20 00:27:40,284 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:40,310 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00103F.jpg
+INFO  2013-03-20 00:27:40,314 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/2.htm
+INFO  2013-03-20 00:27:40,314 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:40,459 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/2.htm
+INFO  2013-03-20 00:27:40,478 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/2.htm
+INFO  2013-03-20 00:27:41,580 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00206I.jpg
+INFO  2013-03-20 00:27:41,581 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/3.htm
+INFO  2013-03-20 00:27:41,581 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:41,616 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00206I.jpg
+INFO  2013-03-20 00:27:41,620 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/3.htm
+INFO  2013-03-20 00:27:41,621 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:41,709 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/3.htm
+INFO  2013-03-20 00:27:41,751 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/3.htm
+INFO  2013-03-20 00:27:43,498 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00309L.jpg
+INFO  2013-03-20 00:27:43,499 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/4.htm
+INFO  2013-03-20 00:27:43,499 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:43,501 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00309L.jpg
+INFO  2013-03-20 00:27:43,502 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/4.htm
+INFO  2013-03-20 00:27:43,502 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:43,607 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/4.htm
+INFO  2013-03-20 00:27:43,616 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/4.htm
+INFO  2013-03-20 00:27:44,886 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0040CO.jpg
+INFO  2013-03-20 00:27:44,888 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/5.htm
+INFO  2013-03-20 00:27:44,888 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:44,900 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0040CO.jpg
+INFO  2013-03-20 00:27:44,901 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/5.htm
+INFO  2013-03-20 00:27:44,901 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:44,988 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/5.htm
+INFO  2013-03-20 00:27:45,008 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/5.htm
+INFO  2013-03-20 00:27:48,434 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0050FR.jpg
+INFO  2013-03-20 00:27:48,435 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/6.htm
+INFO  2013-03-20 00:27:48,435 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:48,504 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0050FR.jpg
+INFO  2013-03-20 00:27:48,507 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/6.htm
+INFO  2013-03-20 00:27:48,507 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:48,555 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/6.htm
+INFO  2013-03-20 00:27:48,673 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/6.htm
+INFO  2013-03-20 00:27:50,389 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0060IU.jpg
+INFO  2013-03-20 00:27:50,390 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/7.htm
+INFO  2013-03-20 00:27:50,390 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:50,486 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0060IU.jpg
+INFO  2013-03-20 00:27:50,487 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/7.htm
+INFO  2013-03-20 00:27:50,487 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:50,539 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/7.htm
+INFO  2013-03-20 00:27:50,639 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/7.htm
+INFO  2013-03-20 00:27:51,742 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0070LX.jpg
+INFO  2013-03-20 00:27:51,744 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/8.htm
+INFO  2013-03-20 00:27:51,744 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:51,849 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0070LX.jpg
+INFO  2013-03-20 00:27:51,850 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/8.htm
+INFO  2013-03-20 00:27:51,850 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:51,851 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/8.htm
+INFO  2013-03-20 00:27:51,958 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/8.htm
+INFO  2013-03-20 00:27:52,857 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0080P0.jpg
+INFO  2013-03-20 00:27:52,858 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/9.htm
+INFO  2013-03-20 00:27:52,858 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:52,969 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/9.htm
+INFO  2013-03-20 00:27:52,990 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0080P0.jpg
+INFO  2013-03-20 00:27:52,991 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/9.htm
+INFO  2013-03-20 00:27:52,991 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:53,104 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/9.htm
+INFO  2013-03-20 00:27:53,909 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0090S3.jpg
+INFO  2013-03-20 00:27:53,914 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/10.htm
+INFO  2013-03-20 00:27:53,914 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:54,028 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/10.htm
+INFO  2013-03-20 00:27:54,072 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0090S3.jpg
+INFO  2013-03-20 00:27:54,073 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/10.htm
+INFO  2013-03-20 00:27:54,073 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:54,183 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/10.htm
+INFO  2013-03-20 00:27:54,986 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0100V6.jpg
+INFO  2013-03-20 00:27:54,987 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/11.htm
+INFO  2013-03-20 00:27:54,988 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:55,102 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/11.htm
+INFO  2013-03-20 00:27:55,180 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0100V6.jpg
+INFO  2013-03-20 00:27:55,181 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/11.htm
+INFO  2013-03-20 00:27:55,181 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:55,285 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/11.htm
+INFO  2013-03-20 00:27:56,068 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0110Y9.jpg
+INFO  2013-03-20 00:27:56,069 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/12.htm
+INFO  2013-03-20 00:27:56,069 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:56,199 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/12.htm
+INFO  2013-03-20 00:27:56,288 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0110Y9.jpg
+INFO  2013-03-20 00:27:56,293 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/12.htm
+INFO  2013-03-20 00:27:56,293 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:56,450 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/12.htm
+INFO  2013-03-20 00:27:57,384 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_01211C.jpg
+INFO  2013-03-20 00:27:57,385 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/13.htm
+INFO  2013-03-20 00:27:57,385 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:57,491 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/13.htm
+INFO  2013-03-20 00:27:57,677 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01211C.jpg
+INFO  2013-03-20 00:27:57,678 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/13.htm
+INFO  2013-03-20 00:27:57,679 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:57,785 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/13.htm
+INFO  2013-03-20 00:27:58,526 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_01314F.jpg
+INFO  2013-03-20 00:27:58,529 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/14.htm
+INFO  2013-03-20 00:27:58,529 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:27:58,667 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/14.htm
+INFO  2013-03-20 00:27:59,124 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01314F.jpg
+INFO  2013-03-20 00:27:59,125 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/14.htm
+INFO  2013-03-20 00:27:59,125 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:27:59,329 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/14.htm
+INFO  2013-03-20 00:28:00,141 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_014-01517I.jpg
+INFO  2013-03-20 00:28:00,199 [pool-1-thread-3] - NextPage: exit
+INFO  2013-03-20 00:28:00,611 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01417I.jpg
+INFO  2013-03-20 00:28:00,614 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/15.htm
+INFO  2013-03-20 00:28:00,614 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:28:00,720 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/15.htm
+INFO  2013-03-20 00:28:01,687 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0151AL.jpg
+INFO  2013-03-20 00:28:01,688 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/16.htm
+INFO  2013-03-20 00:28:01,688 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:28:01,817 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/16.htm
+INFO  2013-03-20 00:28:02,817 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0161DO.jpg
+INFO  2013-03-20 00:28:02,818 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/17.htm
+INFO  2013-03-20 00:28:02,818 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:28:02,971 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/17.htm
+INFO  2013-03-20 00:28:04,357 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0171GR.jpg
+INFO  2013-03-20 00:28:04,358 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/18.htm
+INFO  2013-03-20 00:28:04,358 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:28:04,504 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/18.htm
+INFO  2013-03-20 00:28:05,648 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_018-0191JU.jpg
+INFO  2013-03-20 00:28:05,649 [pool-1-thread-4] - NextPage: exit
+INFO  2013-03-20 00:29:25,787 [main] - 海贼王_OnePiece_Vol_1 : http://mh.socomic.com/comiclist/4/1417/1.htm
+INFO  2013-03-20 00:29:25,788 [main] - 海贼王_OnePiece_Vol_2 : http://mh.socomic.com/comiclist/4/1418/1.htm
+INFO  2013-03-20 00:29:25,788 [main] - 海贼王_OnePiece_Vol_3 : http://mh.socomic.com/comiclist/4/1419/1.htm
+INFO  2013-03-20 00:29:25,788 [main] - 海贼王_OnePiece_Vol_4 : http://mh.socomic.com/comiclist/4/1420/1.htm
+INFO  2013-03-20 00:29:25,788 [main] - 海贼王_OnePiece_Vol_5 : http://mh.socomic.com/comiclist/4/1421/1.htm
+INFO  2013-03-20 00:29:25,789 [main] - 海贼王_OnePiece_Vol_6 : http://mh.socomic.com/comiclist/4/1422/1.htm
+INFO  2013-03-20 00:29:25,789 [main] - 海贼王_OnePiece_Vol_7 : http://mh.socomic.com/comiclist/4/1423/1.htm
+INFO  2013-03-20 00:29:25,789 [main] - 海贼王_OnePiece_Vol_8 : http://mh.socomic.com/comiclist/4/1424/1.htm
+INFO  2013-03-20 00:29:25,789 [main] - 海贼王_OnePiece_Vol_9 : http://mh.socomic.com/comiclist/4/1425/1.htm
+INFO  2013-03-20 00:29:25,789 [main] - 海贼王_OnePiece_Vol_10 : http://mh.socomic.com/comiclist/4/1426/1.htm
+INFO  2013-03-20 00:29:25,789 [main] - 海贼王_OnePiece_Vol_11 : http://mh.socomic.com/comiclist/4/1427/1.htm
+INFO  2013-03-20 00:29:25,789 [main] - 海贼王_OnePiece_Vol_12 : http://mh.socomic.com/comiclist/4/1428/1.htm
+INFO  2013-03-20 00:29:25,790 [main] - 海贼王_OnePiece_Vol_13 : http://mh.socomic.com/comiclist/4/1429/1.htm
+INFO  2013-03-20 00:29:25,790 [main] - 海贼王_OnePiece_Vol_14 : http://mh.socomic.com/comiclist/4/1430/1.htm
+INFO  2013-03-20 00:29:25,790 [main] - 海贼王_OnePiece_Vol_15 : http://mh.socomic.com/comiclist/4/1431/1.htm
+INFO  2013-03-20 00:29:25,790 [main] - 海贼王_OnePiece_Vol_16 : http://mh.socomic.com/comiclist/4/1432/1.htm
+INFO  2013-03-20 00:29:25,790 [main] - 海贼王_OnePiece_Vol_17 : http://mh.socomic.com/comiclist/4/1433/1.htm
+INFO  2013-03-20 00:29:25,790 [main] - 海贼王_OnePiece_Vol_18 : http://mh.socomic.com/comiclist/4/1434/1.htm
+INFO  2013-03-20 00:29:25,790 [main] - 海贼王_OnePiece_Vol_19 : http://mh.socomic.com/comiclist/4/1435/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_20 : http://mh.socomic.com/comiclist/4/1436/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_21 : http://mh.socomic.com/comiclist/4/1437/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_22 : http://mh.socomic.com/comiclist/4/1438/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_23 : http://mh.socomic.com/comiclist/4/1439/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_24 : http://mh.socomic.com/comiclist/4/1440/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_25 : http://mh.socomic.com/comiclist/4/1441/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_26 : http://mh.socomic.com/comiclist/4/1442/1.htm
+INFO  2013-03-20 00:29:25,791 [main] - 海贼王_OnePiece_Vol_27 : http://mh.socomic.com/comiclist/4/1443/1.htm
+INFO  2013-03-20 00:29:25,792 [main] - 海贼王_OnePiece_Vol_28 : http://mh.socomic.com/comiclist/4/1444/1.htm
+INFO  2013-03-20 00:29:25,792 [main] - 海贼王_OnePiece_Vol_29 : http://mh.socomic.com/comiclist/4/1445/1.htm
+INFO  2013-03-20 00:29:25,792 [main] - 海贼王_OnePiece_Vol_30 : http://mh.socomic.com/comiclist/4/1446/1.htm
+INFO  2013-03-20 00:29:25,792 [main] - 海贼王_OnePiece_Vol_31 : http://mh.socomic.com/comiclist/4/1447/1.htm
+INFO  2013-03-20 00:29:25,792 [main] - 海贼王_OnePiece_Vol_32 : http://mh.socomic.com/comiclist/4/1448/1.htm
+INFO  2013-03-20 00:29:25,792 [main] - 海贼王_OnePiece_Vol_33 : http://mh.socomic.com/comiclist/4/1540/1.htm
+INFO  2013-03-20 00:29:25,792 [main] - 海贼王_OnePiece_Vol_34 : http://mh.socomic.com/comiclist/4/1541/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_35 : http://mh.socomic.com/comiclist/4/1542/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_36 : http://mh.socomic.com/comiclist/4/1543/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_37 : http://mh.socomic.com/comiclist/4/1548/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_38 : http://mh.socomic.com/comiclist/4/1558/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_39 : http://mh.socomic.com/comiclist/4/1559/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_40 : http://mh.socomic.com/comiclist/4/1561/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_41 : http://mh.socomic.com/comiclist/4/1567/1.htm
+INFO  2013-03-20 00:29:25,793 [main] - 海贼王_OnePiece_Vol_42 : http://mh.socomic.com/comiclist/4/1568/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_43 : http://mh.socomic.com/comiclist/4/1570/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_44 : http://mh.socomic.com/comiclist/4/1584/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_45 : http://mh.socomic.com/comiclist/4/4323/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_46 : http://mh.socomic.com/comiclist/4/4361/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_47 : http://mh.socomic.com/comiclist/4/4419/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_48 : http://mh.socomic.com/comiclist/4/4455/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_49 : http://mh.socomic.com/comiclist/4/4509/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_50 : http://mh.socomic.com/comiclist/4/4554/1.htm
+INFO  2013-03-20 00:29:25,794 [main] - 海贼王_OnePiece_Vol_51 : http://mh.socomic.com/comiclist/4/4747/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王_OnePiece_Vol_52 : http://mh.socomic.com/comiclist/4/4767/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王_OnePiece_Vol_53 : http://mh.socomic.com/comiclist/4/4947/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王_OnePiece_Vol_54 : http://mh.socomic.com/comiclist/4/4991/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王_OnePiece_Vol_55 : http://mh.socomic.com/comiclist/4/11781/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王[542]另一个终会被传诵的事件 : http://mh.socomic.com/comiclist/4/13159/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王[543]草帽与黑胡子 : http://mh.socomic.com/comiclist/4/13281/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王[544]地狱之门亦敞开 : http://mh.socomic.com/comiclist/4/13339/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王[545]阳光普照的自由世界 : http://mh.socomic.com/comiclist/4/13436/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王[546]鱼人海贼团船长甚平 : http://mh.socomic.com/comiclist/4/13483/1.htm
+INFO  2013-03-20 00:29:25,795 [main] - 海贼王[547]冲出监狱岛 : http://mh.socomic.com/comiclist/4/13570/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[548]谢谢你 : http://mh.socomic.com/comiclist/4/13647/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[549]出击之舰+小剧场 : http://mh.socomic.com/comiclist/4/13702/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[550]海军本部 : http://mh.socomic.com/comiclist/4/13807/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[551]四皇白胡子 : http://mh.socomic.com/comiclist/4/13868/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[552]艾斯与白胡子 : http://mh.socomic.com/comiclist/4/13918/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[553]顶尖对决 : http://mh.socomic.com/comiclist/4/14062/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[554]大将赤犬 : http://mh.socomic.com/comiclist/4/14193/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[555]奥兹和斗笠 : http://mh.socomic.com/comiclist/4/14256/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[556]正义必胜 : http://mh.socomic.com/comiclist/4/14313/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[557]路飞与白胡子 : http://mh.socomic.com/comiclist/4/14438/1.htm
+INFO  2013-03-20 00:29:25,796 [main] - 海贼王[558]弟弟 : http://mh.socomic.com/comiclist/4/14518/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[559]天命 : http://mh.socomic.com/comiclist/4/14628/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[560]推进城的囚犯们 : http://mh.socomic.com/comiclist/4/14710/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[561]路飞VS米霍克 : http://mh.socomic.com/comiclist/4/14969/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[562]海贼大涡蜘蛛史库亚多 : http://mh.socomic.com/comiclist/4/15140/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[563]一颗心一个人 : http://mh.socomic.com/comiclist/4/15213/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[564]动摇世界的男人 : http://mh.socomic.com/comiclist/4/15333/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[565]奥兹之道 : http://mh.socomic.com/comiclist/4/15401/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[566]猛攻 : http://mh.socomic.com/comiclist/4/15459/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[567]海军本部欧力斯广场 : http://mh.socomic.com/comiclist/4/15521/1.htm
+INFO  2013-03-20 00:29:25,797 [main] - 海贼王[568]任意妄為 : http://mh.socomic.com/comiclist/4/15583/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[569]怪物 : http://mh.socomic.com/comiclist/4/15652/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[570]命系悬桥 : http://mh.socomic.com/comiclist/4/15958/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[571]处刑台 : http://mh.socomic.com/comiclist/4/16023/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[572]这一刻他们将改变时代 : http://mh.socomic.com/comiclist/4/16099/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[573]将此时代称作“白胡子” : http://mh.socomic.com/comiclist/4/16151/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[574]波特卡斯.D.艾斯之死 : http://mh.socomic.com/comiclist/4/16205/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[575]无言的愤怒 : http://mh.socomic.com/comiclist/4/16265/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[576]大海贼爱德华.纽盖特 : http://mh.socomic.com/comiclist/4/16373/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[577]接踵而来的大事件 : http://mh.socomic.com/comiclist/4/16417/1.htm
+INFO  2013-03-20 00:29:25,798 [main] - 海贼王[578]托付于新时代之物 : http://mh.socomic.com/comiclist/4/16470/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[579]充满勇气的数秒 : http://mh.socomic.com/comiclist/4/16585/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[580]终战 : http://mh.socomic.com/comiclist/4/16631/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[581]悄然而至的未来 : http://mh.socomic.com/comiclist/4/16743/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[582]路飞与艾斯 : http://mh.socomic.com/comiclist/4/16792/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[583]不确定之物的终点站 : http://mh.socomic.com/comiclist/4/16894/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[584]泊而谢米事件 : http://mh.socomic.com/comiclist/4/16959/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[585]结义杯 : http://mh.socomic.com/comiclist/4/17036/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[586]恶臭弥漫的城市 : http://mh.socomic.com/comiclist/4/17099/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[587]我，不会逃 : http://mh.socomic.com/comiclist/4/17153/1.htm
+INFO  2013-03-20 00:29:25,799 [main] - 海贼王[588]萨波之海 : http://mh.socomic.com/comiclist/4/17213/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[589]风云之志 : http://mh.socomic.com/comiclist/4/17455/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[590]弟弟啊 : http://mh.socomic.com/comiclist/4/17542/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[591]这样好吗 : http://mh.socomic.com/comiclist/4/17659/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[592]声援 : http://mh.socomic.com/comiclist/4/17719/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[593]NEWS : http://mh.socomic.com/comiclist/4/17778/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[594]MESSAGE : http://mh.socomic.com/comiclist/4/17876/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[595]宣誓 : http://mh.socomic.com/comiclist/4/17947/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[596]SPECTRUM : http://mh.socomic.com/comiclist/4/18053/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[597]3D2Y : http://mh.socomic.com/comiclist/4/18107/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[598]2年后 : http://mh.socomic.com/comiclist/4/18475/1.htm
+INFO  2013-03-20 00:29:25,800 [main] - 海贼王[599]九人的海贼 : http://mh.socomic.com/comiclist/4/18538/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[600]再启航之岛 : http://mh.socomic.com/comiclist/4/18637/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[601]前往新世界冒险的黎明 : http://mh.socomic.com/comiclist/4/18698/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[602]全速下潜 : http://mh.socomic.com/comiclist/4/18768/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[603]铭记于心 : http://mh.socomic.com/comiclist/4/18839/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[604]目标 深海 : http://mh.socomic.com/comiclist/4/18936/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[605]海怪和海贼 : http://mh.socomic.com/comiclist/4/19080/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[606]深海的冒险 : http://mh.socomic.com/comiclist/4/19208/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[607]海底1万米 : http://mh.socomic.com/comiclist/4/19313/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[608]海底乐园 : http://mh.socomic.com/comiclist/4/19381/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[609]鱼人岛的冒险 : http://mh.socomic.com/comiclist/4/19469/1.htm
+INFO  2013-03-20 00:29:25,801 [main] - 海贼王[610]占卜师Madam·夏莉 : http://mh.socomic.com/comiclist/4/19633/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[611]霍迪·琼斯 : http://mh.socomic.com/comiclist/4/19699/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[612]被所救之鲨引领 : http://mh.socomic.com/comiclist/4/19802/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[613]硬壳塔的人鱼公主 : http://mh.socomic.com/comiclist/4/19875/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[614]泼出去的水是收不回来的 : http://mh.socomic.com/comiclist/4/19951/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[615]靶靶的诅咒 : http://mh.socomic.com/comiclist/4/20031/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[616]绝不抛弃倔强心 : http://mh.socomic.com/comiclist/4/20090/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[617]珊瑚丘的大事件 : http://mh.socomic.com/comiclist/4/20270/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[618]求婚 : http://mh.socomic.com/comiclist/4/20441/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[619]在海之森 : http://mh.socomic.com/comiclist/4/20656/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[620]憧憬的游乐园 : http://mh.socomic.com/comiclist/4/20759/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[621]乙姬与泰格 : http://mh.socomic.com/comiclist/4/20844/1.htm
+INFO  2013-03-20 00:29:25,802 [main] - 海贼王[622]太阳海贼团 : http://mh.socomic.com/comiclist/4/20941/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[623]海贼费谢·泰格 : http://mh.socomic.com/comiclist/4/21164/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[624]乙姬王妃 : http://mh.socomic.com/comiclist/4/21377/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[625]无法继承的意志 : http://mh.socomic.com/comiclist/4/21459/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[626]尼普顿3兄弟 : http://mh.socomic.com/comiclist/4/21605/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[627]不胜感激 : http://mh.socomic.com/comiclist/4/21731/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[628]大清洗 : http://mh.socomic.com/comiclist/4/21915/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[629]挡住去路的原七武海 : http://mh.socomic.com/comiclist/4/22000/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[630]开始暴走 : http://mh.socomic.com/comiclist/4/22092/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[631]琼克鲁德广场 : http://mh.socomic.com/comiclist/4/22202/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[632]早已知道 : http://mh.socomic.com/comiclist/4/22288/1.htm
+INFO  2013-03-20 00:29:25,803 [main] - 海贼王[633]是敌是友 : http://mh.socomic.com/comiclist/4/22478/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[634]十万 VS 10 : http://mh.socomic.com/comiclist/4/22580/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[635]悍破云霄 : http://mh.socomic.com/comiclist/4/22802/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[636]来自未来国的将军 : http://mh.socomic.com/comiclist/4/22891/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[637]古之方舟 : http://mh.socomic.com/comiclist/4/22974/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[638]快逃星星 : http://mh.socomic.com/comiclist/4/23036/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[639]守护一切 : http://mh.socomic.com/comiclist/4/23150/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[640]鱼人岛正上方 : http://mh.socomic.com/comiclist/4/23290/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[641]你怎么了 : http://mh.socomic.com/comiclist/4/23490/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[642]颜面无存 : http://mh.socomic.com/comiclist/4/23567/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[643]虚 : http://mh.socomic.com/comiclist/4/23702/1.htm
+INFO  2013-03-20 00:29:25,804 [main] - 海贼王[644]归零 : http://mh.socomic.com/comiclist/4/23800/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[645]死也是种复仇 : http://mh.socomic.com/comiclist/4/23885/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[646]蛙 : http://mh.socomic.com/comiclist/4/24073/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[647]诺亚快停 : http://mh.socomic.com/comiclist/4/24158/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[648]通往太阳之路 : http://mh.socomic.com/comiclist/4/24286/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[649]鲷与比目鱼的曼舞 : http://mh.socomic.com/comiclist/4/24392/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[650]应当知晓的两个变化 : http://mh.socomic.com/comiclist/4/24500/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[651]来自新世界的问候 : http://mh.socomic.com/comiclist/4/24723/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[652]前途多舛的預感 : http://mh.socomic.com/comiclist/4/24980/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[653]英雄的帽子 : http://mh.socomic.com/comiclist/4/25086/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[654]鲸群流 : http://mh.socomic.com/comiclist/4/25184/1.htm
+INFO  2013-03-20 00:29:25,805 [main] - 海贼王[655]龐克哈薩德 爆裂危机 : http://mh.socomic.com/comiclist/4/25275/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[656]燃烧岛大冒险 : http://mh.socomic.com/comiclist/4/25381/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[657]首级 : http://mh.socomic.com/comiclist/4/25508/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[658]甜饼屋 : http://mh.socomic.com/comiclist/4/25688/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[659]身躯的遭遇 : http://mh.socomic.com/comiclist/4/25797/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[660]王下七武海 特拉法尔加.罗 : http://mh.socomic.com/comiclist/4/25942/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[661]强盗出没之湖 : http://mh.socomic.com/comiclist/4/26044/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[662]罗VS斯摩格中将 : http://mh.socomic.com/comiclist/4/26160/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[663]CC : http://mh.socomic.com/comiclist/4/26411/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[664]M·凯撒·库朗 : http://mh.socomic.com/comiclist/4/26534/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[665]CANDY : http://mh.socomic.com/comiclist/4/26708/1.htm
+INFO  2013-03-20 00:29:25,806 [main] - 海贼王[666]雪人 COOL BROTHERS : http://mh.socomic.com/comiclist/4/26887/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[667]COOL FIGHT : http://mh.socomic.com/comiclist/4/27001/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[668]海贼同盟 : http://mh.socomic.com/comiclist/4/27115/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[669]作战开始 : http://mh.socomic.com/comiclist/4/27238/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[670]暴风雪,时有Slime雨 : http://mh.socomic.com/comiclist/4/27357/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[671]瓦斯瓦斯果实 : http://mh.socomic.com/comiclist/4/27524/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[672]鄙人 名唤锦卫门 : http://mh.socomic.com/comiclist/4/27809/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[673]维而戈与小丑 : http://mh.socomic.com/comiclist/4/27939/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[674]旁观者们 : http://mh.socomic.com/comiclist/4/28052/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[675]其名也称作“死亡国度” : http://mh.socomic.com/comiclist/4/28323/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[676]杀戮武器完成 : http://mh.socomic.com/comiclist/4/28435/1.htm
+INFO  2013-03-20 00:29:25,807 [main] - 海贼王[677]COUNTER HAZARD : http://mh.socomic.com/comiclist/4/28650/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[678]研究所內A栋大厅 : http://mh.socomic.com/comiclist/4/28776/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[679]G-5真汉子 : http://mh.socomic.com/comiclist/4/28923/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[680]海军G-5基地长 : http://mh.socomic.com/comiclist/4/29067/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[681]路飞VS.M : http://mh.socomic.com/comiclist/4/29187/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[682]黑幕 : http://mh.socomic.com/comiclist/4/29286/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[683]冰一般的女人 : http://mh.socomic.com/comiclist/4/29488/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[684]快住手吧贝加班克 : http://mh.socomic.com/comiclist/4/29640/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[685]桃之助便是在下的大名 : http://mh.socomic.com/comiclist/4/29786/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[686]甜饼屋的雪女 : http://mh.socomic.com/comiclist/4/29926/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[687]猛兽 : http://mh.socomic.com/comiclist/4/30050/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[688]莫查 : http://mh.socomic.com/comiclist/4/30226/1.htm
+INFO  2013-03-20 00:29:25,808 [main] - 海贼王[689]仿佛不存在的岛 : http://mh.socomic.com/comiclist/4/30514/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[690]SAD : http://mh.socomic.com/comiclist/4/30619/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[691]死亡国度的王 : http://mh.socomic.com/comiclist/4/30728/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[692]德蕾丝罗萨来的刺客 : http://mh.socomic.com/comiclist/4/30852/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[693]全给我去死 : http://mh.socomic.com/comiclist/4/30961/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[694]最危险的男人 : http://mh.socomic.com/comiclist/4/31126/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[695]交给我吧 : http://mh.socomic.com/comiclist/4/31458/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[696]利害一致 : http://mh.socomic.com/comiclist/4/31583/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[697]交易 : http://mh.socomic.com/comiclist/4/31730/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[698]多佛朗明哥出现 : http://mh.socomic.com/comiclist/4/31827/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[699]晨刊 : http://mh.socomic.com/comiclist/4/32069/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[700]诡计 : http://mh.socomic.com/comiclist/4/32160/1.htm
+INFO  2013-03-20 00:29:25,809 [main] - 海贼王[701]爱与激情与玩具之国的冒险 : http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:29:25,810 [main] - 海贼王[702]克里达竞技场 : http://mh.socomic.com/comiclist/4/32506/1.htm
+INFO  2013-03-20 00:29:25,828 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:25,828 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:26,342 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:29:26,406 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/1.htm
+INFO  2013-03-20 00:29:27,965 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00103F.jpg
+INFO  2013-03-20 00:29:27,965 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00103F.jpg
+INFO  2013-03-20 00:29:27,967 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/2.htm
+INFO  2013-03-20 00:29:27,967 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/2.htm
+INFO  2013-03-20 00:29:27,967 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:27,967 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:28,002 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/2.htm
+INFO  2013-03-20 00:29:28,016 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/2.htm
+INFO  2013-03-20 00:29:28,508 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00206I.jpg
+INFO  2013-03-20 00:29:28,509 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/3.htm
+INFO  2013-03-20 00:29:28,509 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:28,510 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00206I.jpg
+INFO  2013-03-20 00:29:28,512 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/3.htm
+INFO  2013-03-20 00:29:28,512 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:28,546 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/3.htm
+INFO  2013-03-20 00:29:28,547 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/3.htm
+INFO  2013-03-20 00:29:29,135 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00309L.jpg
+INFO  2013-03-20 00:29:29,136 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/4.htm
+INFO  2013-03-20 00:29:29,136 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:29,162 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00309L.jpg
+INFO  2013-03-20 00:29:29,163 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/4.htm
+INFO  2013-03-20 00:29:29,163 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:29,189 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/4.htm
+INFO  2013-03-20 00:29:29,229 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/4.htm
+INFO  2013-03-20 00:29:29,827 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0040CO.jpg
+INFO  2013-03-20 00:29:29,828 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/5.htm
+INFO  2013-03-20 00:29:29,828 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:29,840 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0040CO.jpg
+INFO  2013-03-20 00:29:29,841 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/5.htm
+INFO  2013-03-20 00:29:29,841 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:29,884 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/5.htm
+INFO  2013-03-20 00:29:29,902 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/5.htm
+INFO  2013-03-20 00:29:30,348 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0050FR.jpg
+INFO  2013-03-20 00:29:30,349 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/6.htm
+INFO  2013-03-20 00:29:30,349 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:30,372 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0050FR.jpg
+INFO  2013-03-20 00:29:30,373 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/6.htm
+INFO  2013-03-20 00:29:30,373 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:30,385 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/6.htm
+INFO  2013-03-20 00:29:30,437 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/6.htm
+INFO  2013-03-20 00:29:31,674 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0060IU.jpg
+INFO  2013-03-20 00:29:31,675 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/7.htm
+INFO  2013-03-20 00:29:31,675 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:31,680 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0060IU.jpg
+INFO  2013-03-20 00:29:31,681 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/7.htm
+INFO  2013-03-20 00:29:31,681 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:31,720 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/7.htm
+INFO  2013-03-20 00:29:31,721 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/7.htm
+INFO  2013-03-20 00:29:32,070 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0070LX.jpg
+INFO  2013-03-20 00:29:32,071 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/8.htm
+INFO  2013-03-20 00:29:32,071 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:32,073 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0070LX.jpg
+INFO  2013-03-20 00:29:32,078 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/8.htm
+INFO  2013-03-20 00:29:32,079 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:32,108 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/8.htm
+INFO  2013-03-20 00:29:32,115 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/8.htm
+INFO  2013-03-20 00:29:32,544 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0080P0.jpg
+INFO  2013-03-20 00:29:32,545 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/9.htm
+INFO  2013-03-20 00:29:32,545 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:32,570 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0080P0.jpg
+INFO  2013-03-20 00:29:32,571 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/9.htm
+INFO  2013-03-20 00:29:32,571 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:32,583 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/9.htm
+INFO  2013-03-20 00:29:32,623 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/9.htm
+INFO  2013-03-20 00:29:33,174 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0090S3.jpg
+INFO  2013-03-20 00:29:33,175 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/10.htm
+INFO  2013-03-20 00:29:33,175 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:33,215 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0090S3.jpg
+INFO  2013-03-20 00:29:33,216 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/10.htm
+INFO  2013-03-20 00:29:33,216 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:33,228 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/10.htm
+INFO  2013-03-20 00:29:33,256 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/10.htm
+INFO  2013-03-20 00:29:33,619 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0100V6.jpg
+INFO  2013-03-20 00:29:33,621 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/11.htm
+INFO  2013-03-20 00:29:33,621 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:33,652 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0100V6.jpg
+INFO  2013-03-20 00:29:33,653 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/11.htm
+INFO  2013-03-20 00:29:33,653 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:33,661 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/11.htm
+INFO  2013-03-20 00:29:33,691 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/11.htm
+INFO  2013-03-20 00:29:34,050 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0110Y9.jpg
+INFO  2013-03-20 00:29:34,051 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/12.htm
+INFO  2013-03-20 00:29:34,051 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:34,077 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0110Y9.jpg
+INFO  2013-03-20 00:29:34,078 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/12.htm
+INFO  2013-03-20 00:29:34,078 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:34,142 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/12.htm
+INFO  2013-03-20 00:29:34,145 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/12.htm
+INFO  2013-03-20 00:29:34,695 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01211C.jpg
+INFO  2013-03-20 00:29:34,696 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/13.htm
+INFO  2013-03-20 00:29:34,696 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:34,717 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_01211C.jpg
+INFO  2013-03-20 00:29:34,718 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/13.htm
+INFO  2013-03-20 00:29:34,718 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:34,738 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/13.htm
+INFO  2013-03-20 00:29:35,079 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01314F.jpg
+INFO  2013-03-20 00:29:35,080 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/14.htm
+INFO  2013-03-20 00:29:35,080 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:35,115 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/14.htm
+INFO  2013-03-20 00:29:35,397 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/13.htm
+INFO  2013-03-20 00:29:35,488 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01417I.jpg
+INFO  2013-03-20 00:29:35,492 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/15.htm
+INFO  2013-03-20 00:29:35,492 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:35,528 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/15.htm
+INFO  2013-03-20 00:29:35,885 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_01314F.jpg
+INFO  2013-03-20 00:29:35,891 [pool-1-thread-3] - NextPage: http://mh.socomic.com/comiclist/4/32506/14.htm
+INFO  2013-03-20 00:29:35,891 [pool-1-thread-3] - -----------------------------------------------
+INFO  2013-03-20 00:29:35,941 [pool-1-thread-3] - Parse: http://mh.socomic.com/comiclist/4/32506/14.htm
+INFO  2013-03-20 00:29:36,099 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0151AL.jpg
+INFO  2013-03-20 00:29:36,100 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/16.htm
+INFO  2013-03-20 00:29:36,100 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:36,153 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/16.htm
+INFO  2013-03-20 00:29:36,399 [pool-1-thread-3] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_014-01517I.jpg
+INFO  2013-03-20 00:29:36,400 [pool-1-thread-3] - NextPage: exit
+INFO  2013-03-20 00:29:36,610 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0161DO.jpg
+INFO  2013-03-20 00:29:36,611 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/17.htm
+INFO  2013-03-20 00:29:36,611 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:36,650 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/17.htm
+INFO  2013-03-20 00:29:37,226 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0171GR.jpg
+INFO  2013-03-20 00:29:37,227 [pool-1-thread-4] - NextPage: http://mh.socomic.com/comiclist/4/32265/18.htm
+INFO  2013-03-20 00:29:37,227 [pool-1-thread-4] - -----------------------------------------------
+INFO  2013-03-20 00:29:37,280 [pool-1-thread-4] - Parse: http://mh.socomic.com/comiclist/4/32265/18.htm
+INFO  2013-03-20 00:29:37,690 [pool-1-thread-4] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_018-0191JU.jpg
+INFO  2013-03-20 00:29:37,691 [pool-1-thread-4] - NextPage: exit
+INFO  2013-03-20 00:30:19,072 [main] - 海贼王_OnePiece_Vol_1 : http://mh.socomic.com/comiclist/4/1417/1.htm
+INFO  2013-03-20 00:30:19,072 [main] - 海贼王_OnePiece_Vol_2 : http://mh.socomic.com/comiclist/4/1418/1.htm
+INFO  2013-03-20 00:30:19,072 [main] - 海贼王_OnePiece_Vol_3 : http://mh.socomic.com/comiclist/4/1419/1.htm
+INFO  2013-03-20 00:30:19,072 [main] - 海贼王_OnePiece_Vol_4 : http://mh.socomic.com/comiclist/4/1420/1.htm
+INFO  2013-03-20 00:30:19,073 [main] - 海贼王_OnePiece_Vol_5 : http://mh.socomic.com/comiclist/4/1421/1.htm
+INFO  2013-03-20 00:30:19,073 [main] - 海贼王_OnePiece_Vol_6 : http://mh.socomic.com/comiclist/4/1422/1.htm
+INFO  2013-03-20 00:30:19,073 [main] - 海贼王_OnePiece_Vol_7 : http://mh.socomic.com/comiclist/4/1423/1.htm
+INFO  2013-03-20 00:30:19,073 [main] - 海贼王_OnePiece_Vol_8 : http://mh.socomic.com/comiclist/4/1424/1.htm
+INFO  2013-03-20 00:30:19,073 [main] - 海贼王_OnePiece_Vol_9 : http://mh.socomic.com/comiclist/4/1425/1.htm
+INFO  2013-03-20 00:30:19,073 [main] - 海贼王_OnePiece_Vol_10 : http://mh.socomic.com/comiclist/4/1426/1.htm
+INFO  2013-03-20 00:30:19,073 [main] - 海贼王_OnePiece_Vol_11 : http://mh.socomic.com/comiclist/4/1427/1.htm
+INFO  2013-03-20 00:30:19,074 [main] - 海贼王_OnePiece_Vol_12 : http://mh.socomic.com/comiclist/4/1428/1.htm
+INFO  2013-03-20 00:30:19,074 [main] - 海贼王_OnePiece_Vol_13 : http://mh.socomic.com/comiclist/4/1429/1.htm
+INFO  2013-03-20 00:30:19,074 [main] - 海贼王_OnePiece_Vol_14 : http://mh.socomic.com/comiclist/4/1430/1.htm
+INFO  2013-03-20 00:30:19,075 [main] - 海贼王_OnePiece_Vol_15 : http://mh.socomic.com/comiclist/4/1431/1.htm
+INFO  2013-03-20 00:30:19,075 [main] - 海贼王_OnePiece_Vol_16 : http://mh.socomic.com/comiclist/4/1432/1.htm
+INFO  2013-03-20 00:30:19,075 [main] - 海贼王_OnePiece_Vol_17 : http://mh.socomic.com/comiclist/4/1433/1.htm
+INFO  2013-03-20 00:30:19,075 [main] - 海贼王_OnePiece_Vol_18 : http://mh.socomic.com/comiclist/4/1434/1.htm
+INFO  2013-03-20 00:30:19,075 [main] - 海贼王_OnePiece_Vol_19 : http://mh.socomic.com/comiclist/4/1435/1.htm
+INFO  2013-03-20 00:30:19,075 [main] - 海贼王_OnePiece_Vol_20 : http://mh.socomic.com/comiclist/4/1436/1.htm
+INFO  2013-03-20 00:30:19,076 [main] - 海贼王_OnePiece_Vol_21 : http://mh.socomic.com/comiclist/4/1437/1.htm
+INFO  2013-03-20 00:30:19,076 [main] - 海贼王_OnePiece_Vol_22 : http://mh.socomic.com/comiclist/4/1438/1.htm
+INFO  2013-03-20 00:30:19,076 [main] - 海贼王_OnePiece_Vol_23 : http://mh.socomic.com/comiclist/4/1439/1.htm
+INFO  2013-03-20 00:30:19,076 [main] - 海贼王_OnePiece_Vol_24 : http://mh.socomic.com/comiclist/4/1440/1.htm
+INFO  2013-03-20 00:30:19,076 [main] - 海贼王_OnePiece_Vol_25 : http://mh.socomic.com/comiclist/4/1441/1.htm
+INFO  2013-03-20 00:30:19,076 [main] - 海贼王_OnePiece_Vol_26 : http://mh.socomic.com/comiclist/4/1442/1.htm
+INFO  2013-03-20 00:30:19,076 [main] - 海贼王_OnePiece_Vol_27 : http://mh.socomic.com/comiclist/4/1443/1.htm
+INFO  2013-03-20 00:30:19,077 [main] - 海贼王_OnePiece_Vol_28 : http://mh.socomic.com/comiclist/4/1444/1.htm
+INFO  2013-03-20 00:30:19,077 [main] - 海贼王_OnePiece_Vol_29 : http://mh.socomic.com/comiclist/4/1445/1.htm
+INFO  2013-03-20 00:30:19,077 [main] - 海贼王_OnePiece_Vol_30 : http://mh.socomic.com/comiclist/4/1446/1.htm
+INFO  2013-03-20 00:30:19,077 [main] - 海贼王_OnePiece_Vol_31 : http://mh.socomic.com/comiclist/4/1447/1.htm
+INFO  2013-03-20 00:30:19,077 [main] - 海贼王_OnePiece_Vol_32 : http://mh.socomic.com/comiclist/4/1448/1.htm
+INFO  2013-03-20 00:30:19,077 [main] - 海贼王_OnePiece_Vol_33 : http://mh.socomic.com/comiclist/4/1540/1.htm
+INFO  2013-03-20 00:30:19,077 [main] - 海贼王_OnePiece_Vol_34 : http://mh.socomic.com/comiclist/4/1541/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_35 : http://mh.socomic.com/comiclist/4/1542/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_36 : http://mh.socomic.com/comiclist/4/1543/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_37 : http://mh.socomic.com/comiclist/4/1548/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_38 : http://mh.socomic.com/comiclist/4/1558/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_39 : http://mh.socomic.com/comiclist/4/1559/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_40 : http://mh.socomic.com/comiclist/4/1561/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_41 : http://mh.socomic.com/comiclist/4/1567/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_42 : http://mh.socomic.com/comiclist/4/1568/1.htm
+INFO  2013-03-20 00:30:19,078 [main] - 海贼王_OnePiece_Vol_43 : http://mh.socomic.com/comiclist/4/1570/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_44 : http://mh.socomic.com/comiclist/4/1584/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_45 : http://mh.socomic.com/comiclist/4/4323/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_46 : http://mh.socomic.com/comiclist/4/4361/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_47 : http://mh.socomic.com/comiclist/4/4419/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_48 : http://mh.socomic.com/comiclist/4/4455/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_49 : http://mh.socomic.com/comiclist/4/4509/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_50 : http://mh.socomic.com/comiclist/4/4554/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_51 : http://mh.socomic.com/comiclist/4/4747/1.htm
+INFO  2013-03-20 00:30:19,079 [main] - 海贼王_OnePiece_Vol_52 : http://mh.socomic.com/comiclist/4/4767/1.htm
+INFO  2013-03-20 00:30:19,080 [main] - 海贼王_OnePiece_Vol_53 : http://mh.socomic.com/comiclist/4/4947/1.htm
+INFO  2013-03-20 00:30:19,080 [main] - 海贼王_OnePiece_Vol_54 : http://mh.socomic.com/comiclist/4/4991/1.htm
+INFO  2013-03-20 00:30:19,080 [main] - 海贼王_OnePiece_Vol_55 : http://mh.socomic.com/comiclist/4/11781/1.htm
+INFO  2013-03-20 00:30:19,080 [main] - 海贼王[542]另一个终会被传诵的事件 : http://mh.socomic.com/comiclist/4/13159/1.htm
+INFO  2013-03-20 00:30:19,080 [main] - 海贼王[543]草帽与黑胡子 : http://mh.socomic.com/comiclist/4/13281/1.htm
+INFO  2013-03-20 00:30:19,080 [main] - 海贼王[544]地狱之门亦敞开 : http://mh.socomic.com/comiclist/4/13339/1.htm
+INFO  2013-03-20 00:30:19,080 [main] - 海贼王[545]阳光普照的自由世界 : http://mh.socomic.com/comiclist/4/13436/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[546]鱼人海贼团船长甚平 : http://mh.socomic.com/comiclist/4/13483/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[547]冲出监狱岛 : http://mh.socomic.com/comiclist/4/13570/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[548]谢谢你 : http://mh.socomic.com/comiclist/4/13647/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[549]出击之舰+小剧场 : http://mh.socomic.com/comiclist/4/13702/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[550]海军本部 : http://mh.socomic.com/comiclist/4/13807/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[551]四皇白胡子 : http://mh.socomic.com/comiclist/4/13868/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[552]艾斯与白胡子 : http://mh.socomic.com/comiclist/4/13918/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[553]顶尖对决 : http://mh.socomic.com/comiclist/4/14062/1.htm
+INFO  2013-03-20 00:30:19,081 [main] - 海贼王[554]大将赤犬 : http://mh.socomic.com/comiclist/4/14193/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[555]奥兹和斗笠 : http://mh.socomic.com/comiclist/4/14256/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[556]正义必胜 : http://mh.socomic.com/comiclist/4/14313/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[557]路飞与白胡子 : http://mh.socomic.com/comiclist/4/14438/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[558]弟弟 : http://mh.socomic.com/comiclist/4/14518/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[559]天命 : http://mh.socomic.com/comiclist/4/14628/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[560]推进城的囚犯们 : http://mh.socomic.com/comiclist/4/14710/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[561]路飞VS米霍克 : http://mh.socomic.com/comiclist/4/14969/1.htm
+INFO  2013-03-20 00:30:19,082 [main] - 海贼王[562]海贼大涡蜘蛛史库亚多 : http://mh.socomic.com/comiclist/4/15140/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[563]一颗心一个人 : http://mh.socomic.com/comiclist/4/15213/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[564]动摇世界的男人 : http://mh.socomic.com/comiclist/4/15333/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[565]奥兹之道 : http://mh.socomic.com/comiclist/4/15401/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[566]猛攻 : http://mh.socomic.com/comiclist/4/15459/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[567]海军本部欧力斯广场 : http://mh.socomic.com/comiclist/4/15521/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[568]任意妄為 : http://mh.socomic.com/comiclist/4/15583/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[569]怪物 : http://mh.socomic.com/comiclist/4/15652/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[570]命系悬桥 : http://mh.socomic.com/comiclist/4/15958/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[571]处刑台 : http://mh.socomic.com/comiclist/4/16023/1.htm
+INFO  2013-03-20 00:30:19,083 [main] - 海贼王[572]这一刻他们将改变时代 : http://mh.socomic.com/comiclist/4/16099/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[573]将此时代称作“白胡子” : http://mh.socomic.com/comiclist/4/16151/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[574]波特卡斯.D.艾斯之死 : http://mh.socomic.com/comiclist/4/16205/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[575]无言的愤怒 : http://mh.socomic.com/comiclist/4/16265/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[576]大海贼爱德华.纽盖特 : http://mh.socomic.com/comiclist/4/16373/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[577]接踵而来的大事件 : http://mh.socomic.com/comiclist/4/16417/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[578]托付于新时代之物 : http://mh.socomic.com/comiclist/4/16470/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[579]充满勇气的数秒 : http://mh.socomic.com/comiclist/4/16585/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[580]终战 : http://mh.socomic.com/comiclist/4/16631/1.htm
+INFO  2013-03-20 00:30:19,084 [main] - 海贼王[581]悄然而至的未来 : http://mh.socomic.com/comiclist/4/16743/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[582]路飞与艾斯 : http://mh.socomic.com/comiclist/4/16792/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[583]不确定之物的终点站 : http://mh.socomic.com/comiclist/4/16894/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[584]泊而谢米事件 : http://mh.socomic.com/comiclist/4/16959/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[585]结义杯 : http://mh.socomic.com/comiclist/4/17036/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[586]恶臭弥漫的城市 : http://mh.socomic.com/comiclist/4/17099/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[587]我，不会逃 : http://mh.socomic.com/comiclist/4/17153/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[588]萨波之海 : http://mh.socomic.com/comiclist/4/17213/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[589]风云之志 : http://mh.socomic.com/comiclist/4/17455/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[590]弟弟啊 : http://mh.socomic.com/comiclist/4/17542/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[591]这样好吗 : http://mh.socomic.com/comiclist/4/17659/1.htm
+INFO  2013-03-20 00:30:19,085 [main] - 海贼王[592]声援 : http://mh.socomic.com/comiclist/4/17719/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[593]NEWS : http://mh.socomic.com/comiclist/4/17778/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[594]MESSAGE : http://mh.socomic.com/comiclist/4/17876/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[595]宣誓 : http://mh.socomic.com/comiclist/4/17947/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[596]SPECTRUM : http://mh.socomic.com/comiclist/4/18053/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[597]3D2Y : http://mh.socomic.com/comiclist/4/18107/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[598]2年后 : http://mh.socomic.com/comiclist/4/18475/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[599]九人的海贼 : http://mh.socomic.com/comiclist/4/18538/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[600]再启航之岛 : http://mh.socomic.com/comiclist/4/18637/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[601]前往新世界冒险的黎明 : http://mh.socomic.com/comiclist/4/18698/1.htm
+INFO  2013-03-20 00:30:19,086 [main] - 海贼王[602]全速下潜 : http://mh.socomic.com/comiclist/4/18768/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[603]铭记于心 : http://mh.socomic.com/comiclist/4/18839/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[604]目标 深海 : http://mh.socomic.com/comiclist/4/18936/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[605]海怪和海贼 : http://mh.socomic.com/comiclist/4/19080/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[606]深海的冒险 : http://mh.socomic.com/comiclist/4/19208/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[607]海底1万米 : http://mh.socomic.com/comiclist/4/19313/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[608]海底乐园 : http://mh.socomic.com/comiclist/4/19381/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[609]鱼人岛的冒险 : http://mh.socomic.com/comiclist/4/19469/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[610]占卜师Madam·夏莉 : http://mh.socomic.com/comiclist/4/19633/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[611]霍迪·琼斯 : http://mh.socomic.com/comiclist/4/19699/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[612]被所救之鲨引领 : http://mh.socomic.com/comiclist/4/19802/1.htm
+INFO  2013-03-20 00:30:19,087 [main] - 海贼王[613]硬壳塔的人鱼公主 : http://mh.socomic.com/comiclist/4/19875/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[614]泼出去的水是收不回来的 : http://mh.socomic.com/comiclist/4/19951/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[615]靶靶的诅咒 : http://mh.socomic.com/comiclist/4/20031/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[616]绝不抛弃倔强心 : http://mh.socomic.com/comiclist/4/20090/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[617]珊瑚丘的大事件 : http://mh.socomic.com/comiclist/4/20270/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[618]求婚 : http://mh.socomic.com/comiclist/4/20441/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[619]在海之森 : http://mh.socomic.com/comiclist/4/20656/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[620]憧憬的游乐园 : http://mh.socomic.com/comiclist/4/20759/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[621]乙姬与泰格 : http://mh.socomic.com/comiclist/4/20844/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[622]太阳海贼团 : http://mh.socomic.com/comiclist/4/20941/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[623]海贼费谢·泰格 : http://mh.socomic.com/comiclist/4/21164/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[624]乙姬王妃 : http://mh.socomic.com/comiclist/4/21377/1.htm
+INFO  2013-03-20 00:30:19,088 [main] - 海贼王[625]无法继承的意志 : http://mh.socomic.com/comiclist/4/21459/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[626]尼普顿3兄弟 : http://mh.socomic.com/comiclist/4/21605/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[627]不胜感激 : http://mh.socomic.com/comiclist/4/21731/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[628]大清洗 : http://mh.socomic.com/comiclist/4/21915/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[629]挡住去路的原七武海 : http://mh.socomic.com/comiclist/4/22000/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[630]开始暴走 : http://mh.socomic.com/comiclist/4/22092/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[631]琼克鲁德广场 : http://mh.socomic.com/comiclist/4/22202/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[632]早已知道 : http://mh.socomic.com/comiclist/4/22288/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[633]是敌是友 : http://mh.socomic.com/comiclist/4/22478/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[634]十万 VS 10 : http://mh.socomic.com/comiclist/4/22580/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[635]悍破云霄 : http://mh.socomic.com/comiclist/4/22802/1.htm
+INFO  2013-03-20 00:30:19,089 [main] - 海贼王[636]来自未来国的将军 : http://mh.socomic.com/comiclist/4/22891/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[637]古之方舟 : http://mh.socomic.com/comiclist/4/22974/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[638]快逃星星 : http://mh.socomic.com/comiclist/4/23036/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[639]守护一切 : http://mh.socomic.com/comiclist/4/23150/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[640]鱼人岛正上方 : http://mh.socomic.com/comiclist/4/23290/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[641]你怎么了 : http://mh.socomic.com/comiclist/4/23490/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[642]颜面无存 : http://mh.socomic.com/comiclist/4/23567/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[643]虚 : http://mh.socomic.com/comiclist/4/23702/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[644]归零 : http://mh.socomic.com/comiclist/4/23800/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[645]死也是种复仇 : http://mh.socomic.com/comiclist/4/23885/1.htm
+INFO  2013-03-20 00:30:19,090 [main] - 海贼王[646]蛙 : http://mh.socomic.com/comiclist/4/24073/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[647]诺亚快停 : http://mh.socomic.com/comiclist/4/24158/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[648]通往太阳之路 : http://mh.socomic.com/comiclist/4/24286/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[649]鲷与比目鱼的曼舞 : http://mh.socomic.com/comiclist/4/24392/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[650]应当知晓的两个变化 : http://mh.socomic.com/comiclist/4/24500/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[651]来自新世界的问候 : http://mh.socomic.com/comiclist/4/24723/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[652]前途多舛的預感 : http://mh.socomic.com/comiclist/4/24980/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[653]英雄的帽子 : http://mh.socomic.com/comiclist/4/25086/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[654]鲸群流 : http://mh.socomic.com/comiclist/4/25184/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[655]龐克哈薩德 爆裂危机 : http://mh.socomic.com/comiclist/4/25275/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[656]燃烧岛大冒险 : http://mh.socomic.com/comiclist/4/25381/1.htm
+INFO  2013-03-20 00:30:19,091 [main] - 海贼王[657]首级 : http://mh.socomic.com/comiclist/4/25508/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[658]甜饼屋 : http://mh.socomic.com/comiclist/4/25688/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[659]身躯的遭遇 : http://mh.socomic.com/comiclist/4/25797/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[660]王下七武海 特拉法尔加.罗 : http://mh.socomic.com/comiclist/4/25942/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[661]强盗出没之湖 : http://mh.socomic.com/comiclist/4/26044/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[662]罗VS斯摩格中将 : http://mh.socomic.com/comiclist/4/26160/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[663]CC : http://mh.socomic.com/comiclist/4/26411/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[664]M·凯撒·库朗 : http://mh.socomic.com/comiclist/4/26534/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[665]CANDY : http://mh.socomic.com/comiclist/4/26708/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[666]雪人 COOL BROTHERS : http://mh.socomic.com/comiclist/4/26887/1.htm
+INFO  2013-03-20 00:30:19,092 [main] - 海贼王[667]COOL FIGHT : http://mh.socomic.com/comiclist/4/27001/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[668]海贼同盟 : http://mh.socomic.com/comiclist/4/27115/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[669]作战开始 : http://mh.socomic.com/comiclist/4/27238/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[670]暴风雪,时有Slime雨 : http://mh.socomic.com/comiclist/4/27357/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[671]瓦斯瓦斯果实 : http://mh.socomic.com/comiclist/4/27524/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[672]鄙人 名唤锦卫门 : http://mh.socomic.com/comiclist/4/27809/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[673]维而戈与小丑 : http://mh.socomic.com/comiclist/4/27939/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[674]旁观者们 : http://mh.socomic.com/comiclist/4/28052/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[675]其名也称作“死亡国度” : http://mh.socomic.com/comiclist/4/28323/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[676]杀戮武器完成 : http://mh.socomic.com/comiclist/4/28435/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[677]COUNTER HAZARD : http://mh.socomic.com/comiclist/4/28650/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[678]研究所內A栋大厅 : http://mh.socomic.com/comiclist/4/28776/1.htm
+INFO  2013-03-20 00:30:19,093 [main] - 海贼王[679]G-5真汉子 : http://mh.socomic.com/comiclist/4/28923/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[680]海军G-5基地长 : http://mh.socomic.com/comiclist/4/29067/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[681]路飞VS.M : http://mh.socomic.com/comiclist/4/29187/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[682]黑幕 : http://mh.socomic.com/comiclist/4/29286/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[683]冰一般的女人 : http://mh.socomic.com/comiclist/4/29488/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[684]快住手吧贝加班克 : http://mh.socomic.com/comiclist/4/29640/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[685]桃之助便是在下的大名 : http://mh.socomic.com/comiclist/4/29786/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[686]甜饼屋的雪女 : http://mh.socomic.com/comiclist/4/29926/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[687]猛兽 : http://mh.socomic.com/comiclist/4/30050/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[688]莫查 : http://mh.socomic.com/comiclist/4/30226/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[689]仿佛不存在的岛 : http://mh.socomic.com/comiclist/4/30514/1.htm
+INFO  2013-03-20 00:30:19,094 [main] - 海贼王[690]SAD : http://mh.socomic.com/comiclist/4/30619/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[691]死亡国度的王 : http://mh.socomic.com/comiclist/4/30728/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[692]德蕾丝罗萨来的刺客 : http://mh.socomic.com/comiclist/4/30852/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[693]全给我去死 : http://mh.socomic.com/comiclist/4/30961/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[694]最危险的男人 : http://mh.socomic.com/comiclist/4/31126/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[695]交给我吧 : http://mh.socomic.com/comiclist/4/31458/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[696]利害一致 : http://mh.socomic.com/comiclist/4/31583/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[697]交易 : http://mh.socomic.com/comiclist/4/31730/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[698]多佛朗明哥出现 : http://mh.socomic.com/comiclist/4/31827/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[699]晨刊 : http://mh.socomic.com/comiclist/4/32069/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[700]诡计 : http://mh.socomic.com/comiclist/4/32160/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[701]爱与激情与玩具之国的冒险 : http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:30:19,095 [main] - 海贼王[702]克里达竞技场 : http://mh.socomic.com/comiclist/4/32506/1.htm
+INFO  2013-03-20 00:31:22,756 [main] - 海贼王_OnePiece_Vol_1 : http://mh.socomic.com/comiclist/4/1417/1.htm
+INFO  2013-03-20 00:31:22,757 [main] - 海贼王_OnePiece_Vol_2 : http://mh.socomic.com/comiclist/4/1418/1.htm
+INFO  2013-03-20 00:31:22,757 [main] - 海贼王_OnePiece_Vol_3 : http://mh.socomic.com/comiclist/4/1419/1.htm
+INFO  2013-03-20 00:31:22,757 [main] - 海贼王_OnePiece_Vol_4 : http://mh.socomic.com/comiclist/4/1420/1.htm
+INFO  2013-03-20 00:31:22,757 [main] - 海贼王_OnePiece_Vol_5 : http://mh.socomic.com/comiclist/4/1421/1.htm
+INFO  2013-03-20 00:31:22,758 [main] - 海贼王_OnePiece_Vol_6 : http://mh.socomic.com/comiclist/4/1422/1.htm
+INFO  2013-03-20 00:31:22,758 [main] - 海贼王_OnePiece_Vol_7 : http://mh.socomic.com/comiclist/4/1423/1.htm
+INFO  2013-03-20 00:31:22,758 [main] - 海贼王_OnePiece_Vol_8 : http://mh.socomic.com/comiclist/4/1424/1.htm
+INFO  2013-03-20 00:31:22,758 [main] - 海贼王_OnePiece_Vol_9 : http://mh.socomic.com/comiclist/4/1425/1.htm
+INFO  2013-03-20 00:31:22,758 [main] - 海贼王_OnePiece_Vol_10 : http://mh.socomic.com/comiclist/4/1426/1.htm
+INFO  2013-03-20 00:31:22,758 [main] - 海贼王_OnePiece_Vol_11 : http://mh.socomic.com/comiclist/4/1427/1.htm
+INFO  2013-03-20 00:31:22,759 [main] - 海贼王_OnePiece_Vol_12 : http://mh.socomic.com/comiclist/4/1428/1.htm
+INFO  2013-03-20 00:31:22,759 [main] - 海贼王_OnePiece_Vol_13 : http://mh.socomic.com/comiclist/4/1429/1.htm
+INFO  2013-03-20 00:31:22,759 [main] - 海贼王_OnePiece_Vol_14 : http://mh.socomic.com/comiclist/4/1430/1.htm
+INFO  2013-03-20 00:31:22,759 [main] - 海贼王_OnePiece_Vol_15 : http://mh.socomic.com/comiclist/4/1431/1.htm
+INFO  2013-03-20 00:31:22,759 [main] - 海贼王_OnePiece_Vol_16 : http://mh.socomic.com/comiclist/4/1432/1.htm
+INFO  2013-03-20 00:31:22,759 [main] - 海贼王_OnePiece_Vol_17 : http://mh.socomic.com/comiclist/4/1433/1.htm
+INFO  2013-03-20 00:31:22,759 [main] - 海贼王_OnePiece_Vol_18 : http://mh.socomic.com/comiclist/4/1434/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_19 : http://mh.socomic.com/comiclist/4/1435/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_20 : http://mh.socomic.com/comiclist/4/1436/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_21 : http://mh.socomic.com/comiclist/4/1437/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_22 : http://mh.socomic.com/comiclist/4/1438/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_23 : http://mh.socomic.com/comiclist/4/1439/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_24 : http://mh.socomic.com/comiclist/4/1440/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_25 : http://mh.socomic.com/comiclist/4/1441/1.htm
+INFO  2013-03-20 00:31:22,760 [main] - 海贼王_OnePiece_Vol_26 : http://mh.socomic.com/comiclist/4/1442/1.htm
+INFO  2013-03-20 00:31:22,761 [main] - 海贼王_OnePiece_Vol_27 : http://mh.socomic.com/comiclist/4/1443/1.htm
+INFO  2013-03-20 00:31:22,761 [main] - 海贼王_OnePiece_Vol_28 : http://mh.socomic.com/comiclist/4/1444/1.htm
+INFO  2013-03-20 00:31:22,761 [main] - 海贼王_OnePiece_Vol_29 : http://mh.socomic.com/comiclist/4/1445/1.htm
+INFO  2013-03-20 00:31:22,761 [main] - 海贼王_OnePiece_Vol_30 : http://mh.socomic.com/comiclist/4/1446/1.htm
+INFO  2013-03-20 00:31:22,762 [main] - 海贼王_OnePiece_Vol_31 : http://mh.socomic.com/comiclist/4/1447/1.htm
+INFO  2013-03-20 00:31:22,762 [main] - 海贼王_OnePiece_Vol_32 : http://mh.socomic.com/comiclist/4/1448/1.htm
+INFO  2013-03-20 00:31:22,762 [main] - 海贼王_OnePiece_Vol_33 : http://mh.socomic.com/comiclist/4/1540/1.htm
+INFO  2013-03-20 00:31:22,762 [main] - 海贼王_OnePiece_Vol_34 : http://mh.socomic.com/comiclist/4/1541/1.htm
+INFO  2013-03-20 00:31:22,762 [main] - 海贼王_OnePiece_Vol_35 : http://mh.socomic.com/comiclist/4/1542/1.htm
+INFO  2013-03-20 00:31:22,762 [main] - 海贼王_OnePiece_Vol_36 : http://mh.socomic.com/comiclist/4/1543/1.htm
+INFO  2013-03-20 00:31:22,762 [main] - 海贼王_OnePiece_Vol_37 : http://mh.socomic.com/comiclist/4/1548/1.htm
+INFO  2013-03-20 00:31:22,763 [main] - 海贼王_OnePiece_Vol_38 : http://mh.socomic.com/comiclist/4/1558/1.htm
+INFO  2013-03-20 00:31:22,763 [main] - 海贼王_OnePiece_Vol_39 : http://mh.socomic.com/comiclist/4/1559/1.htm
+INFO  2013-03-20 00:31:22,763 [main] - 海贼王_OnePiece_Vol_40 : http://mh.socomic.com/comiclist/4/1561/1.htm
+INFO  2013-03-20 00:31:22,763 [main] - 海贼王_OnePiece_Vol_41 : http://mh.socomic.com/comiclist/4/1567/1.htm
+INFO  2013-03-20 00:31:22,763 [main] - 海贼王_OnePiece_Vol_42 : http://mh.socomic.com/comiclist/4/1568/1.htm
+INFO  2013-03-20 00:31:22,763 [main] - 海贼王_OnePiece_Vol_43 : http://mh.socomic.com/comiclist/4/1570/1.htm
+INFO  2013-03-20 00:31:22,763 [main] - 海贼王_OnePiece_Vol_44 : http://mh.socomic.com/comiclist/4/1584/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_45 : http://mh.socomic.com/comiclist/4/4323/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_46 : http://mh.socomic.com/comiclist/4/4361/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_47 : http://mh.socomic.com/comiclist/4/4419/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_48 : http://mh.socomic.com/comiclist/4/4455/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_49 : http://mh.socomic.com/comiclist/4/4509/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_50 : http://mh.socomic.com/comiclist/4/4554/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_51 : http://mh.socomic.com/comiclist/4/4747/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_52 : http://mh.socomic.com/comiclist/4/4767/1.htm
+INFO  2013-03-20 00:31:22,764 [main] - 海贼王_OnePiece_Vol_53 : http://mh.socomic.com/comiclist/4/4947/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王_OnePiece_Vol_54 : http://mh.socomic.com/comiclist/4/4991/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王_OnePiece_Vol_55 : http://mh.socomic.com/comiclist/4/11781/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[542]另一个终会被传诵的事件 : http://mh.socomic.com/comiclist/4/13159/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[543]草帽与黑胡子 : http://mh.socomic.com/comiclist/4/13281/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[544]地狱之门亦敞开 : http://mh.socomic.com/comiclist/4/13339/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[545]阳光普照的自由世界 : http://mh.socomic.com/comiclist/4/13436/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[546]鱼人海贼团船长甚平 : http://mh.socomic.com/comiclist/4/13483/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[547]冲出监狱岛 : http://mh.socomic.com/comiclist/4/13570/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[548]谢谢你 : http://mh.socomic.com/comiclist/4/13647/1.htm
+INFO  2013-03-20 00:31:22,765 [main] - 海贼王[549]出击之舰+小剧场 : http://mh.socomic.com/comiclist/4/13702/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[550]海军本部 : http://mh.socomic.com/comiclist/4/13807/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[551]四皇白胡子 : http://mh.socomic.com/comiclist/4/13868/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[552]艾斯与白胡子 : http://mh.socomic.com/comiclist/4/13918/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[553]顶尖对决 : http://mh.socomic.com/comiclist/4/14062/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[554]大将赤犬 : http://mh.socomic.com/comiclist/4/14193/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[555]奥兹和斗笠 : http://mh.socomic.com/comiclist/4/14256/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[556]正义必胜 : http://mh.socomic.com/comiclist/4/14313/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[557]路飞与白胡子 : http://mh.socomic.com/comiclist/4/14438/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[558]弟弟 : http://mh.socomic.com/comiclist/4/14518/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[559]天命 : http://mh.socomic.com/comiclist/4/14628/1.htm
+INFO  2013-03-20 00:31:22,766 [main] - 海贼王[560]推进城的囚犯们 : http://mh.socomic.com/comiclist/4/14710/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[561]路飞VS米霍克 : http://mh.socomic.com/comiclist/4/14969/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[562]海贼大涡蜘蛛史库亚多 : http://mh.socomic.com/comiclist/4/15140/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[563]一颗心一个人 : http://mh.socomic.com/comiclist/4/15213/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[564]动摇世界的男人 : http://mh.socomic.com/comiclist/4/15333/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[565]奥兹之道 : http://mh.socomic.com/comiclist/4/15401/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[566]猛攻 : http://mh.socomic.com/comiclist/4/15459/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[567]海军本部欧力斯广场 : http://mh.socomic.com/comiclist/4/15521/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[568]任意妄為 : http://mh.socomic.com/comiclist/4/15583/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[569]怪物 : http://mh.socomic.com/comiclist/4/15652/1.htm
+INFO  2013-03-20 00:31:22,767 [main] - 海贼王[570]命系悬桥 : http://mh.socomic.com/comiclist/4/15958/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[571]处刑台 : http://mh.socomic.com/comiclist/4/16023/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[572]这一刻他们将改变时代 : http://mh.socomic.com/comiclist/4/16099/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[573]将此时代称作“白胡子” : http://mh.socomic.com/comiclist/4/16151/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[574]波特卡斯.D.艾斯之死 : http://mh.socomic.com/comiclist/4/16205/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[575]无言的愤怒 : http://mh.socomic.com/comiclist/4/16265/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[576]大海贼爱德华.纽盖特 : http://mh.socomic.com/comiclist/4/16373/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[577]接踵而来的大事件 : http://mh.socomic.com/comiclist/4/16417/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[578]托付于新时代之物 : http://mh.socomic.com/comiclist/4/16470/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[579]充满勇气的数秒 : http://mh.socomic.com/comiclist/4/16585/1.htm
+INFO  2013-03-20 00:31:22,768 [main] - 海贼王[580]终战 : http://mh.socomic.com/comiclist/4/16631/1.htm
+INFO  2013-03-20 00:31:22,769 [main] - 海贼王[581]悄然而至的未来 : http://mh.socomic.com/comiclist/4/16743/1.htm
+INFO  2013-03-20 00:31:22,769 [main] - 海贼王[582]路飞与艾斯 : http://mh.socomic.com/comiclist/4/16792/1.htm
+INFO  2013-03-20 00:31:22,769 [main] - 海贼王[583]不确定之物的终点站 : http://mh.socomic.com/comiclist/4/16894/1.htm
+INFO  2013-03-20 00:31:22,769 [main] - 海贼王[584]泊而谢米事件 : http://mh.socomic.com/comiclist/4/16959/1.htm
+INFO  2013-03-20 00:31:22,769 [main] - 海贼王[585]结义杯 : http://mh.socomic.com/comiclist/4/17036/1.htm
+INFO  2013-03-20 00:31:22,769 [main] - 海贼王[586]恶臭弥漫的城市 : http://mh.socomic.com/comiclist/4/17099/1.htm
+INFO  2013-03-20 00:31:22,769 [main] - 海贼王[587]我，不会逃 : http://mh.socomic.com/comiclist/4/17153/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[588]萨波之海 : http://mh.socomic.com/comiclist/4/17213/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[589]风云之志 : http://mh.socomic.com/comiclist/4/17455/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[590]弟弟啊 : http://mh.socomic.com/comiclist/4/17542/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[591]这样好吗 : http://mh.socomic.com/comiclist/4/17659/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[592]声援 : http://mh.socomic.com/comiclist/4/17719/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[593]NEWS : http://mh.socomic.com/comiclist/4/17778/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[594]MESSAGE : http://mh.socomic.com/comiclist/4/17876/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[595]宣誓 : http://mh.socomic.com/comiclist/4/17947/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[596]SPECTRUM : http://mh.socomic.com/comiclist/4/18053/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[597]3D2Y : http://mh.socomic.com/comiclist/4/18107/1.htm
+INFO  2013-03-20 00:31:22,770 [main] - 海贼王[598]2年后 : http://mh.socomic.com/comiclist/4/18475/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[599]九人的海贼 : http://mh.socomic.com/comiclist/4/18538/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[600]再启航之岛 : http://mh.socomic.com/comiclist/4/18637/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[601]前往新世界冒险的黎明 : http://mh.socomic.com/comiclist/4/18698/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[602]全速下潜 : http://mh.socomic.com/comiclist/4/18768/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[603]铭记于心 : http://mh.socomic.com/comiclist/4/18839/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[604]目标 深海 : http://mh.socomic.com/comiclist/4/18936/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[605]海怪和海贼 : http://mh.socomic.com/comiclist/4/19080/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[606]深海的冒险 : http://mh.socomic.com/comiclist/4/19208/1.htm
+INFO  2013-03-20 00:31:22,771 [main] - 海贼王[607]海底1万米 : http://mh.socomic.com/comiclist/4/19313/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[608]海底乐园 : http://mh.socomic.com/comiclist/4/19381/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[609]鱼人岛的冒险 : http://mh.socomic.com/comiclist/4/19469/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[610]占卜师Madam·夏莉 : http://mh.socomic.com/comiclist/4/19633/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[611]霍迪·琼斯 : http://mh.socomic.com/comiclist/4/19699/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[612]被所救之鲨引领 : http://mh.socomic.com/comiclist/4/19802/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[613]硬壳塔的人鱼公主 : http://mh.socomic.com/comiclist/4/19875/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[614]泼出去的水是收不回来的 : http://mh.socomic.com/comiclist/4/19951/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[615]靶靶的诅咒 : http://mh.socomic.com/comiclist/4/20031/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[616]绝不抛弃倔强心 : http://mh.socomic.com/comiclist/4/20090/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[617]珊瑚丘的大事件 : http://mh.socomic.com/comiclist/4/20270/1.htm
+INFO  2013-03-20 00:31:22,772 [main] - 海贼王[618]求婚 : http://mh.socomic.com/comiclist/4/20441/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[619]在海之森 : http://mh.socomic.com/comiclist/4/20656/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[620]憧憬的游乐园 : http://mh.socomic.com/comiclist/4/20759/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[621]乙姬与泰格 : http://mh.socomic.com/comiclist/4/20844/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[622]太阳海贼团 : http://mh.socomic.com/comiclist/4/20941/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[623]海贼费谢·泰格 : http://mh.socomic.com/comiclist/4/21164/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[624]乙姬王妃 : http://mh.socomic.com/comiclist/4/21377/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[625]无法继承的意志 : http://mh.socomic.com/comiclist/4/21459/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[626]尼普顿3兄弟 : http://mh.socomic.com/comiclist/4/21605/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[627]不胜感激 : http://mh.socomic.com/comiclist/4/21731/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[628]大清洗 : http://mh.socomic.com/comiclist/4/21915/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[629]挡住去路的原七武海 : http://mh.socomic.com/comiclist/4/22000/1.htm
+INFO  2013-03-20 00:31:22,773 [main] - 海贼王[630]开始暴走 : http://mh.socomic.com/comiclist/4/22092/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[631]琼克鲁德广场 : http://mh.socomic.com/comiclist/4/22202/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[632]早已知道 : http://mh.socomic.com/comiclist/4/22288/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[633]是敌是友 : http://mh.socomic.com/comiclist/4/22478/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[634]十万 VS 10 : http://mh.socomic.com/comiclist/4/22580/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[635]悍破云霄 : http://mh.socomic.com/comiclist/4/22802/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[636]来自未来国的将军 : http://mh.socomic.com/comiclist/4/22891/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[637]古之方舟 : http://mh.socomic.com/comiclist/4/22974/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[638]快逃星星 : http://mh.socomic.com/comiclist/4/23036/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[639]守护一切 : http://mh.socomic.com/comiclist/4/23150/1.htm
+INFO  2013-03-20 00:31:22,774 [main] - 海贼王[640]鱼人岛正上方 : http://mh.socomic.com/comiclist/4/23290/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[641]你怎么了 : http://mh.socomic.com/comiclist/4/23490/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[642]颜面无存 : http://mh.socomic.com/comiclist/4/23567/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[643]虚 : http://mh.socomic.com/comiclist/4/23702/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[644]归零 : http://mh.socomic.com/comiclist/4/23800/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[645]死也是种复仇 : http://mh.socomic.com/comiclist/4/23885/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[646]蛙 : http://mh.socomic.com/comiclist/4/24073/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[647]诺亚快停 : http://mh.socomic.com/comiclist/4/24158/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[648]通往太阳之路 : http://mh.socomic.com/comiclist/4/24286/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[649]鲷与比目鱼的曼舞 : http://mh.socomic.com/comiclist/4/24392/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[650]应当知晓的两个变化 : http://mh.socomic.com/comiclist/4/24500/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[651]来自新世界的问候 : http://mh.socomic.com/comiclist/4/24723/1.htm
+INFO  2013-03-20 00:31:22,775 [main] - 海贼王[652]前途多舛的預感 : http://mh.socomic.com/comiclist/4/24980/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[653]英雄的帽子 : http://mh.socomic.com/comiclist/4/25086/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[654]鲸群流 : http://mh.socomic.com/comiclist/4/25184/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[655]龐克哈薩德 爆裂危机 : http://mh.socomic.com/comiclist/4/25275/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[656]燃烧岛大冒险 : http://mh.socomic.com/comiclist/4/25381/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[657]首级 : http://mh.socomic.com/comiclist/4/25508/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[658]甜饼屋 : http://mh.socomic.com/comiclist/4/25688/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[659]身躯的遭遇 : http://mh.socomic.com/comiclist/4/25797/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[660]王下七武海 特拉法尔加.罗 : http://mh.socomic.com/comiclist/4/25942/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[661]强盗出没之湖 : http://mh.socomic.com/comiclist/4/26044/1.htm
+INFO  2013-03-20 00:31:22,776 [main] - 海贼王[662]罗VS斯摩格中将 : http://mh.socomic.com/comiclist/4/26160/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[663]CC : http://mh.socomic.com/comiclist/4/26411/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[664]M·凯撒·库朗 : http://mh.socomic.com/comiclist/4/26534/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[665]CANDY : http://mh.socomic.com/comiclist/4/26708/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[666]雪人 COOL BROTHERS : http://mh.socomic.com/comiclist/4/26887/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[667]COOL FIGHT : http://mh.socomic.com/comiclist/4/27001/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[668]海贼同盟 : http://mh.socomic.com/comiclist/4/27115/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[669]作战开始 : http://mh.socomic.com/comiclist/4/27238/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[670]暴风雪,时有Slime雨 : http://mh.socomic.com/comiclist/4/27357/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[671]瓦斯瓦斯果实 : http://mh.socomic.com/comiclist/4/27524/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[672]鄙人 名唤锦卫门 : http://mh.socomic.com/comiclist/4/27809/1.htm
+INFO  2013-03-20 00:31:22,777 [main] - 海贼王[673]维而戈与小丑 : http://mh.socomic.com/comiclist/4/27939/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[674]旁观者们 : http://mh.socomic.com/comiclist/4/28052/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[675]其名也称作“死亡国度” : http://mh.socomic.com/comiclist/4/28323/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[676]杀戮武器完成 : http://mh.socomic.com/comiclist/4/28435/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[677]COUNTER HAZARD : http://mh.socomic.com/comiclist/4/28650/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[678]研究所內A栋大厅 : http://mh.socomic.com/comiclist/4/28776/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[679]G-5真汉子 : http://mh.socomic.com/comiclist/4/28923/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[680]海军G-5基地长 : http://mh.socomic.com/comiclist/4/29067/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[681]路飞VS.M : http://mh.socomic.com/comiclist/4/29187/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[682]黑幕 : http://mh.socomic.com/comiclist/4/29286/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[683]冰一般的女人 : http://mh.socomic.com/comiclist/4/29488/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[684]快住手吧贝加班克 : http://mh.socomic.com/comiclist/4/29640/1.htm
+INFO  2013-03-20 00:31:22,778 [main] - 海贼王[685]桃之助便是在下的大名 : http://mh.socomic.com/comiclist/4/29786/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[686]甜饼屋的雪女 : http://mh.socomic.com/comiclist/4/29926/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[687]猛兽 : http://mh.socomic.com/comiclist/4/30050/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[688]莫查 : http://mh.socomic.com/comiclist/4/30226/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[689]仿佛不存在的岛 : http://mh.socomic.com/comiclist/4/30514/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[690]SAD : http://mh.socomic.com/comiclist/4/30619/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[691]死亡国度的王 : http://mh.socomic.com/comiclist/4/30728/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[692]德蕾丝罗萨来的刺客 : http://mh.socomic.com/comiclist/4/30852/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[693]全给我去死 : http://mh.socomic.com/comiclist/4/30961/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[694]最危险的男人 : http://mh.socomic.com/comiclist/4/31126/1.htm
+INFO  2013-03-20 00:31:22,779 [main] - 海贼王[695]交给我吧 : http://mh.socomic.com/comiclist/4/31458/1.htm
+INFO  2013-03-20 00:31:22,780 [main] - 海贼王[696]利害一致 : http://mh.socomic.com/comiclist/4/31583/1.htm
+INFO  2013-03-20 00:31:22,780 [main] - 海贼王[697]交易 : http://mh.socomic.com/comiclist/4/31730/1.htm
+INFO  2013-03-20 00:31:22,780 [main] - 海贼王[698]多佛朗明哥出现 : http://mh.socomic.com/comiclist/4/31827/1.htm
+INFO  2013-03-20 00:31:22,780 [main] - 海贼王[699]晨刊 : http://mh.socomic.com/comiclist/4/32069/1.htm
+INFO  2013-03-20 00:31:22,780 [main] - 海贼王[700]诡计 : http://mh.socomic.com/comiclist/4/32160/1.htm
+INFO  2013-03-20 00:31:22,780 [main] - 海贼王[701]爱与激情与玩具之国的冒险 : http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:31:22,780 [main] - 海贼王[702]克里达竞技场 : http://mh.socomic.com/comiclist/4/32506/1.htm
+INFO  2013-03-20 00:31:22,790 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:31:22,792 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:31:23,111 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/1.htm
+INFO  2013-03-20 00:31:23,111 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/1.htm
+INFO  2013-03-20 00:31:26,371 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00103F.jpg
+INFO  2013-03-20 00:31:26,371 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/2.htm
+INFO  2013-03-20 00:31:26,371 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:31:26,480 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00103F.jpg
+INFO  2013-03-20 00:31:26,480 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/2.htm
+INFO  2013-03-20 00:31:26,480 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:31:27,167 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/2.htm
+INFO  2013-03-20 00:31:27,307 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/2.htm
+INFO  2013-03-20 00:31:33,001 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00206I.jpg
+INFO  2013-03-20 00:31:33,001 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/3.htm
+INFO  2013-03-20 00:31:33,001 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:31:37,280 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/3.htm
+INFO  2013-03-20 00:31:40,847 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00206I.jpg
+INFO  2013-03-20 00:31:40,848 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/3.htm
+INFO  2013-03-20 00:31:40,848 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:31:41,027 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/3.htm
+INFO  2013-03-20 00:32:02,693 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_00309L.jpg
+INFO  2013-03-20 00:32:02,694 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/4.htm
+INFO  2013-03-20 00:32:02,694 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:02,867 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/4.htm
+INFO  2013-03-20 00:32:03,856 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_00309L.jpg
+INFO  2013-03-20 00:32:03,858 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/4.htm
+INFO  2013-03-20 00:32:03,858 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:04,065 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/4.htm
+INFO  2013-03-20 00:32:04,890 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0040CO.jpg
+INFO  2013-03-20 00:32:04,892 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/5.htm
+INFO  2013-03-20 00:32:04,892 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:04,935 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/5.htm
+INFO  2013-03-20 00:32:06,121 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0040CO.jpg
+INFO  2013-03-20 00:32:06,122 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/5.htm
+INFO  2013-03-20 00:32:06,122 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:06,214 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/5.htm
+INFO  2013-03-20 00:32:09,636 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0050FR.jpg
+INFO  2013-03-20 00:32:09,637 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/6.htm
+INFO  2013-03-20 00:32:09,637 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:09,676 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/6.htm
+INFO  2013-03-20 00:32:09,992 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0050FR.jpg
+INFO  2013-03-20 00:32:09,994 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/6.htm
+INFO  2013-03-20 00:32:09,994 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:10,046 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/6.htm
+INFO  2013-03-20 00:32:10,162 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0060IU.jpg
+INFO  2013-03-20 00:32:10,163 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/7.htm
+INFO  2013-03-20 00:32:10,163 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:13,667 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0060IU.jpg
+INFO  2013-03-20 00:32:13,668 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/7.htm
+INFO  2013-03-20 00:32:13,669 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:13,704 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/7.htm
+INFO  2013-03-20 00:32:14,105 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0070LX.jpg
+INFO  2013-03-20 00:32:14,106 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/8.htm
+INFO  2013-03-20 00:32:14,106 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:14,141 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/8.htm
+INFO  2013-03-20 00:32:14,585 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/7.htm
+INFO  2013-03-20 00:32:14,668 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0080P0.jpg
+INFO  2013-03-20 00:32:14,669 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/9.htm
+INFO  2013-03-20 00:32:14,669 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:14,752 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/9.htm
+INFO  2013-03-20 00:32:16,335 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0070LX.jpg
+INFO  2013-03-20 00:32:16,336 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/8.htm
+INFO  2013-03-20 00:32:16,337 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:16,832 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/8.htm
+INFO  2013-03-20 00:32:20,414 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0090S3.jpg
+INFO  2013-03-20 00:32:20,415 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/10.htm
+INFO  2013-03-20 00:32:20,415 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:20,640 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/10.htm
+INFO  2013-03-20 00:32:22,608 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0100V6.jpg
+INFO  2013-03-20 00:32:22,610 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/11.htm
+INFO  2013-03-20 00:32:22,610 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:22,654 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/11.htm
+INFO  2013-03-20 00:32:22,697 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0080P0.jpg
+INFO  2013-03-20 00:32:22,698 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/9.htm
+INFO  2013-03-20 00:32:22,698 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:22,774 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/9.htm
+INFO  2013-03-20 00:32:23,228 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_0110Y9.jpg
+INFO  2013-03-20 00:32:23,230 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/12.htm
+INFO  2013-03-20 00:32:23,230 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:24,480 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/12.htm
+INFO  2013-03-20 00:32:24,633 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0090S3.jpg
+INFO  2013-03-20 00:32:24,634 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/10.htm
+INFO  2013-03-20 00:32:24,634 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:24,736 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/10.htm
+INFO  2013-03-20 00:32:26,192 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0100V6.jpg
+INFO  2013-03-20 00:32:26,192 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/11.htm
+INFO  2013-03-20 00:32:26,192 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:26,301 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/11.htm
+INFO  2013-03-20 00:32:26,535 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_01211C.jpg
+INFO  2013-03-20 00:32:26,535 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/13.htm
+INFO  2013-03-20 00:32:26,535 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:26,598 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/13.htm
+INFO  2013-03-20 00:32:27,440 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0110Y9.jpg
+INFO  2013-03-20 00:32:27,440 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/12.htm
+INFO  2013-03-20 00:32:27,440 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:27,518 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/12.htm
+INFO  2013-03-20 00:32:30,669 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_01314F.jpg
+INFO  2013-03-20 00:32:30,669 [pool-1-thread-1] - NextPage: http://mh.socomic.com/comiclist/4/32506/14.htm
+INFO  2013-03-20 00:32:30,669 [pool-1-thread-1] - -----------------------------------------------
+INFO  2013-03-20 00:32:30,841 [pool-1-thread-1] - Parse: http://mh.socomic.com/comiclist/4/32506/14.htm
+INFO  2013-03-20 00:32:31,184 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01211C.jpg
+INFO  2013-03-20 00:32:31,184 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/13.htm
+INFO  2013-03-20 00:32:31,184 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:31,278 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/13.htm
+INFO  2013-03-20 00:32:33,158 [pool-1-thread-1] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130320/op702-rqf-hot-gy-1.0/JOJO_014-01517I.jpg
+INFO  2013-03-20 00:32:33,159 [pool-1-thread-1] - NextPage: exit
+INFO  2013-03-20 00:32:33,790 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01314F.jpg
+INFO  2013-03-20 00:32:33,791 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/14.htm
+INFO  2013-03-20 00:32:33,791 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:33,870 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/14.htm
+INFO  2013-03-20 00:32:34,967 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_01417I.jpg
+INFO  2013-03-20 00:32:34,968 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/15.htm
+INFO  2013-03-20 00:32:34,968 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:35,033 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/15.htm
+INFO  2013-03-20 00:32:38,000 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0151AL.jpg
+INFO  2013-03-20 00:32:38,000 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/16.htm
+INFO  2013-03-20 00:32:38,000 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:38,624 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/16.htm
+INFO  2013-03-20 00:32:40,580 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0161DO.jpg
+INFO  2013-03-20 00:32:40,581 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/17.htm
+INFO  2013-03-20 00:32:40,581 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:40,651 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/17.htm
+INFO  2013-03-20 00:32:41,647 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_0171GR.jpg
+INFO  2013-03-20 00:32:41,648 [pool-1-thread-2] - NextPage: http://mh.socomic.com/comiclist/4/32265/18.htm
+INFO  2013-03-20 00:32:41,648 [pool-1-thread-2] - -----------------------------------------------
+INFO  2013-03-20 00:32:41,719 [pool-1-thread-2] - Parse: http://mh.socomic.com/comiclist/4/32265/18.htm
+INFO  2013-03-20 00:32:50,075 [pool-1-thread-2] - Picture: http://tt.kukudm.com:81/newkuku/2013/201303/20130306/op701-rqf-hot-gy-1.0/JOJO_018-0191JU.jpg
+INFO  2013-03-20 00:32:50,076 [pool-1-thread-2] - NextPage: exit

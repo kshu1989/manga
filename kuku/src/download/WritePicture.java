@@ -20,7 +20,7 @@ public class WritePicture {
 
 	public static void main(String[] args) {
 		// System.out.println(new WritePicture(new Picture(),
-		// "D:\\movies\\º£ÔôÍõ\\µÚÒ»¼¯\\").makeDirctory());
+		// "D:\\movies\\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\\ï¿½ï¿½Ò»ï¿½ï¿½\\").makeDirctory());
 
 	}
 

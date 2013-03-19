@@ -8,68 +8,64 @@ public class Episode {
 
 	private String name;
 	private Picture picture;
-	private boolean isDownload;
-	private boolean isParse;
+	private boolean parsing;
+	private boolean parsed;
+	private boolean downloading;
 	private boolean downloaded;
 
 	public Episode() {
-		this.isDownload = false;
-		this.isParse = false;
+		this.parsed = false;
+		this.parsing = false;
+		this.downloading = false;
 		this.downloaded = false;
+	}
+
+	public boolean isParsingAndSetTure() {
+		synchronized (this) {
+			boolean temp = this.parsing;
+			this.parsing = true;
+			return temp;
+		}
+	}
+
+	public boolean isDownlandAndSetTrue() {
+		synchronized (this) {
+			boolean temp = this.downloading;
+			this.downloading = true;
+			return temp;
+		}
+	}
+
+	public boolean isParsing() {
+		return parsing;
+	}
+
+	public void setParsing(boolean parsing) {
+		this.parsing = parsing;
+	}
+
+	public boolean isParsed() {
+		return parsed;
+	}
+
+	public void setParsed(boolean parsed) {
+		this.parsed = parsed;
+	}
+
+	public boolean isDownloading() {
+		return downloading;
+	}
+
+	public void setDownloading(boolean downloading) {
+		this.downloading = downloading;
 	}
 
 	public boolean isDownloaded() {
 		return downloaded;
 	}
 
-	public void setDownloaded(boolean downloaded) {
-		synchronized (this) {
-			this.downloaded = downloaded;
-		}
-	}
-
-	public boolean isDownloadedAndSetTrue() {
-		synchronized (this) {
-			boolean tem = downloaded;
-			downloaded = true;
-			return tem;
-		}
-	}
-
-	public boolean getIsDownLoad() {
-		return this.isDownload;
-	}
-
-	public boolean getIsParse() {
-		return this.isParse;
-	}
-
-	public boolean isDownloadAndSetTrue() {
-		synchronized (this) {
-			boolean tem = isDownload;
-			isDownload = true;
-			return tem;
-		}
-	}
-
-	public boolean isParseAndSetTrue() {
-		synchronized (this) {
-			boolean tem = isParse;
-			isParse = true;
-			return tem;
-		}
-	}
-
-	public void setDownload(boolean isDownload) {
-		synchronized (this) {
-			this.isDownload = isDownload;
-		}
-	}
-
-	public void setParse(boolean isParse) {
-		synchronized (this) {
-			this.isParse = isParse;
-		}
+	public void setDownloaded(boolean downloaned) {
+		this.downloaded = downloaned;
 	}
 
 	public String getName() {
