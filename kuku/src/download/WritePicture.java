@@ -12,10 +12,14 @@ import java.net.URLConnection;
 import java.util.Iterator;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
+import pares.ParesUrl;
+
 import model.Picture;
 
 public class WritePicture {
-
+	static Logger log = Logger.getLogger(ParesUrl.class.getName());
 	private String pictureSavePath;
 
 	public static void main(String[] args) {
@@ -26,7 +30,6 @@ public class WritePicture {
 
 	public WritePicture(String savePath) {
 		this.pictureSavePath = this.makeDirctory(savePath);
-		System.out.println(this.pictureSavePath);
 	}
 
 	private String makeDirctory(String path) {
@@ -43,6 +46,10 @@ public class WritePicture {
 	}
 
 	public boolean wirtePicture(Picture pic) {
+		
+		if (pic == null) {
+			return true;
+		}
 		try {
 			URL url = new URL(pic.getPictureUrl());
 			URLConnection con = url.openConnection();
@@ -51,7 +58,7 @@ public class WritePicture {
 			con.setDoInput(true);
 			InputStream is = con.getInputStream();
 			OutputStream os = new FileOutputStream(this.pictureSavePath
-					+ pic.getIndex() + ".jpg");
+					+ File.separator + pic.getIndex() + ".jpg");
 			byte[] b = new byte[2048];
 			int length;
 			while ((length = is.read(b)) != -1) {
@@ -59,6 +66,7 @@ public class WritePicture {
 			}
 			is.close();
 			os.close();
+			log.info(pic.getPageUrl() + " : " + pic.getPictureUrl());
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 			return false;

@@ -11,6 +11,8 @@ import model.Session;
 
 public class ParsePicureUrlWorker extends Thread {
 
+	static Logger log = Logger.getLogger(ParesUrl.class.getName());
+
 	public static void main(String[] args) {
 		Vector s = new Vector();
 		for (int i = 0; i < 100; i++) {
@@ -47,14 +49,26 @@ public class ParsePicureUrlWorker extends Thread {
 		int num[] = new int[session.getEpisodes().size()];
 		for (int i = 0; i < num.length; i++)
 			num[i] = 0;
-		int max = 0;
+
 		while (true) {
+			int sum = 0;
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
-				if (!episode.isParsingAndSetTure()) {
+				if (episode.isParsed()) {
+					sum += 1;
+				} else {
+					break;
+				}
+			}
+			if (sum == session.getEpisodes().size()) {
+				break;
+			}
+			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
+				if (!episode.isParsingAndSetTure() && !episode.isParsed()) {
 					boolean re = new ParesPic().parseOneEpisode(
 							episode.getPicture(), 1);
 					if (re) {
 						episode.setParsed(re);
+						log.warn("release");
 						session.semp.release();
 					} else {
 						/*
@@ -65,21 +79,6 @@ public class ParsePicureUrlWorker extends Thread {
 					}
 				}
 			}
-			// for (int i = 0; i < session.getEpisodes().size(); i++) {
-			// Episode episode = (Episode) session.getEpisodes().get(i);
-			// if (episode.is()) {
-			// num[i]++;
-			// }
-			// }
-			//
-			// for (int i = 0; i < session.getEpisodes().size(); i++) {
-			// if (num[i] > max) {
-			// max = num[i];
-			// }
-			// }
-			// if (max > 5 || max == 0) {
-			// break;
-			// }
 		}
 	}
 }

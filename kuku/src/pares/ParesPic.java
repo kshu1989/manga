@@ -21,7 +21,7 @@ import org.xml.sax.SAXException;
 
 public class ParesPic {
 	static Logger log = Logger.getLogger(ParesPic.class.getName());
-	
+
 	public static void main(String[] args) throws IOException {
 		String url = "http://www.socomic.com/comiclist/4/32265/1.htm";
 
@@ -90,6 +90,11 @@ public class ParesPic {
 		} catch (ConnectException e) {
 
 		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 		return parseOneEpisode(nextPic, ++level);
