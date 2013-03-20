@@ -26,6 +26,7 @@ public class WritePicture {
 
 	public WritePicture(String savePath) {
 		this.pictureSavePath = this.makeDirctory(savePath);
+		System.out.println(this.pictureSavePath);
 	}
 
 	private String makeDirctory(String path) {
