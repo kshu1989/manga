@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<config>
-	<mongo>
-		<server>localhost</server>
-		<db>AR_TEST</db>
-	</mongo>
-</config>
