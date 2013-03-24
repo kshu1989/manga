@@ -17,14 +17,8 @@ import org.apache.log4j.Logger;
 import model.Picture;
 
 public class WritePicture {
-	static Logger log = Logger.getLogger(ParesUrl.class.getName());
+	static Logger log = Logger.getLogger(WritePicture.class.getName());
 	private String pictureSavePath;
-
-	public static void main(String[] args) {
-		// System.out.println(new WritePicture(new Picture(),
-		// "D:\\movies\\������\\��һ��\\").makeDirctory());
-
-	}
 
 	public WritePicture(String savePath) {
 		this.pictureSavePath = this.makeDirctory(savePath);
@@ -44,9 +38,6 @@ public class WritePicture {
 	}
 
 	public void wirtePicture(Picture pic) {
-		if (pic == null) {
-			return;
-		}
 		try {
 			URL url = new URL(pic.getPictureUrl());
 			URLConnection con = url.openConnection();
@@ -64,11 +55,14 @@ public class WritePicture {
 			is.close();
 			os.close();
 		} catch (IOException e) {
-			log.warn(e.printStackTrace());
-			log.warn("Page Url: " + pic.getPageUrl());
-			log.warn("Picture Url: " + pic.getPictureUrl());
-			log.warn("Index: " + pic.getIndex());
+			log.error(e.getMessage());
+			log.error("Page Url: " + pic.getPageUrl());
+			log.error("Picture Url: " + pic.getPictureUrl());
+			log.error("Index: " + pic.getIndex());
 		}
-		wirtePicture(pic.getNextPic());
+		if (pic.getNextPic() != null) {
+			pic.getNextPic().setIndex(pic.getIndex() + 1);
+			wirtePicture(pic.getNextPic());
+		}
 	}
 }

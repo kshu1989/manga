@@ -16,25 +16,27 @@ public class Selenium {
 		// Create a new instance of the Firefox driver
 		// Notice that the remainder of the code relies on the interface,
 		// not the implementation.
-		WebDriver driver = new HtmlUnitDriver();
+		WebDriver driver = new HtmlUnitDriver(true);
 //		HtmlUnitDriver driver = new HtmlUnitDriver(BrowserVersion.FIREFOX_10);
 		
 		// HtmlUnitDriver driver = new HtmlUnitDriver();
 		// driver.setJavascriptEnabled(true);
 
 		// And now use this to visit Google
-		driver.get("http://comic.kukudm.com/comiclist/3/");
-		// Alternatively the same thing can be done like this
+		driver.get("http://www.socomic.com/comiclist/3/1507/1.htm");
+		// Alternatively the same thing can be done vlike this
 		// driver.navigate().to("http://www.google.com");
 
 		// Find the text input element by its name
 		// WebElement element = driver.findElement(By.name("q"));
 
-		List<WebElement> elements = driver.findElements(By.tagName("a"));
+//		List<WebElement> elements = driver.findElements(By.tagName("img"));
+		List<WebElement> elements = driver.findElements(By.xpath("//img[@id='comicpic']"));
 		for (WebElement element : elements) {
-			System.out.println(element.getAttribute("href"));
-//			System.out.println(element.getTagName());
-			System.out.println(element.getText());
+//			System.out.println(element.getAttribute("href"));
+			System.out.println(element.getTagName());
+			System.out.println(element.getAttribute("src"));
+			System.out.println(element.getAttribute("id"));
 //			System.out.println(element.getLocation());
 //			System.out.println(element.getSize());
 		}
@@ -46,7 +48,7 @@ public class Selenium {
 		// element.submit();
 
 		// Check the title of the page
-		System.out.println("Page title is: " + driver.getTitle());
+//		System.out.println("Page title is: " + driver.getTitle());
 
 		// Google's search is rendered dynamically with JavaScript.
 		// Wait for the page to load, timeout after 10 seconds
@@ -58,7 +60,7 @@ public class Selenium {
 		// });
 
 		// Should see: "cheese! - Google Search"
-		System.out.println("Page title is: " + driver.getTitle());
+//		System.out.println("Page title is: " + driver.getTitle());
 
 		// Close the browser
 		driver.quit();

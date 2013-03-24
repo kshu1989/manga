@@ -2,7 +2,7 @@ package parse;
 
 import model.Session;
 
-public class PageUrlParserWorker{
+public class PageUrlParserWorker {
 
 	private Session session;
 
@@ -11,7 +11,7 @@ public class PageUrlParserWorker{
 	}
 
 	public void run() {
-		ParesUrl parser = new ParesUrl();
-		parser.paresMangaPage(this.session);
+		PageUrlParser parser = new PageUrlParserImpl();
+		parser.parseSessionPageUrl(this.session);
 	}
 }

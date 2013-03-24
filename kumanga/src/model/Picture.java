@@ -8,6 +8,7 @@ public class Picture {
 	private Picture nextPic;
 
 	public Picture() {
+		this.index = 1;
 	}
 
 	public Picture(String pic, String page, int index) {

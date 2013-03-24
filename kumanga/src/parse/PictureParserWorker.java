@@ -1,9 +1,7 @@
 package parse;
 
-import java.lang.management.ThreadInfo;
 import java.util.Vector;
 
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 import model.Episode;
@@ -11,7 +9,7 @@ import model.Session;
 
 public class PictureParserWorker extends Thread {
 
-	static Logger log = Logger.getLogger(ParesUrl.class.getName());
+	static Logger log = Logger.getLogger(PictureParserWorker.class.getName());
 
 	public static void main(String[] args) {
 		Vector s = new Vector();
@@ -64,19 +62,10 @@ public class PictureParserWorker extends Thread {
 			}
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
 				if (!episode.isParsingAndSetTure() && !episode.isParsed()) {
-					boolean re = new ParesPic().parseOneEpisode(
-							episode.getPicture(), 1);
-					if (re) {
-						episode.setParsed(re);
-						log.warn("release");
-						session.semp.release();
-					} else {
-						/*
-						 * this thread is not work, should exit fast and let
-						 * other thread wait on this lock to run
-						 */
-						episode.setParsing(re);
-					}
+					new PictureParserImpl().parseOneEpisode(episode
+							.getPicture());
+					episode.setParsed(true);
+					session.semp.release();
 				}
 			}
 		}

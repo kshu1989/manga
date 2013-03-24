@@ -4,60 +4,103 @@ import java.util.List;
 
 import model.Picture;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 public class PictureParserImpl implements PictureParser {
 
+	static Logger log = Logger.getLogger(PictureParserImpl.class.getName());
 	private WebDriver driver;
 
 	public PictureParserImpl() {
-		driver = new HtmlUnitDriver();
+		driver = new HtmlUnitDriver(true);
 	}
 
 	@Override
 	public void parseOneEpisode(Picture picture) {
 
-		driver.get(session.getMangaUrl());
+		driver.get(picture.getPageUrl());
+		String nextPageUrl = parseNextPageUrl();
+		String pictureUrl = parsePictureUrl();
+		System.out.println("next " + nextPageUrl);
+		System.out.println("pictur " + pictureUrl);
+		
+//		driver.close();
+		picture.setPictureUrl(pictureUrl);
 
-		// WebElement myDynamicElement = (new WebDriverWait(driver, 10))
-		// .until(ExpectedConditions.presenceOfElementLocated(By
-		// .tagName("body")));
+		if (nextPageUrl.equals("")) {
+			return;
+		}
 
+		Picture nextPicture = new Picture();
+		nextPicture.setPageUrl(nextPageUrl);
+		picture.setNextPic(nextPicture);
+
+		parseOneEpisode(nextPicture);
 	}
 
 	private String parsePictureUrl() {
-
-		driver.get("http://www.socomic.com/comiclist/3/3/97.htm");
-		WebElement element = this.driver.findElement(By
-				.xpath("//*[@id='comicpic']"));
-		if (null != element) {
-			return element.getAttribute("src");
-		}
-		List<WebElement> elements = this.driver.findElements(By
-				.xpath("//img[count(@)=3]"));
-		for (WebElement node : elements) {
-			System.out.println(node.getTagName());
+		WebElement element = null;
+		try {
+//			driver.get("http://mh.socomic.com/comiclist/3/1450/1.htm");
+//			System.out.println("begin");
+			element = driver.findElement(By.xpath("//img[@id='comicpic']"));
+//			System.out.println("end");
+			if (null != element) {
+				// log.error("sk" + driver.getCurrentUrl() + "-->"
+				// + element.getAttribute("src"));
+				// System.out.println("sk" + driver.getCurrentUrl() + "-->"
+				// + element.getAttribute("src"));
+				return element.getAttribute("src");
+			}
+		} catch (NoSuchElementException no) {
+//			System.out.println("exception");
+			log.error(no.getMessage());
+			try {
+//				System.out.println("1start");
+				List<WebElement> elements = this.driver.findElements(By
+						.xpath("//img[count(@*) = 1]"));
+//				System.out.println("1end");
+				String picture = null;
+				for (WebElement node : elements) {
+					picture = node.getAttribute("src");
+					if (picture.endsWith(".jpg")) {
+						// log.error("ks" + driver.getCurrentUrl() + "-->"
+						// + picture );
+						// System.out.println("sk" + driver.getCurrentUrl()
+						// + "-->" + picture);
+						return picture;
+					}
+				}
+			} catch (Exception e) {
+				log.error(e.getMessage());
+				log.error("parsePictureUrl: " + driver.getCurrentUrl() + "-->");
+			}
 		}
 		return "";
 	}
 
-	// "/html/body/table[2]/tbody/tr/td/a"
-	private String parseNextPageUrl() throws Exception {
+	private String parseNextPageUrl() {
 		// driver.get("http://www.socomic.com/comiclist/3/3/1.htm");
-		WebElement element = this.driver.findElement(By
-				.xpath("//img[@src='/images/d.gif']/.."));
-		if (null == element) {
-			throw new Exception("parse next url failed");
+		try {
+			WebElement element = this.driver.findElement(By
+					.xpath("//img[@src='/images/d.gif']/.."));
+			if (null == element) {
+				throw new Exception("parse next url failed");
+			}
+			return element.getAttribute("href");
+		} catch (Exception e) {
+			log.error(e.getLocalizedMessage());
 		}
-		return element.getAttribute("href");
+		return "";
 	}
 
 	public static void main(String[] args) {
 		PictureParserImpl p = new PictureParserImpl();
 		p.parsePictureUrl();
-
 	}
 }

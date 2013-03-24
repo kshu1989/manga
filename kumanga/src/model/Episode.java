@@ -28,7 +28,7 @@ public class Episode {
 		}
 	}
 
-	public boolean isDownlandAndSetTrue() {
+	public boolean isDownlondingAndSetTrue() {
 		synchronized (this) {
 			boolean temp = this.downloading;
 			this.downloading = true;
