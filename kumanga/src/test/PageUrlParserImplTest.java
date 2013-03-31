@@ -13,7 +13,7 @@ import java.util.Vector;
 
 import model.Episode;
 import model.Picture;
-import model.Session;
+import model.Season;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -27,7 +27,7 @@ import parse.PageUrlParserImpl;
  */
 public class PageUrlParserImplTest {
 
-	private static Session session = new Session();
+	private static Season session = new Season();
 	
 	@BeforeClass
 	public static void setUp() {

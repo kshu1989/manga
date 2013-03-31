@@ -10,17 +10,17 @@ import java.util.Vector;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import org.apache.log4j.PropertyConfigurator;
-
-import download.WritePictureWorker;
-
-import parse.PageUrlParserImpl;
-import parse.PageUrlParserWorker;
-import parse.PictureParserWorker;
-
 import model.Episode;
 import model.Picture;
-import model.Session;
+import model.Season;
+import model.Volume;
+
+import org.apache.log4j.PropertyConfigurator;
+
+import parse.PageUrlParserWorker;
+import parse.PictureParserWorker;
+import parse.SeasonUrlParseImplWorker;
+import download.WritePictureWorker;
 
 public class DownLoader {
 
@@ -50,51 +50,57 @@ public class DownLoader {
 			e.printStackTrace();
 		}
 
-		Session session = new Session();
-		session.setDone(false);
-		session.setMangaName(mangaName);
-		session.setMangaUrl(mangaUrl);
-		session.setSaveDirectoryPath(saveDestination);
-		session.setRegex(mangaName + "[\\[_]");
+		Volume volume = new Volume();
+		volume.setVolumeUrl(mangaUrl);
 
-		new PageUrlParserWorker(session).run();
+		new SeasonUrlParseImplWorker(volume).run();
+		
+		for (Season s : volume.getSeasons()) {
+			System.out.println(s.getMangaName());
+			System.out.println(s.getMangaUrl());
+		}
 
-		Vector<Episode> v = new Vector<Episode>();
-		for (int i = session.getEpisodes().size() - 1; i > session
-				.getEpisodes().size() - 3; i--) {
-			Episode ep = (Episode) session.getEpisodes().get(i);
-			v.add(ep);
-			int j = 0;
-			Picture pi = ep.getPicture();
-			while (pi != null) {
-				pi = pi.getNextPic();
-				if (j++ > 4)
-					break;
+		for (Season season : volume.getSeasons()) {
+			season.setSaveDirectoryPath(saveDestination);
+			new PageUrlParserWorker(season).run();
+
+			// Vector<Episode> v = new Vector<Episode>();
+			// for (int i = session.getEpisodes().size() - 1; i > session
+			// .getEpisodes().size() - 3; i--) {
+			// Episode ep = (Episode) session.getEpisodes().get(i);
+			// v.add(ep);
+			// int j = 0;
+			// Picture pi = ep.getPicture();
+			// while (pi != null) {
+			// pi = pi.getNextPic();
+			// if (j++ > 4)
+			// break;
+			// }
+			// }
+			// session.setEpisodes(v);
+
+			for (Episode e : (Vector<Episode>) season.getEpisodes()) {
+				Picture pi = e.getPicture();
+				while (pi != null) {
+					System.out.println(e.getName() + "--->" + pi.getPageUrl());
+					pi = pi.getNextPic();
+				}
 			}
-		}
-		session.setEpisodes(v);
 
-		for (Episode e : (Vector<Episode>) session.getEpisodes()) {
-			Picture pi = e.getPicture();
-			while (pi != null) {
-				System.out.println(e.getName() + "--->" + pi.getPageUrl());
-				pi = pi.getNextPic();
+			ExecutorService executor = Executors.newFixedThreadPool(4);
+			for (int i = 0; i < 2; i++) {
+				PictureParserWorker ppuworker = new PictureParserWorker(season);
+				executor.execute(ppuworker);
 			}
-		}
 
-		ExecutorService executor = Executors.newFixedThreadPool(4);
-		for (int i = 0; i < 2; i++) {
-			PictureParserWorker ppuworker = new PictureParserWorker(session);
-			executor.execute(ppuworker);
+			for (int i = 0; i < 2; i++) {
+				WritePictureWorker wpworker = new WritePictureWorker(season);
+				executor.execute(wpworker);
+			}
+			executor.shutdown();
+			while (!executor.isTerminated()) {
+			}
+			System.out.println("Finished all threads");
 		}
-
-		for (int i = 0; i < 2; i++) {
-			WritePictureWorker wpworker = new WritePictureWorker(session);
-			executor.execute(wpworker);
-		}
-		executor.shutdown();
-		while (!executor.isTerminated()) {
-		}
-		System.out.println("Finished all threads");
 	}
 }

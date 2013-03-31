@@ -24,15 +24,24 @@ public class PictureParserImpl implements PictureParser {
 	public void parseOneEpisode(Picture picture) {
 
 		driver.get(picture.getPageUrl());
-		String nextPageUrl = parseNextPageUrl();
-		String pictureUrl = parsePictureUrl();
-		System.out.println("next " + nextPageUrl);
-		System.out.println("pictur " + pictureUrl);
-		
-//		driver.close();
+		String nextPageUrl = "";
+		String pictureUrl = "";
+		try {
+			nextPageUrl = parseNextPageUrl();
+			pictureUrl = parsePictureUrl();
+		} catch (Exception e) {
+			log.error("Methord: parseOneEpisode" + " Manga Name: "
+					+ picture.getEpisode().getName() + " Manga Index"
+					+ picture.getIndex() + " Page Url: " + picture.getPageUrl()
+					+ " Picture Url: " + picture.getPictureUrl());
+		}
+		// System.out.println("next " + nextPageUrl);
+		// System.out.println("pictur " + pictureUrl);
+
+		// driver.close();
 		picture.setPictureUrl(pictureUrl);
 
-		if (nextPageUrl.equals("")) {
+		if (nextPageUrl == null || nextPageUrl.equals("")) {
 			return;
 		}
 
@@ -41,66 +50,52 @@ public class PictureParserImpl implements PictureParser {
 		picture.setNextPic(nextPicture);
 
 		parseOneEpisode(nextPicture);
+		driver.close();
+		driver.quit();
 	}
 
-	private String parsePictureUrl() {
+	private String parsePictureUrl() throws Exception {
 		WebElement element = null;
 		try {
-//			driver.get("http://mh.socomic.com/comiclist/3/1450/1.htm");
-//			System.out.println("begin");
+			// driver.get("http://mh.socomic.com/comiclist/3/1450/1.htm");
 			element = driver.findElement(By.xpath("//img[@id='comicpic']"));
-//			System.out.println("end");
 			if (null != element) {
-				// log.error("sk" + driver.getCurrentUrl() + "-->"
-				// + element.getAttribute("src"));
-				// System.out.println("sk" + driver.getCurrentUrl() + "-->"
-				// + element.getAttribute("src"));
 				return element.getAttribute("src");
 			}
 		} catch (NoSuchElementException no) {
-//			System.out.println("exception");
-			log.error(no.getMessage());
-			try {
-//				System.out.println("1start");
-				List<WebElement> elements = this.driver.findElements(By
-						.xpath("//img[count(@*) = 1]"));
-//				System.out.println("1end");
-				String picture = null;
-				for (WebElement node : elements) {
-					picture = node.getAttribute("src");
-					if (picture.endsWith(".jpg")) {
-						// log.error("ks" + driver.getCurrentUrl() + "-->"
-						// + picture );
-						// System.out.println("sk" + driver.getCurrentUrl()
-						// + "-->" + picture);
-						return picture;
-					}
+			List<WebElement> elements = this.driver.findElements(By
+					.xpath("//img[count(@*) = 1]"));
+			String picture = null;
+			for (WebElement node : elements) {
+				picture = node.getAttribute("src");
+				if (picture.endsWith(".jpg")) {
+					return picture;
 				}
-			} catch (Exception e) {
-				log.error(e.getMessage());
-				log.error("parsePictureUrl: " + driver.getCurrentUrl() + "-->");
 			}
+			throw new Exception(
+					"Method: parsePictureUrl Message: parse Picture url failed!");
 		}
 		return "";
 	}
 
-	private String parseNextPageUrl() {
+	private String parseNextPageUrl() throws Exception {
 		// driver.get("http://www.socomic.com/comiclist/3/3/1.htm");
-		try {
-			WebElement element = this.driver.findElement(By
-					.xpath("//img[@src='/images/d.gif']/.."));
-			if (null == element) {
-				throw new Exception("parse next url failed");
-			}
-			return element.getAttribute("href");
-		} catch (Exception e) {
-			log.error(e.getLocalizedMessage());
+		WebElement element = this.driver.findElement(By
+				.xpath("//img[@src='/images/d.gif']/.."));
+		if (null == element) {
+			throw new Exception("next page url failed!");
 		}
-		return "";
+		String nextPageUrl = element.getAttribute("href");
+		if (nextPageUrl.contains("exit")) {
+			return "";
+		}
+		return nextPageUrl;
+		// throw new Exception(
+		// "Method: parseNextPageUrl Method: parse next url failed");
 	}
 
 	public static void main(String[] args) {
 		PictureParserImpl p = new PictureParserImpl();
-		p.parsePictureUrl();
+		// p.parsePictureUrl();
 	}
 }

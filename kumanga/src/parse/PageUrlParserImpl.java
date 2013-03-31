@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 import model.Episode;
 import model.Picture;
-import model.Session;
+import model.Season;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -19,12 +19,13 @@ public class PageUrlParserImpl implements PageUrlParser {
 	static Logger log = Logger.getLogger(PageUrlParserImpl.class.getName());
 
 	@Override
-	public void parseSessionPageUrl(Session session) {
+	public void parseSessionPageUrl(Season session) {
+		WebDriver driver = null;
 		try {
 			if (session == null || session.getMangaUrl() == null) {
 				throw new Exception("session is null");
 			}
-			WebDriver driver = new HtmlUnitDriver();
+			driver = new HtmlUnitDriver();
 			driver.get(session.getMangaUrl());
 
 			// WebElement myDynamicElement = (new WebDriverWait(driver, 10))
@@ -34,8 +35,6 @@ public class PageUrlParserImpl implements PageUrlParser {
 			List<WebElement> elements = driver.findElements(By.tagName("a"));
 			Pattern p = Pattern.compile(session.getRegex());
 			Pattern p1 = Pattern.compile("1.htm*$");
-			Vector Episodes = new Vector();
-			session.setEpisodes(Episodes);
 
 			for (WebElement element : elements) {
 				if (p.matcher(element.getText()).find()
@@ -45,14 +44,16 @@ public class PageUrlParserImpl implements PageUrlParser {
 					Picture picture = new Picture();
 					picture.setIndex(1);
 					picture.setPageUrl(element.getAttribute("href"));
+					picture.setEpisode(episode);
 					episode.setName(element.getText());
 					episode.setPicture(picture);
-					Episodes.add(episode);
+					session.getEpisodes().add(episode);
 				}
 			}
 			driver.quit();
 		} catch (Exception e) {
-			log.error(e.getMessage());
+			log.error("Methord: parseSessionPageUrl "  + session.getMangaName() + e.getMessage());
+			driver.quit();
 		}
 	}
 }

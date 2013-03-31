@@ -5,7 +5,7 @@ import java.util.Vector;
 
 import org.apache.log4j.Logger;
 import model.Episode;
-import model.Session;
+import model.Season;
 
 public class WritePictureWorker extends Thread {
 	static Logger log = Logger.getLogger(WritePictureWorker.class.getName());
@@ -15,9 +15,9 @@ public class WritePictureWorker extends Thread {
 		System.out.println(File.pathSeparatorChar);
 	}
 
-	private Session session;
+	private Season session;
 
-	public WritePictureWorker(Session s) {
+	public WritePictureWorker(Season s) {
 		this.session = s;
 	}
 
@@ -27,16 +27,18 @@ public class WritePictureWorker extends Thread {
 			try {
 				session.semp.acquire();
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				log.error("Method: WritePictureWorker.run" + " Message: " + e.getMessage()
+						+" Season: " + this.session.getMangaName());
 			}
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
-				if (episode.isParsed() && !episode.isDownlondingAndSetTrue()) {
-					String dir = session.getSaveDirectoryPath()
+				if (episode.isParsed() && !episode.isDownloaded() && !episode.isDownlondingAndSetTrue()) {
+					String dir = session.getSaveDirectoryPath() + File.separator + session.getMangaName()
 							+ File.separator + episode.getName()
 							+ File.separator;
 					WritePicture wp = new WritePicture(dir);
 					wp.wirtePicture(episode.getPicture());
 					episode.setDownloaded(true);
+					episode.setDownloading(false);
 				}
 			}
 		}

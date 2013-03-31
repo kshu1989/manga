@@ -1,7 +1,7 @@
 package parse;
 
-import model.Session;
+import model.Season;
 
 public interface PageUrlParser {
-	public void parseSessionPageUrl(Session session);
+	public void parseSessionPageUrl(Season session);
 }
