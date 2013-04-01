@@ -1,6 +1,150 @@
-Manga:
+MEpisode:
   connection: doctrine
-  tableName: manga
+  tableName: m_episode
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    name:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    first_page:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    path:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    season_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    MSeason:
+      local: season_id
+      foreign: id
+      type: one
+    MPicture:
+      local: id
+      foreign: episode_id
+      type: many
+MPicture:
+  connection: doctrine
+  tableName: m_picture
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    index:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    picture_url:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    page_url:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    path:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    episode_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    MEpisode:
+      local: episode_id
+      foreign: id
+      type: one
+MSeason:
+  connection: doctrine
+  tableName: m_season
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    url:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    path:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    volume_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    MVolume:
+      local: volume_id
+      foreign: id
+      type: one
+    MEpisode:
+      local: id
+      foreign: season_id
+      type: many
+MVolume:
+  connection: doctrine
+  tableName: m_volume
   columns:
     id:
       type: integer(4)
@@ -15,10 +159,15 @@ Manga:
       primary: false
       notnull: true
       autoincrement: false
-    number:
-      type: integer(4)
+    url:
+      type: string(200)
       fixed: false
       unsigned: false
       primary: false
       notnull: true
       autoincrement: false
+  relations:
+    MSeason:
+      local: id
+      foreign: volume_id
+      type: many
