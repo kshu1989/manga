@@ -95,7 +95,10 @@ public class PictureParserImpl implements PictureParser {
 	}
 
 	public static void main(String[] args) {
-		PictureParserImpl p = new PictureParserImpl();
+		Picture p = new Picture();
+		p.setPageUrl("http://comic.kukudm.com/comiclist/1757/32713/2.htm");
+		PictureParserImpl pp = new PictureParserImpl();
+		pp.parseOneEpisode(p);
 		// p.parsePictureUrl();
 	}
 }

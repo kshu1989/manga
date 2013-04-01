@@ -23,4 +23,8 @@ public class Volume {
 	public List<Season> getSeasons() {
 		return seasons;
 	}
+
+	public void setSeasons(List<Season> seasons) {
+		this.seasons = seasons;
+	}
 }

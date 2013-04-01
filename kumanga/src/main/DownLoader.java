@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 import java.util.Vector;
 import java.util.concurrent.ExecutorService;
@@ -38,7 +40,6 @@ public class DownLoader {
 					new FileInputStream("./src/config.properties"), "utf8"));
 			Properties prop = new Properties();
 			prop.load(is);
-			mangaName = prop.getProperty("mangaName");
 			mangaUrl = prop.getProperty("mangaUrl");
 			charset = prop.getProperty("charset");
 			saveDestination = prop.getProperty("saveDestination");
@@ -55,29 +56,37 @@ public class DownLoader {
 
 		new SeasonUrlParseImplWorker(volume).run();
 		
-		for (Season s : volume.getSeasons()) {
-			System.out.println(s.getMangaName());
-			System.out.println(s.getMangaUrl());
-		}
-
+//		int j = 0;
+//		List<Season> li = new ArrayList<Season>();
+//		for (Season s : volume.getSeasons()) {
+//			System.out.println(s.getMangaName());
+//			System.out.println(s.getMangaUrl());
+//			if(j < 2){
+//				j ++;
+//				li.add(s);
+//			}
+//		}
+//
+//		volume.setSeasons(li);
+		
 		for (Season season : volume.getSeasons()) {
 			season.setSaveDirectoryPath(saveDestination);
 			new PageUrlParserWorker(season).run();
 
-			// Vector<Episode> v = new Vector<Episode>();
-			// for (int i = session.getEpisodes().size() - 1; i > session
-			// .getEpisodes().size() - 3; i--) {
-			// Episode ep = (Episode) session.getEpisodes().get(i);
-			// v.add(ep);
-			// int j = 0;
-			// Picture pi = ep.getPicture();
-			// while (pi != null) {
-			// pi = pi.getNextPic();
-			// if (j++ > 4)
-			// break;
-			// }
-			// }
-			// session.setEpisodes(v);
+//			Vector<Episode> v = new Vector<Episode>();
+//			int tem = season.getEpisodes().size();
+//			for (int i = tem; i > (tem - 3 > 0 ? tem -3 : 0); i--) {
+//				Episode ep = (Episode) season.getEpisodes().get(i);
+//				v.add(ep);
+//				int k = 0;
+//				Picture pi = ep.getPicture();
+//				while (pi != null) {
+//					pi = pi.getNextPic();
+//					if (k++ > 4)
+//						break;
+//				}
+//			}
+//			season.setEpisodes(v);
 
 			for (Episode e : (Vector<Episode>) season.getEpisodes()) {
 				Picture pi = e.getPicture();
@@ -87,19 +96,21 @@ public class DownLoader {
 				}
 			}
 
-			ExecutorService executor = Executors.newFixedThreadPool(4);
-			for (int i = 0; i < 2; i++) {
+//			ExecutorService executor = Executors.newFixedThreadPool(1);
+//			for (int i = 0; i < 1; i++) {
 				PictureParserWorker ppuworker = new PictureParserWorker(season);
-				executor.execute(ppuworker);
-			}
+				ppuworker.run();
+//				executor.execute(ppuworker);
+//			}
 
-			for (int i = 0; i < 2; i++) {
+//			for (int i = 0; i < 2; i++) {
 				WritePictureWorker wpworker = new WritePictureWorker(season);
-				executor.execute(wpworker);
-			}
-			executor.shutdown();
-			while (!executor.isTerminated()) {
-			}
+				wpworker.run();
+//				executor.execute(wpworker);
+//			}
+//			executor.shutdown();
+//			while (!executor.isTerminated()) {
+//			}
 			System.out.println("Finished all threads");
 		}
 	}
