@@ -10,13 +10,26 @@
  */
 class mainActions extends sfActions
 {
- /**
-  * Executes index action
-  *
-  * @param sfRequest $request A request object
-  */
-  public function executeIndex(sfWebRequest $request)
-  {
-  	$this->mangas = Doctrine::getTable("Manga")->findAll();
-  }
+	/**
+	 * Executes index action
+	 *
+	 * @param sfRequest $request A request object
+	 */
+	public function executeGetVlomeList(sfWebRequest $request)
+	{
+		$this->volumes = Doctrine::getTable("MVolume")->findAll();
+	}
+
+	public function executeGetSeasonList(sfWebRequest $request){
+		try{
+			$season_id = $request->getParameter("id");
+			echo $season_id;
+			if(empty($season_id)){
+				throw new Exception("param error");
+			}
+			$this->season = Doctrine::getTable("MSeason")->find("id", $season_id);
+		}catch(Exception $e){
+
+		}
+	}
 }

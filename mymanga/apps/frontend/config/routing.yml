@@ -4,8 +4,14 @@
 # default rules
 homepage:
   url:   /index
-  param: { module: main, action: index }
-
+  param: { module: main, action: getVlomeList }
+  
+getSeasons:
+  url:   /showseasons/:id
+  param: { module: main, action: getSeasonList }
+  requirements: 
+    id: \d+
+    
 # generic rules
 # please, remove them by adding more specific rules
 default_index:
