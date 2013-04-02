@@ -4,7 +4,7 @@
 # default rules
 homepage:
   url:   /index
-  param: { module: main, action: getVlomeList }
+  param: { module: main, action: getVolumeList }
   
 getSeasons:
   url:   /showseasons/:id
@@ -12,6 +12,18 @@ getSeasons:
   requirements: 
     id: \d+
     
+getEpisodes:
+  url:   /showepisodes/:id
+  param: { module: main, action: getEpisodeList }
+  requirements: 
+    id: \d+
+
+getFirstPicture: 
+  url:  /showpictures/:id
+  param: { module: main, action: getFirstPicture }
+  requirements: 
+    id: \d+
+  
 # generic rules
 # please, remove them by adding more specific rules
 default_index:

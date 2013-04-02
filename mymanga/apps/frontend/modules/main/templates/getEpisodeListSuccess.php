@@ -16,11 +16,11 @@ more columns here
   </thead>
 -->
   <tbody>
-    <?php foreach ($seasons as $season): ?>
+    <?php foreach ($episodes as $episode): ?>
     <tr>
       <td>
-        <a href="<?php echo url_for('showepisodes/'.$season->getId()) ?>">
-          <?php echo $season->getName() ?>
+        <a href="<?php echo url_for('showpictures/'.$episode->getId()) ?>">
+          <?php echo $episode->getName() ?>
         </a>
       </td>
     </tr>

@@ -36,6 +36,14 @@ MEpisode:
       primary: false
       notnull: true
       autoincrement: false
+    click_count:
+      type: integer(8)
+      fixed: false
+      unsigned: true
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
   relations:
     MSeason:
       local: season_id
@@ -54,7 +62,7 @@ MPicture:
       fixed: false
       unsigned: false
       primary: true
-      autoincrement: false
+      autoincrement: true
     index:
       type: integer(4)
       fixed: false
@@ -133,6 +141,14 @@ MSeason:
       primary: false
       notnull: true
       autoincrement: false
+    click_count:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
   relations:
     MVolume:
       local: volume_id
@@ -164,6 +180,14 @@ MVolume:
       fixed: false
       unsigned: false
       primary: false
+      notnull: true
+      autoincrement: false
+    click_count:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
       notnull: true
       autoincrement: false
   relations:
