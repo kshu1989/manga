@@ -55,10 +55,10 @@ public class WritePicture {
 			is.close();
 			os.close();
 		} catch (IOException e) {
-			log.error(e.getMessage());
-			log.error("Page Url: " + pic.getPageUrl());
-			log.error("Picture Url: " + pic.getPictureUrl());
-			log.error("Index: " + pic.getIndex());
+			e.printStackTrace();
+			log.error("Method: wirtePicture" + " Message: " + e.getMessage()
+					+ " Page Url: " + pic.getPageUrl() + " Picture Url: "
+					+ pic.getPictureUrl() + " Index: " + pic.getIndex());
 		}
 		if (pic.getNextPic() != null) {
 			pic.getNextPic().setIndex(pic.getIndex() + 1);

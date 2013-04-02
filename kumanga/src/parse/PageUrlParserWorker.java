@@ -1,12 +1,12 @@
 package parse;
 
-import model.Session;
+import model.Season;
 
 public class PageUrlParserWorker {
 
-	private Session session;
+	private Season session;
 
-	public PageUrlParserWorker(Session session) {
+	public PageUrlParserWorker(Season session) {
 		this.session = session;
 	}
 

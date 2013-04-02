@@ -5,7 +5,7 @@ import java.util.Vector;
 import org.apache.log4j.Logger;
 
 import model.Episode;
-import model.Session;
+import model.Season;
 
 public class PictureParserWorker extends Thread {
 
@@ -19,7 +19,7 @@ public class PictureParserWorker extends Thread {
 			s.add(e);
 		}
 
-		Session se = new Session();
+		Season se = new Season();
 		se.setEpisodes(s);
 
 		for (int i = 0; i < 10; i++) {
@@ -37,9 +37,9 @@ public class PictureParserWorker extends Thread {
 	// System.out.println(sum);
 	// }
 
-	private Session session;
+	private Season session;
 
-	public PictureParserWorker(Session session) {
+	public PictureParserWorker(Season session) {
 		this.session = session;
 	}
 
