@@ -15,21 +15,49 @@ class mainActions extends sfActions
 	 *
 	 * @param sfRequest $request A request object
 	 */
-	public function executeGetVlomeList(sfWebRequest $request)
+	public function executeGetVolumeList(sfWebRequest $request)
 	{
-		$this->volumes = Doctrine::getTable("MVolume")->findAll();
+		try{
+			$this->volumes = Doctrine::getTable("MVolume")->findAll();
+			$this->seasons = Doctrine::getTable("MSeason")->getHotSeasons();
+		}catch(Exception $e){
+			$this->forward404($e);
+		}
 	}
 
 	public function executeGetSeasonList(sfWebRequest $request){
 		try{
+			$volume_id = $request->getParameter("id");
+			if(empty($volume_id)){
+				throw new Exception("param error");
+			}
+			$this->seasons = Doctrine::getTable("MSeason")->getSeasonListByVolumeId($volume_id);
+		}catch(Exception $e){
+			$this->forward404($e);
+		}
+	}
+
+	public function executeGetEpisodeList(sfWebRequest $request) {
+		try{
 			$season_id = $request->getParameter("id");
-			echo $season_id;
 			if(empty($season_id)){
 				throw new Exception("param error");
 			}
-			$this->season = Doctrine::getTable("MSeason")->find("id", $season_id);
+			$this->episodes = Doctrine::getTable("MEpisode")->findBy("season_id", $season_id);
 		}catch(Exception $e){
+			$this->forward404($e);
+		}
+	}
 
+	public function executeGetFirstPicture(sfWebRequest $request) {
+		try{
+			$episode_id = $request->getParameter("id");
+			if(empty($episode_id)){
+				throw new Exception("param error");
+			}
+			$this->picture = Doctrine::getTable("MPicture")->findOneBy("episode_idAndIndex", array($episode_id, 1));
+		}catch(Exception $e){
+			$this->forward404($e);
 		}
 	}
 }

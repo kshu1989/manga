@@ -6,4 +6,6 @@
 *.war
 *.ear
 *.classpath
+*/cache/*
+*/jars/*
 bin/*

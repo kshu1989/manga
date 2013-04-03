@@ -12,23 +12,26 @@ Doctrine_Manager::getInstance()->bindComponent('MSeason', 'doctrine');
  * @property string $url
  * @property string $path
  * @property integer $volume_id
+ * @property integer $click_count
  * @property MVolume $MVolume
  * @property Doctrine_Collection $MEpisode
  * 
- * @method integer             getId()        Returns the current record's "id" value
- * @method string              getName()      Returns the current record's "name" value
- * @method string              getUrl()       Returns the current record's "url" value
- * @method string              getPath()      Returns the current record's "path" value
- * @method integer             getVolumeId()  Returns the current record's "volume_id" value
- * @method MVolume             getMVolume()   Returns the current record's "MVolume" value
- * @method Doctrine_Collection getMEpisode()  Returns the current record's "MEpisode" collection
- * @method MSeason             setId()        Sets the current record's "id" value
- * @method MSeason             setName()      Sets the current record's "name" value
- * @method MSeason             setUrl()       Sets the current record's "url" value
- * @method MSeason             setPath()      Sets the current record's "path" value
- * @method MSeason             setVolumeId()  Sets the current record's "volume_id" value
- * @method MSeason             setMVolume()   Sets the current record's "MVolume" value
- * @method MSeason             setMEpisode()  Sets the current record's "MEpisode" collection
+ * @method integer             getId()          Returns the current record's "id" value
+ * @method string              getName()        Returns the current record's "name" value
+ * @method string              getUrl()         Returns the current record's "url" value
+ * @method string              getPath()        Returns the current record's "path" value
+ * @method integer             getVolumeId()    Returns the current record's "volume_id" value
+ * @method integer             getClickCount()  Returns the current record's "click_count" value
+ * @method MVolume             getMVolume()     Returns the current record's "MVolume" value
+ * @method Doctrine_Collection getMEpisode()    Returns the current record's "MEpisode" collection
+ * @method MSeason             setId()          Sets the current record's "id" value
+ * @method MSeason             setName()        Sets the current record's "name" value
+ * @method MSeason             setUrl()         Sets the current record's "url" value
+ * @method MSeason             setPath()        Sets the current record's "path" value
+ * @method MSeason             setVolumeId()    Sets the current record's "volume_id" value
+ * @method MSeason             setClickCount()  Sets the current record's "click_count" value
+ * @method MSeason             setMVolume()     Sets the current record's "MVolume" value
+ * @method MSeason             setMEpisode()    Sets the current record's "MEpisode" collection
  * 
  * @package    mymanga
  * @subpackage model
@@ -83,6 +86,16 @@ abstract class BaseMSeason extends sfDoctrineRecord
              'notnull' => true,
              'autoincrement' => false,
              'length' => 4,
+             ));
+        $this->hasColumn('click_count', 'integer', 8, array(
+             'type' => 'integer',
+             'fixed' => 0,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => '0',
+             'notnull' => true,
+             'autoincrement' => false,
+             'length' => 8,
              ));
     }
 

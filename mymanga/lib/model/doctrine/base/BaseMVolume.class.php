@@ -10,16 +10,19 @@ Doctrine_Manager::getInstance()->bindComponent('MVolume', 'doctrine');
  * @property integer $id
  * @property string $name
  * @property string $url
+ * @property integer $click_count
  * @property Doctrine_Collection $MSeason
  * 
- * @method integer             getId()      Returns the current record's "id" value
- * @method string              getName()    Returns the current record's "name" value
- * @method string              getUrl()     Returns the current record's "url" value
- * @method Doctrine_Collection getMSeason() Returns the current record's "MSeason" collection
- * @method MVolume             setId()      Sets the current record's "id" value
- * @method MVolume             setName()    Sets the current record's "name" value
- * @method MVolume             setUrl()     Sets the current record's "url" value
- * @method MVolume             setMSeason() Sets the current record's "MSeason" collection
+ * @method integer             getId()          Returns the current record's "id" value
+ * @method string              getName()        Returns the current record's "name" value
+ * @method string              getUrl()         Returns the current record's "url" value
+ * @method integer             getClickCount()  Returns the current record's "click_count" value
+ * @method Doctrine_Collection getMSeason()     Returns the current record's "MSeason" collection
+ * @method MVolume             setId()          Sets the current record's "id" value
+ * @method MVolume             setName()        Sets the current record's "name" value
+ * @method MVolume             setUrl()         Sets the current record's "url" value
+ * @method MVolume             setClickCount()  Sets the current record's "click_count" value
+ * @method MVolume             setMSeason()     Sets the current record's "MSeason" collection
  * 
  * @package    mymanga
  * @subpackage model
@@ -56,6 +59,16 @@ abstract class BaseMVolume extends sfDoctrineRecord
              'notnull' => true,
              'autoincrement' => false,
              'length' => 200,
+             ));
+        $this->hasColumn('click_count', 'integer', 8, array(
+             'type' => 'integer',
+             'fixed' => 0,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => '0',
+             'notnull' => true,
+             'autoincrement' => false,
+             'length' => 8,
              ));
     }
 

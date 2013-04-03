@@ -12,23 +12,26 @@ Doctrine_Manager::getInstance()->bindComponent('MEpisode', 'doctrine');
  * @property string $first_page
  * @property string $path
  * @property integer $season_id
+ * @property integer $click_count
  * @property MSeason $MSeason
  * @property Doctrine_Collection $MPicture
  * 
- * @method integer             getId()         Returns the current record's "id" value
- * @method string              getName()       Returns the current record's "name" value
- * @method string              getFirstPage()  Returns the current record's "first_page" value
- * @method string              getPath()       Returns the current record's "path" value
- * @method integer             getSeasonId()   Returns the current record's "season_id" value
- * @method MSeason             getMSeason()    Returns the current record's "MSeason" value
- * @method Doctrine_Collection getMPicture()   Returns the current record's "MPicture" collection
- * @method MEpisode            setId()         Sets the current record's "id" value
- * @method MEpisode            setName()       Sets the current record's "name" value
- * @method MEpisode            setFirstPage()  Sets the current record's "first_page" value
- * @method MEpisode            setPath()       Sets the current record's "path" value
- * @method MEpisode            setSeasonId()   Sets the current record's "season_id" value
- * @method MEpisode            setMSeason()    Sets the current record's "MSeason" value
- * @method MEpisode            setMPicture()   Sets the current record's "MPicture" collection
+ * @method integer             getId()          Returns the current record's "id" value
+ * @method string              getName()        Returns the current record's "name" value
+ * @method string              getFirstPage()   Returns the current record's "first_page" value
+ * @method string              getPath()        Returns the current record's "path" value
+ * @method integer             getSeasonId()    Returns the current record's "season_id" value
+ * @method integer             getClickCount()  Returns the current record's "click_count" value
+ * @method MSeason             getMSeason()     Returns the current record's "MSeason" value
+ * @method Doctrine_Collection getMPicture()    Returns the current record's "MPicture" collection
+ * @method MEpisode            setId()          Sets the current record's "id" value
+ * @method MEpisode            setName()        Sets the current record's "name" value
+ * @method MEpisode            setFirstPage()   Sets the current record's "first_page" value
+ * @method MEpisode            setPath()        Sets the current record's "path" value
+ * @method MEpisode            setSeasonId()    Sets the current record's "season_id" value
+ * @method MEpisode            setClickCount()  Sets the current record's "click_count" value
+ * @method MEpisode            setMSeason()     Sets the current record's "MSeason" value
+ * @method MEpisode            setMPicture()    Sets the current record's "MPicture" collection
  * 
  * @package    mymanga
  * @subpackage model
@@ -83,6 +86,16 @@ abstract class BaseMEpisode extends sfDoctrineRecord
              'notnull' => true,
              'autoincrement' => false,
              'length' => 4,
+             ));
+        $this->hasColumn('click_count', 'integer', 8, array(
+             'type' => 'integer',
+             'fixed' => 0,
+             'unsigned' => true,
+             'primary' => false,
+             'default' => '0',
+             'notnull' => true,
+             'autoincrement' => false,
+             'length' => 8,
              ));
     }
 
