@@ -16,7 +16,7 @@ public class WritePictureWorker extends Thread {
 //		System.out.println(File.pathSeparatorChar);
 		
 		Picture p1 = new Picture();
-		p1.setPictureUrl("http://tt.kukudm.com:81/newkuku/2013/201303/20130330/白雪公主與7個囚犯第01話/0103F.jpg");
+		p1.setPictureUrl("http://tt.kukudm.com:81/newkuku/2013/201303/20130330/%E7%99%BD%E9%9B%AA%E5%85%AC%E4%B8%BB%E8%88%877%E5%80%8B%E5%9B%9A%E7%8A%AF%E7%AC%AC01%E8%A9%B1/0103F.jpg");
 		Picture p2 = new Picture();
 		p2.setPictureUrl("http://tt.kukudm.com:81/newkuku/2013/201303/20130330/白雪公主與7個囚犯第01話/02-0306I.jpg");
 		p2.setIndex(2);

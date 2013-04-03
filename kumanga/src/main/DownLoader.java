@@ -55,38 +55,38 @@ public class DownLoader {
 		volume.setVolumeUrl(mangaUrl);
 
 		new SeasonUrlParseImplWorker(volume).run();
-		
-//		int j = 0;
-//		List<Season> li = new ArrayList<Season>();
-//		for (Season s : volume.getSeasons()) {
-//			System.out.println(s.getMangaName());
-//			System.out.println(s.getMangaUrl());
-//			if(j < 2){
-//				j ++;
-//				li.add(s);
-//			}
-//		}
-//
-//		volume.setSeasons(li);
-		
+
+		// int j = 0;
+		// List<Season> li = new ArrayList<Season>();
+		// for (Season s : volume.getSeasons()) {
+		// System.out.println(s.getMangaName());
+		// System.out.println(s.getMangaUrl());
+		// if(j < 2){
+		// j ++;
+		// li.add(s);
+		// }
+		// }
+		//
+		// volume.setSeasons(li);
+
 		for (Season season : volume.getSeasons()) {
 			season.setSaveDirectoryPath(saveDestination);
 			new PageUrlParserWorker(season).run();
 
-//			Vector<Episode> v = new Vector<Episode>();
-//			int tem = season.getEpisodes().size();
-//			for (int i = tem; i > (tem - 3 > 0 ? tem -3 : 0); i--) {
-//				Episode ep = (Episode) season.getEpisodes().get(i);
-//				v.add(ep);
-//				int k = 0;
-//				Picture pi = ep.getPicture();
-//				while (pi != null) {
-//					pi = pi.getNextPic();
-//					if (k++ > 4)
-//						break;
-//				}
-//			}
-//			season.setEpisodes(v);
+			// Vector<Episode> v = new Vector<Episode>();
+			// int tem = season.getEpisodes().size();
+			// for (int i = tem; i > (tem - 3 > 0 ? tem -3 : 0); i--) {
+			// Episode ep = (Episode) season.getEpisodes().get(i);
+			// v.add(ep);
+			// int k = 0;
+			// Picture pi = ep.getPicture();
+			// while (pi != null) {
+			// pi = pi.getNextPic();
+			// if (k++ > 4)
+			// break;
+			// }
+			// }
+			// season.setEpisodes(v);
 
 			for (Episode e : (Vector<Episode>) season.getEpisodes()) {
 				Picture pi = e.getPicture();
@@ -96,21 +96,21 @@ public class DownLoader {
 				}
 			}
 
-//			ExecutorService executor = Executors.newFixedThreadPool(1);
-//			for (int i = 0; i < 1; i++) {
+			ExecutorService executor = Executors.newFixedThreadPool(2);
+			for (int i = 0; i < 1; i++) {
 				PictureParserWorker ppuworker = new PictureParserWorker(season);
-				ppuworker.run();
-//				executor.execute(ppuworker);
-//			}
+				// ppuworker.run();
+				executor.execute(ppuworker);
+			}
 
-//			for (int i = 0; i < 2; i++) {
+			for (int i = 0; i < 1; i++) {
 				WritePictureWorker wpworker = new WritePictureWorker(season);
 				wpworker.run();
-//				executor.execute(wpworker);
-//			}
-//			executor.shutdown();
-//			while (!executor.isTerminated()) {
-//			}
+				executor.execute(wpworker);
+			}
+			executor.shutdown();
+			while (!executor.isTerminated()) {
+			}
 			System.out.println("Finished all threads");
 		}
 	}

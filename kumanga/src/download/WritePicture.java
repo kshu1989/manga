@@ -5,16 +5,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.net.MalformedURLException;
+import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
-import java.util.Iterator;
-import java.util.Map;
-
-import org.apache.log4j.Logger;
 
 import model.Picture;
+
+import org.apache.log4j.Logger;
 
 public class WritePicture {
 	static Logger log = Logger.getLogger(WritePicture.class.getName());
@@ -39,11 +35,19 @@ public class WritePicture {
 
 	public void wirtePicture(Picture pic) {
 		try {
+			// pic.setPictureUrl("http://a3.att.hudong.com/37/22/01300000358882123812227242241.jpg");
 			URL url = new URL(pic.getPictureUrl());
-			URLConnection con = url.openConnection();
-			con.setRequestProperty("User-Agent", "Mozilla 5.0 (Windows; U; "
-					+ "Windows NT 5.1; en-US; rv:1.8.0.11) ");
-			con.setDoInput(true);
+			HttpURLConnection con = (HttpURLConnection) url.openConnection();
+			con.setRequestProperty("User-Agent",
+					"Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0");
+			con.setRequestProperty("accept",
+					"t	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
+			con.setRequestProperty("Accept-Encoding", "gzip, deflate");
+			con.setRequestProperty("Accept-Language", "zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3");
+			con.setRequestProperty("Connection", "keep-alive");
+			con.setRequestProperty("Host", "tt.kukudm.com:81");
+			// con.setDoInput(true);
+			con.setConnectTimeout(1000);
 			InputStream is = con.getInputStream();
 			OutputStream os = new FileOutputStream(this.pictureSavePath
 					+ File.separator + pic.getIndex() + ".jpg");
