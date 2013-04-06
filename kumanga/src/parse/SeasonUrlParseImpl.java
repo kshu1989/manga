@@ -9,6 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import model.Episode;
 import model.Picture;
@@ -48,8 +50,8 @@ public class SeasonUrlParseImpl implements SeasonUrlParse {
 			}
 			parseVolume(volume.getVolumeUrl(), volume);
 		} catch (Exception e) {
-			log.error("Methord: parseVolumePageUrl " + volume.getVolumeUrl()
-					+ e.getMessage());
+			log.fatal("Methord: parseVolumePageUrl " + "Exception: "
+					+ e.getMessage() + " Volume Url: " + volume.getVolumeUrl());
 			driver.quit();
 		}
 	}
@@ -58,7 +60,7 @@ public class SeasonUrlParseImpl implements SeasonUrlParse {
 		driver.get(url);
 		parsePage(volume);
 		String nextPage = this.getNextPage();
-//		System.out.println(nextPage);
+		// System.out.println(nextPage);
 		if (nextPage == null) {
 			throw new Exception("Method: parseVolume Url: " + url);
 		}
@@ -70,6 +72,9 @@ public class SeasonUrlParseImpl implements SeasonUrlParse {
 	}
 
 	private String getNextPage() {
+		WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+				.until(ExpectedConditions.elementToBeClickable(By
+						.xpath("//a[@href]")));
 		List<WebElement> elements = driver.findElements(By.xpath("//a[@href]"));
 		if (elements == null) {
 			return null;

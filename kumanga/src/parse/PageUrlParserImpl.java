@@ -13,6 +13,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageUrlParserImpl implements PageUrlParser {
 
@@ -27,12 +29,12 @@ public class PageUrlParserImpl implements PageUrlParser {
 			}
 			driver = new HtmlUnitDriver();
 			driver.get(session.getMangaUrl());
-
-			// WebElement myDynamicElement = (new WebDriverWait(driver, 10))
-			// .until(ExpectedConditions.presenceOfElementLocated(By
-			// .tagName("body")));
+			WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+					.until(ExpectedConditions.elementToBeClickable(By
+							.tagName("a")));
 
 			List<WebElement> elements = driver.findElements(By.tagName("a"));
+
 			Pattern p = Pattern.compile(session.getRegex());
 			Pattern p1 = Pattern.compile("1.htm*$");
 
@@ -52,7 +54,8 @@ public class PageUrlParserImpl implements PageUrlParser {
 			}
 			driver.quit();
 		} catch (Exception e) {
-			log.error("Methord: parseSessionPageUrl "  + session.getMangaName() + e.getMessage());
+			log.fatal("Methord: parseSessionPageUrl " + session.getMangaName()
+					+ e.getMessage());
 			driver.quit();
 		}
 	}

@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 
 import model.Picture;
@@ -36,7 +38,9 @@ public class WritePicture {
 	public void wirtePicture(Picture pic) {
 		try {
 			// pic.setPictureUrl("http://a3.att.hudong.com/37/22/01300000358882123812227242241.jpg");
-			URL url = new URL(pic.getPictureUrl());
+			URI uri = new URI(pic.getPictureUrl());
+			URL url = new URL(uri.toASCIIString());
+			
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 			con.setRequestProperty("User-Agent",
 					"Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0");
@@ -47,20 +51,20 @@ public class WritePicture {
 			con.setRequestProperty("Connection", "keep-alive");
 			con.setRequestProperty("Host", "tt.kukudm.com:81");
 			// con.setDoInput(true);
-			con.setConnectTimeout(1000);
+			con.setConnectTimeout(10000);
 			InputStream is = con.getInputStream();
 			OutputStream os = new FileOutputStream(this.pictureSavePath
 					+ File.separator + pic.getIndex() + ".jpg");
-			byte[] b = new byte[2048];
+			byte[] b = new byte[1024 * 10];
 			int length;
 			while ((length = is.read(b)) != -1) {
 				os.write(b, 0, length);
 			}
 			is.close();
 			os.close();
-		} catch (IOException e) {
+		} catch (IOException | URISyntaxException e) {
 			e.printStackTrace();
-			log.error("Method: wirtePicture" + " Message: " + e.getMessage()
+			log.fatal("Method: wirtePicture" + " Message: " + e.getMessage()
 					+ " Page Url: " + pic.getPageUrl() + " Picture Url: "
 					+ pic.getPictureUrl() + " Index: " + pic.getIndex());
 		}
