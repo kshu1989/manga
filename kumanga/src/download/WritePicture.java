@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 
 import model.Picture;
@@ -35,15 +37,17 @@ public class WritePicture {
 
 	public void wirtePicture(Picture pic) {
 		try {
-			// pic.setPictureUrl("http://a3.att.hudong.com/37/22/01300000358882123812227242241.jpg");
-			URL url = new URL(pic.getPictureUrl());
+			URI uri = new URI(pic.getPictureUrl());
+			URL url = new URL(uri.toASCIIString());
+			System.out.println(url);
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 			con.setRequestProperty("User-Agent",
 					"Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0");
 			con.setRequestProperty("accept",
 					"t	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate");
-			con.setRequestProperty("Accept-Language", "zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3");
+			con.setRequestProperty("Accept-Language",
+					"zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3");
 			con.setRequestProperty("Connection", "keep-alive");
 			con.setRequestProperty("Host", "tt.kukudm.com:81");
 			// con.setDoInput(true);
@@ -58,7 +62,7 @@ public class WritePicture {
 			}
 			is.close();
 			os.close();
-		} catch (IOException e) {
+		} catch (IOException | URISyntaxException e) {
 			e.printStackTrace();
 			log.error("Method: wirtePicture" + " Message: " + e.getMessage()
 					+ " Page Url: " + pic.getPageUrl() + " Picture Url: "
