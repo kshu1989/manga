@@ -37,9 +37,10 @@ public class WritePicture {
 
 	public void wirtePicture(Picture pic) {
 		try {
+			// pic.setPictureUrl("http://a3.att.hudong.com/37/22/01300000358882123812227242241.jpg");
 			URI uri = new URI(pic.getPictureUrl());
 			URL url = new URL(uri.toASCIIString());
-			System.out.println(url);
+			
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 			con.setRequestProperty("User-Agent",
 					"Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0");
@@ -51,11 +52,11 @@ public class WritePicture {
 			con.setRequestProperty("Connection", "keep-alive");
 			con.setRequestProperty("Host", "tt.kukudm.com:81");
 			// con.setDoInput(true);
-			con.setConnectTimeout(1000);
+			con.setConnectTimeout(10000);
 			InputStream is = con.getInputStream();
 			OutputStream os = new FileOutputStream(this.pictureSavePath
 					+ File.separator + pic.getIndex() + ".jpg");
-			byte[] b = new byte[2048];
+			byte[] b = new byte[1024 * 10];
 			int length;
 			while ((length = is.read(b)) != -1) {
 				os.write(b, 0, length);
@@ -64,7 +65,7 @@ public class WritePicture {
 			os.close();
 		} catch (IOException | URISyntaxException e) {
 			e.printStackTrace();
-			log.error("Method: wirtePicture" + " Message: " + e.getMessage()
+			log.fatal("Method: wirtePicture" + " Message: " + e.getMessage()
 					+ " Page Url: " + pic.getPageUrl() + " Picture Url: "
 					+ pic.getPictureUrl() + " Index: " + pic.getIndex());
 		}

@@ -1,5 +1,6 @@
 package parse;
 
+import java.net.URL;
 import java.util.List;
 
 import model.Picture;
@@ -10,6 +11,8 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PictureParserImpl implements PictureParser {
 
@@ -17,21 +20,22 @@ public class PictureParserImpl implements PictureParser {
 	private WebDriver driver;
 
 	public PictureParserImpl() {
-		driver = new HtmlUnitDriver(true);
+		this.driver = new HtmlUnitDriver(true);
 	}
 
 	@Override
 	public void parseOneEpisode(Picture picture) {
 
-		driver.get(picture.getPageUrl());
 		String nextPageUrl = "";
 		String pictureUrl = "";
 		try {
+			URL url = new URL(picture.getPageUrl());
+			driver.navigate().to(url);
 			nextPageUrl = parseNextPageUrl();
 			pictureUrl = parsePictureUrl();
 		} catch (Exception e) {
-			log.error("Methord: parseOneEpisode" + " Manga Name: "
-					+ picture.getEpisode().getName() + " Manga Index"
+			log.fatal("Methord: parseOneEpisode" + " Exception: "
+					+ e.getMessage() + " Manga Name: " + " Manga Index"
 					+ picture.getIndex() + " Page Url: " + picture.getPageUrl()
 					+ " Picture Url: " + picture.getPictureUrl());
 		}
@@ -50,8 +54,9 @@ public class PictureParserImpl implements PictureParser {
 		picture.setNextPic(nextPicture);
 
 		parseOneEpisode(nextPicture);
-		driver.close();
-		driver.quit();
+		if (driver != null) {
+			driver.quit();
+		}
 	}
 
 	private String parsePictureUrl() throws Exception {
@@ -80,6 +85,9 @@ public class PictureParserImpl implements PictureParser {
 
 	private String parseNextPageUrl() throws Exception {
 		// driver.get("http://www.socomic.com/comiclist/3/3/1.htm");
+		WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+				.until(ExpectedConditions.elementToBeClickable(By
+						.xpath("//img[@src='/images/d.gif']/..")));
 		WebElement element = this.driver.findElement(By
 				.xpath("//img[@src='/images/d.gif']/.."));
 		if (null == element) {

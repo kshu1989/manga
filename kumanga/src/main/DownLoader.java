@@ -5,8 +5,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Properties;
 import java.util.Vector;
 import java.util.concurrent.ExecutorService;
@@ -27,6 +25,10 @@ import download.WritePictureWorker;
 public class DownLoader {
 
 	public static void main(String[] args) {
+
+		int threadPollNum = 4;
+		int downloadThreadNum = 2;
+		int parseingThreadNum = 2;
 
 		String mangaName = null;
 		String mangaUrl = null;
@@ -56,37 +58,47 @@ public class DownLoader {
 
 		new SeasonUrlParseImplWorker(volume).run();
 
-		// int j = 0;
-		// List<Season> li = new ArrayList<Season>();
-		// for (Season s : volume.getSeasons()) {
-		// System.out.println(s.getMangaName());
-		// System.out.println(s.getMangaUrl());
-		// if(j < 2){
-		// j ++;
-		// li.add(s);
-		// }
-		// }
-		//
-		// volume.setSeasons(li);
+		/*
+		 * for testing
+		 */
+		// Season s = new Season();
+		// s.setMangaName("名侦探柯南");
+		// s.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
+		// s.setSaveDirectoryPath("D:\\movies\\japan");
+		// volume.getSeasons().add(s);
 
-		for (Season season : volume.getSeasons()) {
+		for (int p = volume.getSeasons().size() - 1; p >= 0; p--) {
+			// for (Season season : volume.getSeasons()) {
+			Season season = volume.getSeasons().get(p);
+
 			season.setSaveDirectoryPath(saveDestination);
-			new PageUrlParserWorker(season).run();
+			season.setRegex(season.getMangaName() + "[\\[_ ]");
 
-			// Vector<Episode> v = new Vector<Episode>();
-			// int tem = season.getEpisodes().size();
-			// for (int i = tem; i > (tem - 3 > 0 ? tem -3 : 0); i--) {
-			// Episode ep = (Episode) season.getEpisodes().get(i);
-			// v.add(ep);
-			// int k = 0;
-			// Picture pi = ep.getPicture();
-			// while (pi != null) {
-			// pi = pi.getNextPic();
-			// if (k++ > 4)
-			// break;
-			// }
-			// }
-			// season.setEpisodes(v);
+			 new PageUrlParserWorker(season).run();
+
+			/*
+			 * for testing
+			 */
+//			Picture p = new Picture();
+//			p.setIndex(1);
+//			p.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/1.htm");
+//
+//			Episode epi = new Episode();
+//			epi.setName("名侦探柯南_第853话");
+//			epi.setPicture(p);
+//			p.setEpisode(epi);
+//
+//			Vector l = new Vector<Episode>();
+//			l.add(epi);
+//			season.setEpisodes(l);
+
+			ExecutorService executor = Executors
+					.newFixedThreadPool(threadPollNum);
+			for (int i = 0; i < parseingThreadNum; i++) {
+				PictureParserWorker ppuworker = new PictureParserWorker(season);
+				// ppuworker.run();
+				executor.execute(ppuworker);
+			}
 
 			for (Episode e : (Vector<Episode>) season.getEpisodes()) {
 				Picture pi = e.getPicture();
@@ -96,20 +108,39 @@ public class DownLoader {
 				}
 			}
 
-			ExecutorService executor = Executors.newFixedThreadPool(2);
-			for (int i = 0; i < 1; i++) {
-				PictureParserWorker ppuworker = new PictureParserWorker(season);
-				// ppuworker.run();
-				executor.execute(ppuworker);
-			}
-
-			for (int i = 0; i < 1; i++) {
+			for (int i = 0; i < downloadThreadNum; i++) {
 				WritePictureWorker wpworker = new WritePictureWorker(season);
-				wpworker.run();
+				// wpworker.run();
 				executor.execute(wpworker);
 			}
 			executor.shutdown();
 			while (!executor.isTerminated()) {
+				try {
+					Thread.sleep(10000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				int num[] = new int[season.getEpisodes().size()];
+				for (int i = 0; i < num.length; i++)
+					num[i] = 0;
+
+				int sum = 0;
+				for (Episode episode : (Vector<Episode>) season.getEpisodes()) {
+					if (episode.isDownloaded()) {
+						sum += 1;
+					} else {
+						break;
+					}
+				}
+				if (sum == season.getEpisodes().size()) {
+					for (int i = 0; i < downloadThreadNum; i++) {
+						season.semp.release();
+						System.out.println("asfd");
+					}
+					break;
+				}
+
 			}
 			System.out.println("Finished all threads");
 		}

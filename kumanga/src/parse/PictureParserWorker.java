@@ -58,6 +58,8 @@ public class PictureParserWorker extends Thread {
 				}
 			}
 			if (sum == session.getEpisodes().size()) {
+				session.semp.release();
+				log.fatal("release ");
 				break;
 			}
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
@@ -65,7 +67,9 @@ public class PictureParserWorker extends Thread {
 					new PictureParserImpl().parseOneEpisode(episode
 							.getPicture());
 					episode.setParsed(true);
+					episode.setParsing(false);
 					session.semp.release();
+					log.fatal("release " + episode.getName() + "done");
 				}
 			}
 		}
