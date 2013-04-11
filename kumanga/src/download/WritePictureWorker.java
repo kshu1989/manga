@@ -55,16 +55,16 @@ public class WritePictureWorker extends Thread {
 
 	@Override
 	public void run() {
+		try {
+			log.fatal("acquire 1");
+			session.semp.acquire();
+			log.fatal("acquire 2");
+		} catch (InterruptedException e) {
+			log.fatal("Method: WritePictureWorker.run" + " Message: "
+					+ e.getMessage() + " Season: "
+					+ this.session.getMangaName());
+		}
 		while (true) {
-			try {
-				log.fatal("acquire 1");
-				session.semp.acquire();
-				log.fatal("acquire 2");
-			} catch (InterruptedException e) {
-				log.fatal("Method: WritePictureWorker.run" + " Message: "
-						+ e.getMessage() + " Season: "
-						+ this.session.getMangaName());
-			}
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
 				if (episode.isParsed() && !episode.isDownloaded()
 						&& !episode.isDownlondingAndSetTrue()) {
@@ -72,8 +72,8 @@ public class WritePictureWorker extends Thread {
 							+ File.separator + session.getMangaName()
 							+ File.separator + episode.getName()
 							+ File.separator;
-					WritePicture wp = new WritePicture(dir);
-					wp.wirtePicture(episode.getPicture());
+					// WritePicture wp = new WritePicture(dir);
+					// wp.wirtePicture(episode.getPicture());
 					episode.setDownloaded(true);
 					episode.setDownloading(false);
 				}
