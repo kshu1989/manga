@@ -3,11 +3,13 @@ package test;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 import model.Picture;
 import model.Season;
 
+import org.apache.commons.lang3.CharSet;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -32,20 +34,27 @@ public class WritePictureTest {
 	}
 
 	@Test
-	public void testWirtePicture() {
+	public void testWirtePicture() throws UnsupportedEncodingException {
 		try {
 			URL url = new URL(picture.getPictureUrl());
-			System.out.println(url.toString());
-			System.out.println(URLEncoder.encode(picture.getPictureUrl(),
-					"UTF-8"));
-		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+			String urlEncoder = URLEncoder.encode(" ", "US-ASCII");
+			System.out.println(urlEncoder);
+			String urlDecoder = URLDecoder.decode(urlEncoder, "ISO-8859-1");
+//			URI uri = new URI(urlEncoder);
+			System.out.println(urlDecoder);
+		} 
+//		catch (UnsupportedEncodingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		// wp.wirtePicture(picture);
 		catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		} 
+//		catch (URISyntaxException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 }

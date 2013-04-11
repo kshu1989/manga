@@ -34,9 +34,6 @@ public class PictureParserWorker extends Thread {
 		}
 	}
 
-	// System.out.println(sum);
-	// }
-
 	private Season session;
 
 	public PictureParserWorker(Season session) {
@@ -58,14 +55,12 @@ public class PictureParserWorker extends Thread {
 				}
 			}
 			if (sum == session.getEpisodes().size()) {
-				session.semp.release();
-				log.fatal("release ");
 				break;
 			}
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
 				if (!episode.isParsingAndSetTure() && !episode.isParsed()) {
-					new PictureParserImpl().parseOneEpisode(episode
-							.getPicture());
+					// new PictureParserImpl().parseOneEpisode(episode
+					// .getPicture());
 					episode.setParsed(true);
 					episode.setParsing(false);
 					session.semp.release();

@@ -56,41 +56,58 @@ public class DownLoader {
 		Volume volume = new Volume();
 		volume.setVolumeUrl(mangaUrl);
 
-		new SeasonUrlParseImplWorker(volume).run();
+		// new SeasonUrlParseImplWorker(volume).run();
 
 		/*
 		 * for testing
 		 */
-		// Season s = new Season();
-		// s.setMangaName("名侦探柯南");
-		// s.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
-		// s.setSaveDirectoryPath("D:\\movies\\japan");
-		// volume.getSeasons().add(s);
+		Season s = new Season();
+		s.setMangaName("asdf");
+		s.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
+		s.setSaveDirectoryPath("D:\\movies\\japan");
+		
+		Season s1 = new Season();
+		s1.setMangaName("zcxv");
+		s1.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
+		s1.setSaveDirectoryPath("D:\\movies\\japan");
+		
+		volume.getSeasons().add(s);
+		volume.getSeasons().add(s1);
 
-		for (int p = volume.getSeasons().size() - 1; p >= 0; p--) {
-			// for (Season season : volume.getSeasons()) {
-			Season season = volume.getSeasons().get(p);
+		// for (int p = volume.getSeasons().size() - 1; p >= 0; p--) {
+		for (Season season : volume.getSeasons()) {
+			// Season season = volume.getSeasons().get(p);
 
 			season.setSaveDirectoryPath(saveDestination);
 			season.setRegex(season.getMangaName() + "[\\[_ ]");
 
-			 new PageUrlParserWorker(season).run();
+			// new PageUrlParserWorker(season).run();
 
 			/*
 			 * for testing
 			 */
-//			Picture p = new Picture();
-//			p.setIndex(1);
-//			p.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/1.htm");
-//
-//			Episode epi = new Episode();
-//			epi.setName("名侦探柯南_第853话");
-//			epi.setPicture(p);
-//			p.setEpisode(epi);
-//
-//			Vector l = new Vector<Episode>();
-//			l.add(epi);
-//			season.setEpisodes(l);
+			Picture p = new Picture();
+			p.setIndex(1);
+			p.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/1.htm");
+
+			Picture p2 = new Picture();
+			p2.setIndex(1);
+			p2.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/2.htm");
+
+			Episode epi = new Episode();
+			epi.setName("zhentan");
+			epi.setPicture(p);
+			p.setEpisode(epi);
+
+			Episode epi2 = new Episode();
+			epi2.setName("zhentan2");
+			epi2.setPicture(p2);
+			p.setEpisode(epi2);
+
+			Vector l = new Vector<Episode>();
+			l.add(epi);
+			l.add(epi2);
+			season.setEpisodes(l);
 
 			ExecutorService executor = Executors
 					.newFixedThreadPool(threadPollNum);
@@ -100,13 +117,13 @@ public class DownLoader {
 				executor.execute(ppuworker);
 			}
 
-			for (Episode e : (Vector<Episode>) season.getEpisodes()) {
-				Picture pi = e.getPicture();
-				while (pi != null) {
-					System.out.println(e.getName() + "--->" + pi.getPageUrl());
-					pi = pi.getNextPic();
-				}
-			}
+			// for (Episode e : (Vector<Episode>) season.getEpisodes()) {
+			// Picture pi = e.getPicture();
+			// while (pi != null) {
+			// System.out.println(e.getName() + "--->" + pi.getPageUrl());
+			// pi = pi.getNextPic();
+			// }
+			// }
 
 			for (int i = 0; i < downloadThreadNum; i++) {
 				WritePictureWorker wpworker = new WritePictureWorker(season);
@@ -115,32 +132,33 @@ public class DownLoader {
 			}
 			executor.shutdown();
 			while (!executor.isTerminated()) {
-				try {
-					Thread.sleep(10000);
-				} catch (InterruptedException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-				int num[] = new int[season.getEpisodes().size()];
-				for (int i = 0; i < num.length; i++)
-					num[i] = 0;
-
-				int sum = 0;
-				for (Episode episode : (Vector<Episode>) season.getEpisodes()) {
-					if (episode.isDownloaded()) {
-						sum += 1;
-					} else {
-						break;
-					}
-				}
-				if (sum == season.getEpisodes().size()) {
-					for (int i = 0; i < downloadThreadNum; i++) {
-						season.semp.release();
-						System.out.println("asfd");
-					}
-					break;
-				}
-
+				// try {
+				// Thread.sleep(10000);
+				// } catch (InterruptedException e1) {
+				// // TODO Auto-generated catch block
+				// e1.printStackTrace();
+				// }
+				// int num[] = new int[season.getEpisodes().size()];
+				// for (int i = 0; i < num.length; i++)
+				// num[i] = 0;
+				//
+				// int sum = 0;
+				// for (Episode episode : (Vector<Episode>)
+				// season.getEpisodes()) {
+				// if (episode.isDownloaded()) {
+				// sum += 1;
+				// } else {
+				// break;
+				// }
+				// }
+				// if (sum == season.getEpisodes().size()) {
+				// for (int i = 0; i < downloadThreadNum; i++) {
+				// season.semp.release();
+				// System.out.println("asfd");
+				// }
+				// break;
+				// }
+				//
 			}
 			System.out.println("Finished all threads");
 		}
