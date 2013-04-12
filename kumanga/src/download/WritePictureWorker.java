@@ -72,8 +72,8 @@ public class WritePictureWorker extends Thread {
 							+ File.separator + session.getMangaName()
 							+ File.separator + episode.getName()
 							+ File.separator;
-					// WritePicture wp = new WritePicture(dir);
-					// wp.wirtePicture(episode.getPicture());
+					WritePicture wp = new WritePicture(dir);
+					wp.wirtePicture(episode.getPicture());
 					episode.setDownloaded(true);
 					episode.setDownloading(false);
 				}

@@ -59,8 +59,8 @@ public class PictureParserWorker extends Thread {
 			}
 			for (Episode episode : (Vector<Episode>) session.getEpisodes()) {
 				if (!episode.isParsingAndSetTure() && !episode.isParsed()) {
-					// new PictureParserImpl().parseOneEpisode(episode
-					// .getPicture());
+					new PictureParserImpl().parseOneEpisode(episode
+							.getPicture());
 					episode.setParsed(true);
 					episode.setParsing(false);
 					session.semp.release();

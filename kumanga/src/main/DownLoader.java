@@ -6,12 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Properties;
-import java.util.Vector;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import model.Episode;
-import model.Picture;
 import model.Season;
 import model.Volume;
 
@@ -26,9 +23,9 @@ public class DownLoader {
 
 	public static void main(String[] args) {
 
-		int threadPollNum = 4;
-		int downloadThreadNum = 2;
-		int parseingThreadNum = 2;
+		int threadPollNum = 2;
+		int downloadThreadNum = 1;
+		int parseingThreadNum = 1;
 
 		String mangaName = null;
 		String mangaUrl = null;
@@ -56,23 +53,23 @@ public class DownLoader {
 		Volume volume = new Volume();
 		volume.setVolumeUrl(mangaUrl);
 
-		// new SeasonUrlParseImplWorker(volume).run();
+		 new SeasonUrlParseImplWorker(volume).run();
 
 		/*
 		 * for testing
 		 */
-		Season s = new Season();
-		s.setMangaName("asdf");
-		s.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
-		s.setSaveDirectoryPath("D:\\movies\\japan");
-		
-		Season s1 = new Season();
-		s1.setMangaName("zcxv");
-		s1.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
-		s1.setSaveDirectoryPath("D:\\movies\\japan");
-		
-		volume.getSeasons().add(s);
-		volume.getSeasons().add(s1);
+//		Season s = new Season();
+//		s.setMangaName("asdf");
+//		s.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
+//		s.setSaveDirectoryPath("D:\\movies\\japan");
+//		
+//		Season s1 = new Season();
+//		s1.setMangaName("zcxv");
+//		s1.setMangaUrl("http://comic.kukudm.com/comiclist/5/index.htm");
+//		s1.setSaveDirectoryPath("D:\\movies\\japan");
+//		
+//		volume.getSeasons().add(s);
+//		volume.getSeasons().add(s1);
 
 		// for (int p = volume.getSeasons().size() - 1; p >= 0; p--) {
 		for (Season season : volume.getSeasons()) {
@@ -81,33 +78,33 @@ public class DownLoader {
 			season.setSaveDirectoryPath(saveDestination);
 			season.setRegex(season.getMangaName() + "[\\[_ ]");
 
-			// new PageUrlParserWorker(season).run();
+			 new PageUrlParserWorker(season).run();
 
 			/*
 			 * for testing
 			 */
-			Picture p = new Picture();
-			p.setIndex(1);
-			p.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/1.htm");
-
-			Picture p2 = new Picture();
-			p2.setIndex(1);
-			p2.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/2.htm");
-
-			Episode epi = new Episode();
-			epi.setName("zhentan");
-			epi.setPicture(p);
-			p.setEpisode(epi);
-
-			Episode epi2 = new Episode();
-			epi2.setName("zhentan2");
-			epi2.setPicture(p2);
-			p.setEpisode(epi2);
-
-			Vector l = new Vector<Episode>();
-			l.add(epi);
-			l.add(epi2);
-			season.setEpisodes(l);
+//			Picture p = new Picture();
+//			p.setIndex(1);
+//			p.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/1.htm");
+//
+//			Picture p2 = new Picture();
+//			p2.setIndex(1);
+//			p2.setPageUrl("http://comic.kukudm.com/comiclist/5/32712/2.htm");
+//
+//			Episode epi = new Episode();
+//			epi.setName("zhentan");
+//			epi.setPicture(p);
+//			p.setEpisode(epi);
+//
+//			Episode epi2 = new Episode();
+//			epi2.setName("zhentan2");
+//			epi2.setPicture(p2);
+//			p.setEpisode(epi2);
+//
+//			Vector l = new Vector<Episode>();
+//			l.add(epi);
+//			l.add(epi2);
+//			season.setEpisodes(l);
 
 			ExecutorService executor = Executors
 					.newFixedThreadPool(threadPollNum);

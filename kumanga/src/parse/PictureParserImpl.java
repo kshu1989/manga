@@ -1,7 +1,9 @@
 package parse;
 
-import java.net.URL;
+import java.net.URI;
+import java.net.URLEncoder;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import model.Picture;
 
@@ -14,13 +16,20 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.gargoylesoftware.htmlunit.WebClient;
+
 public class PictureParserImpl implements PictureParser {
 
 	static Logger log = Logger.getLogger(PictureParserImpl.class.getName());
-	private WebDriver driver;
+	private HtmlUnitDriver driver;
 
 	public PictureParserImpl() {
 		this.driver = new HtmlUnitDriver(true);
+		this.driver.setJavascriptEnabled(true);
+//		this.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		this.driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		this.driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
+		// this.driver = new FirefoxDriver();
 	}
 
 	@Override
@@ -29,11 +38,15 @@ public class PictureParserImpl implements PictureParser {
 		String nextPageUrl = "";
 		String pictureUrl = "";
 		try {
-			URL url = new URL(picture.getPageUrl());
-			driver.navigate().to(url);
+			String url = picture.getPageUrl().replace(" ",
+					URLEncoder.encode(picture.getPageUrl(), "UTF-8"));
+			URI uri = new URI(url);
+
+			driver.get(uri.toASCIIString());
 			nextPageUrl = parseNextPageUrl();
 			pictureUrl = parsePictureUrl();
 		} catch (Exception e) {
+			e.printStackTrace();
 			log.fatal("Methord: parseOneEpisode" + " Exception: "
 					+ e.getMessage() + " Manga Name: " + " Manga Index"
 					+ picture.getIndex() + " Page Url: " + picture.getPageUrl()
@@ -104,7 +117,7 @@ public class PictureParserImpl implements PictureParser {
 
 	public static void main(String[] args) {
 		Picture p = new Picture();
-		p.setPageUrl("http://comic.kukudm.com/comiclist/1757/32713/2.htm");
+		p.setPageUrl("http://comic.kukudm.com/comiclist/1766/32882/1.htm");
 		PictureParserImpl pp = new PictureParserImpl();
 		pp.parseOneEpisode(p);
 		// p.parsePictureUrl();
