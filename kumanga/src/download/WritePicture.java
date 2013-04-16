@@ -9,6 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.URLEncoder;
 
 import model.Picture;
 
@@ -38,10 +39,12 @@ public class WritePicture {
 	public void wirtePicture(Picture pic) {
 		try {
 			// pic.setPictureUrl("http://a3.att.hudong.com/37/22/01300000358882123812227242241.jpg");
-			URI uri = new URI(pic.getPictureUrl());
-			URL url = new URL(uri.toASCIIString());
-			
-			HttpURLConnection con = (HttpURLConnection) url.openConnection();
+			String url = pic.getPictureUrl().replace(" ",
+					URLEncoder.encode(pic.getPageUrl(), "UTF-8"));
+			URI uri = new URI(url);
+			URL encodeUrl = new URL(uri.toASCIIString());
+
+			HttpURLConnection con = (HttpURLConnection) encodeUrl.openConnection();
 			con.setRequestProperty("User-Agent",
 					"Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0");
 			con.setRequestProperty("accept",
@@ -63,11 +66,14 @@ public class WritePicture {
 			}
 			is.close();
 			os.close();
-		} catch (IOException | URISyntaxException e) {
+		} catch (IOException e) {
 			e.printStackTrace();
 			log.fatal("Method: wirtePicture" + " Message: " + e.getMessage()
 					+ " Page Url: " + pic.getPageUrl() + " Picture Url: "
 					+ pic.getPictureUrl() + " Index: " + pic.getIndex());
+		} catch (URISyntaxException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		if (pic.getNextPic() != null) {
 			pic.getNextPic().setIndex(pic.getIndex() + 1);
