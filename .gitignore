@@ -8,4 +8,4 @@
 *.classpath
 */cache/*
 */jars/*
-bin/*
+*/bin/*
